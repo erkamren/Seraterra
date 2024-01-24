@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Certificate from "./pages/Certificate";
 import Plant from "./pages/Plant";
-import Process from "./pages/Plant";
+import Process from "./pages/Process";
 import Arge from "./pages/Arge";
 import Product from "./pages/Product";
 import Encyclopedia from "./pages/Encyclopedia";
