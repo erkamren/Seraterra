@@ -1,5 +1,6 @@
 import logo from "../img/seraterra-logo.jpg";
 import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Header() {
   useEffect(() => {
@@ -33,7 +34,6 @@ function Header() {
           <Dropdown href="/consultancy">DANIŞMANLIK</Dropdown>
         </Nav>
         <Logo href="/ " />
-
         <Nav title="ÜRÜNLER" href="/product" />
         <Nav title="ANSİKLOPEDİ" href="/encyclopedia" />
         <Nav title="BLOG" href="/blog" />
@@ -47,25 +47,25 @@ function NavBar({ children }) {
 
 function Logo({ href }) {
   return (
-    <a href={href}>
-      <img className="logo" src={logo} href={href} alt="logo" />
-    </a>
+    <Link to={href}>
+      <img className="logo" src={logo} alt="logo" />
+    </Link>
   );
 }
 
 function Nav({ children, title, href }) {
   return (
-    <a className="nav" href={href}>
+    <Link className="nav" to={href}>
       {title} <div className="drop">{children}</div>
-    </a>
+    </Link>
   );
 }
 
 function Dropdown({ children, href }) {
   return (
-    <a className="dropdown" href={href}>
+    <Link className="dropdown" to={href}>
       {children}
-    </a>
+    </Link>
   );
 }
 
