@@ -38,13 +38,14 @@ body {
   height: 7.2rem;
   background-color: #fff;
   background-color: #fff;
-  margin: 8rem 2rem 12rem 2rem;
+  margin: 8rem 2rem 18rem 2rem;
 }
 
 .logo {
   height: 30rem;
   border-radius: 0.9rem;
   box-shadow: 0 0px 10px 0px rgb(0 0 0 / 15%);
+  cursor: pointer;
 }
 
 .nav {
@@ -132,6 +133,10 @@ body {
   overflow: hidden;
   transition: all 0.4s;
   opacity: 0.8;
+}
+.we {
+  height: 102%;
+  width: 102%;
 }
 
 .box:hover {
@@ -346,7 +351,7 @@ body {
 .info {
   max-width: 120rem;
   padding: 0 3.2rem;
-  margin: 0 auto;
+  margin: 4rem;
 }
 
 .step-list {
@@ -360,7 +365,7 @@ body {
 .steps {
   max-width: 120rem;
   padding: 0 3.2rem;
-  margin: 0 auto;
+  margin: 4rem;
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
@@ -368,7 +373,7 @@ body {
 }
 
 .step-number {
-  font-size: 8.6rem;
+  font-size: 5.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
@@ -384,6 +389,44 @@ body {
   line-height: 1.8;
 }
 
+.three-steps {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.step-img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span-head {
+  grid-column: 1 / 3;
+  font-size: 3rem;
+  margin-bottom: -5rem;
+}
+
+.minihead {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.green {
+  color: var(--color-primary);
+  font-size: 2.6rem;
+  margin-right: 0.2rem;
+}
 /******* CATALOG ********/
 
 .catalog {
@@ -395,9 +438,10 @@ body {
 
 .catalog-list {
   font-size: 1.8rem;
-  line-height: 4.8rem;
+  line-height: 10.8rem;
   margin-bottom: 1.6rem;
   margin-left: 5rem;
+  list-style: none;
 }
 
 .gallery {

@@ -8,25 +8,25 @@ function Landing() {
   return (
     <div className="landing">
       <div className="box">
-        <p className="box-text">PLANT</p>
+        <p className="box-text">TARIM</p>
         <Link to="/plant">
           <img className="we" src={plant} alt="we" />
         </Link>
       </div>
       <div className="box">
-        <p className="box-text">PROCESS</p>
+        <p className="box-text">TESİS</p>
         <Link to="/process">
           <img className="we" src={process} alt="we" />
         </Link>
       </div>
       <div className="box">
-        <p className="box-text">PRODUCT</p>
+        <p className="box-text">ÜRÜNLER</p>
         <Link to="/product">
           <img className="we" src={product} alt="we" />
         </Link>
       </div>
       <div className="box">
-        <p className="box-text">INNOVASION</p>
+        <p className="box-text">AR-GE</p>
         <Link to="/innovasion">
           <img className="we" src={inovasion} alt="we" />
         </Link>

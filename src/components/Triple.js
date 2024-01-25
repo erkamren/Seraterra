@@ -6,12 +6,12 @@ function Triple() {
   return (
     <div className="triple">
       <div className="box">
-        <p className="triple-text">INCENTIVES</p>
+        <p className="triple-text">DANIŞMANLIK</p>
         <Link to="/incentives"></Link>
         <img className="we" src={plant} alt="we" />
       </div>
       <div className="box">
-        <p className="triple-text">ENCYCLOPEDIA</p>
+        <p className="triple-text">ANSİKLOPEDİ</p>
         <Link to="/encyclopedia">
           <img className="we" src={plant} alt="we" />
         </Link>

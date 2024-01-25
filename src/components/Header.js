@@ -20,21 +20,23 @@ function Header() {
   return (
     <header className="header">
       <NavBar>
-        <Nav href="/" title="KURUMSAL">
+        <Nav title="KURUMSAL">
+          <Dropdown href="/aboutus">HAKKIMIZDA</Dropdown>
           <Dropdown href="/certificate">SELTİFİKALAR</Dropdown>
         </Nav>
         <Nav title="FAALİYETLERİMİZ">
           <Dropdown href="/plant">TARIM</Dropdown>
           <Dropdown href="/process">TESİS</Dropdown>
         </Nav>
-        <Nav href="/innovation" title="INOVASYON">
+        <Nav title="INOVASYON">
           <Dropdown href="/arge">AR-GE</Dropdown>
           <Dropdown href="/consultancy">DANIŞMANLIK</Dropdown>
         </Nav>
-        <Logo href="/" />
+        <Logo href="/ " />
+
         <Nav title="ÜRÜNLER" href="/product" />
         <Nav title="ANSİKLOPEDİ" href="/encyclopedia" />
-        <Nav title="İLETİŞİM" href="/contact" />
+        <Nav title="BLOG" href="/blog" />
       </NavBar>
     </header>
   );
@@ -43,8 +45,12 @@ function NavBar({ children }) {
   return <div className="nav-bar">{children}</div>;
 }
 
-function Logo(href) {
-  return <img className="logo" src={logo} href={href} alt="logo" />;
+function Logo({ href }) {
+  return (
+    <a href={href}>
+      <img className="logo" src={logo} href={href} alt="logo" />
+    </a>
+  );
 }
 
 function Nav({ children, title, href }) {

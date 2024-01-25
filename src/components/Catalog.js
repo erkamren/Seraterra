@@ -17,11 +17,10 @@ function Catalog() {
       <div>
         <ul className="catalog-list">
           <li>UÇUCU YAĞLARUÇUCU YAĞLAR</li>
+          <li>MASERASYONLAR</li>
           <li>SABİT YAĞLAR</li>
-          <li>MASAJ&BAKIM YAĞLARI</li>
-          <li>BEAUTY COLLECTİON</li>
-          <li>AMBİANCE COLLECTİON</li>
-          <li>HOME COLLECTİON</li>
+          <li>HİDROSOLLER</li>
+          <li>BİTKİSEL CO2 EKSTRAKTLAR</li>
         </ul>
       </div>
       <div class="gallery">
