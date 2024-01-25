@@ -1,83 +1,66 @@
+import F500 from "../img/F500.jpg";
+import DSCF7290 from "../img/DSCF7290.jpg";
+
 function ProcessContent() {
   return (
     <div>
-      <div className="info">
-        <p className="step-description"></p>
-      </div>
       <div className="steps">
         <div className="step-text-box">
-          <p className="step-number">01</p>
-          <h3 className="step-head">BUHAR JENERATÖRLÜ DİSTİLASYON SİSTEMİ</h3>
+          <h3 className="step-head">
+            SÜPERKRİTİK KARBONDİOKSİT EKSTRAKSİYONU (SFE)
+          </h3>
+          <p className="step-number step-head">Çok yönlü yeşil teknoloji</p>
           <p className="step-description">
-            Buhar distilasyonu buhar sistemli, bitkisel ürünleri yüksek basınçlı
-            buhar ile işleyerek uçucu yağ elde etmeyi sağlayan bir yöntemdir. Bu
-            yöntemde bitkisel ürünler bir kazana yerleştirilir. Kazanın altında
-            bulunan bir başka kazanda su kaynatılarak buhar üretilir. Bu buhar,
-            bitkisel ürünlerin bulunduğu kazana gönderilir. Buhar, bitkisel
-            ürünlerin hücre duvarlarını kırarak uçucu yağın ayrışmasını sağlar.
-            Ayrışan uçucu yağ ve su karışımı, bir kondenser yardımıyla sıvı hale
-            getirilir. Sıvı haldeki karışım, bir ayırıcı vasıtasıyla uçucu yağ
-            ve su olarak ayrılır. Böylece uçucu yağ elde edilmiş olur. Buhar
-            distilasyonu buhar sistemli, bitkisel ürünlerden uçucu yağ elde
-            etmek için en yaygın ve en etkili yöntemdir. Bu yöntemle elde edilen
-            uçucu yağlar, bitkilerin doğal özelliklerini korur ve yüksek
-            kalitede olur. Buhar distilasyonu buhar sistemli ile; gül, lavanta,
-            kekik, nane, adaçayı, biberiye, altınotu gibi 45 farklı bitkiden
-            uçucu yağ elde ediyoruz. Uçucu yağlar; kozmetik, parfüm, gıda, ilaç
-            gibi birçok sektörde kullanılmaktadır. Buhar sistemli ünitemizde
-            oluşturulan buhar tamamen buhar jeneratöründen sağlanır ve katı
-            yakıtlar gibi doğaya salınım yapan karbon gazlarını barındırmaz.
-            Buharın elektrik enerjisi ile üretimi gerçekleştirilir.  Tesisimizde
-            4.000 litre kapasiteli buhar jeneratörlü distilasyon sistemi
-            bulunmaktadır.
-          </p>
-        </div>
-        <div className="step-img-box">
-          <img
-            src="img/app/app-screen-1.png"
-            className="step-img"
-            alt="iPhone app
-            preferences selection screen"
-          />
-        </div>
-        <div className="step-img-box">
-          <img
-            src="img/app/app-screen-2.png"
-            className="step-img"
-            alt="iPhone app
-            meal approving plan screen"
-          />
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">02</p>
-          <h3 className="step-head">KATI YAKITLI DİSTİLASYON SİSTEMİ</h3>
-          <p className="step-description">
-            Tesisimizde 1.300 litre kapasiteli katı yakıtlı distilasyon sistemi
-            bulunmaktadır.
+            Süperkritik CO2 ekstraksiyonu, yüksek basınç ve düşük sıcaklık
+            kullanarak bitkilerden özütler elde etmek için kullanılan
+            endüstriyel bir yöntemdir.
           </p>
           <ul className="step-list">
             <li>
-              Buhar distilasyonu yapılacak madde temizlenir ve kazana
-              yerleştirilir.
-            </li>
-            <li>Kazanın altına su doldurulur ve ısıtılır.</li>
-            <li>
-              Kazanın altına katı yakıt (odun, kömür, pelet vb.) konulur ve
-              ateşlenir.
+              Saf bir maddenin kritik sıcaklığının ve basıncının üstünde
+              bulunmasına maddenin süperkritik akışkan hali denir. Her saf
+              maddenin kritik sıcaklık ve basıncı vardır.
             </li>
             <li>
-              Su kaynadıkça buhar üretilir ve borularla buhar distilasyonu
-              yapılacak kazana taşınır.
+              Süperkritik akışkanlar, geleneksel çözücülere ve saf maddenin
+              sıvı-gaz haline göre birçok avantaja sahiptir. Süperkritik
+              akışkanların fizikokimyasal özellikleri (yoğunluk, viskosite,
+              difüzivite, dielektrik sabiti, çözünürlük parametresi, vb.),
+              basınç ve sıcaklığının değiştirilmesiyle gaz benzeri özelliklerden
+              sıvı benzeri özelliklere dönüşmektedir.
             </li>
             <li>
-              Buhar maddenin içindeki uçucu yağlar veya diğer bileşenleri
-              buharlaştırır ve borularla başka bir kazana taşınır.
+              Bir Süperkritik Akışkan hem gaz fazın hem de sıvının verimli
+              özelliklerini kullanır. Bir gaz gibi difüzlenme, sıvı gibi de
+              yüksek çözme gücü vardır.
             </li>
-            <li>Bu kazanda buhar soğutulur ve sıvı haline getirilir.</li>
+          </ul>
+        </div>
+        <div className="step-img-box">
+          <img src={DSCF7290} className="step-img" alt="DSCF7290" />
+        </div>
+        <div className="step-img-box">
+          <img src={F500} className="step-img" alt="F-500" />
+        </div>
+        <div className="step-text-box">
+          <p className="step-number">01</p>
+          <h3 className="step-head">Neden Ekstraksiyonda CO2 Kullanıyoruz?</h3>
+          <p className="step-description">
+            Bir çok özelliği nedeniyle karbondioksit çözücü olarak tercih
+            edilir;
+          </p>
+          <ul className="step-list">
+            <li>Kolay bulunması</li>
+            <li>Ucuz olması</li>
+            <li>Zehirleyici olmaması</li>
+            <li>Yanıcı olmaması</li>
+            <li>Kalıntı bırakmaması</li>
+            <li>Atmosferde bulunan doğal bir gaz olması</li>
+            <li>Kolay geri kazanılabilir olması</li>
             <li>
-              Sıvının üstünde kalan uçucu yağlar veya diğer bileşenler toplanır.
+              Çevre sıcaklığına yakın bir sıcaklıkta (Tc=31.2°C) ve nispeten
+              düşük bir basınçta (Pc=73.8 bar) kritik hale ulaşması
             </li>
-            <li>Sıvının altında kalan su ise geri kazanılır.</li>
           </ul>
         </div>
       </div>
