@@ -1,3 +1,8 @@
+import kapsaisin from "../img/kapsaisin.jpg";
+import oleuropein from "../img/olueoropein.jpg";
+import juglone from "../img/juglone.jpg";
+import linalol from "../img/linalol.jpg";
+
 function ArgeContent() {
   return (
     <div>
@@ -36,20 +41,10 @@ function ArgeContent() {
           </p>
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-1.png"
-            className="step-img"
-            alt="iPhone app
-            preferences selection screen"
-          />
+          <img src={kapsaisin} className="step-img" alt="Kapsaisin" />
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-2.png"
-            className="step-img"
-            alt="iPhone app
-            meal approving plan screen"
-          />
+          <img src={oleuropein} className="step-img" alt="oleuropein" />
         </div>
         <div className="step-text-box">
           <p className="step-number">02</p>
@@ -124,20 +119,10 @@ function ArgeContent() {
           </ul>
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-3.png"
-            class="step-img"
-            alt="iPhone app
-            delivery screen"
-          />
-        </div>
+          <img src={juglone} className="step-img" alt="juglone" />
+        </div>{" "}
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-3.png"
-            class="step-img"
-            alt="iPhone app
-            delivery screen"
-          />
+          <img src={linalol} className="step-img" alt="linalol" />
         </div>
         <div className="step-text-box">
           <p className="step-number">04</p>

@@ -128,15 +128,15 @@ body {
 
 .box {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  height: 35rem;
+  max-height: 35rem;
   border-radius: 0.9rem;
   overflow: hidden;
   transition: all 0.4s;
   opacity: 0.8;
 }
 .we {
-  height: 102%;
-  width: 102%;
+  width: 100%;
+  height: 100%;
 }
 
 .box:hover {
@@ -180,6 +180,7 @@ body {
   justify-items: center;
   overflow: hidden;
   background-color: plum;
+  height: 35rem;
 }
 
 .cta-text-box {
@@ -202,6 +203,10 @@ body {
   border-radius: 0.9rem;
 }
 
+.cta-img {
+  height: 35rem;
+  width: auto;
+}
 /*********  FOOTER  ********/
 
 .footer {
@@ -243,7 +248,7 @@ body {
 }
 
 .footer-column {
-  margin: 1rem 1rem;
+  margin: 2rem 0rem;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -426,6 +431,10 @@ body {
   color: var(--color-primary);
   font-size: 2.6rem;
   margin-right: 0.2rem;
+}
+
+.margin-top {
+  margin-top: 4rem;
 }
 /******* CATALOG ********/
 

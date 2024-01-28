@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import plant from "../img/plant.jpg";
+import connect from "../img/connect.jpg";
 import facebook from "../img/facebook.png";
 import instagram from "../img/instagram.png";
 import whatsapp from "../img/whatsapp.png";
@@ -25,7 +25,7 @@ function Contact() {
           </Link>
         </div>
       </div>
-      <img className="cta-img" src={plant} alt="we" />
+      <img className="cta-img" src={connect} alt="contact" />
     </div>
   );
 }

@@ -1,3 +1,8 @@
+import plant1 from "../img/plant1.jpeg";
+import plant2 from "../img/plant2.jpeg";
+import plant3 from "../img/plant3.jpeg";
+import plant4 from "../img/plant4.jpeg";
+
 function PlantContent() {
   return (
     <div>
@@ -45,20 +50,10 @@ function PlantContent() {
           </p>
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-1.png"
-            className="step-img"
-            alt="iPhone app
-            preferences selection screen"
-          />
+          <img src={plant1} className="step-img" alt="Plant" />
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-2.png"
-            className="step-img"
-            alt="iPhone app
-            meal approving plan screen"
-          />
+          <img src={plant2} className="step-img" alt="Plant" />
         </div>
         <div className="step-text-box">
           <p className="step-number">02</p>
@@ -111,20 +106,10 @@ function PlantContent() {
           </ul>
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-3.png"
-            class="step-img"
-            alt="iPhone app
-            delivery screen"
-          />
+          <img src={plant3} className="step-img" alt="Plant" />
         </div>
         <div className="step-img-box">
-          <img
-            src="img/app/app-screen-3.png"
-            class="step-img"
-            alt="iPhone app
-            delivery screen"
-          />
+          <img src={plant4} className="step-img" alt="Plant" />
         </div>
         <div className="step-text-box">
           <p className="step-number">04</p>

@@ -86,12 +86,14 @@ function ConsultancyContent() {
           Danışmanlığı Hizmetleri olarak, işinizi küresel arenada büyütmenize
           döviz kazanmanıza yardımcı olmak için buradayız.
         </p>
-        <p className="step-description">İhracat Danışmanlığı Hizmetlerimiz</p>
-        <li> Pazar Araştırması ve Analizi </li>
-        <li>Strateji Geliştirme </li>
-        <li> Ticari İstihbarat </li>
-        <li> Dokümantasyon ve Gümrük İşlemleri </li>
-        <li> Pazarlama ve Kurumsal İletişim</li>
+        <div className="step-description">
+          <li>İhracat Danışmanlığı Hizmetlerimiz</li>
+          <li> Pazar Araştırması ve Analizi </li>
+          <li>Strateji Geliştirme </li>
+          <li> Ticari İstihbarat </li>
+          <li> Dokümantasyon ve Gümrük İşlemleri </li>
+          <li> Pazarlama ve Kurumsal İletişim</li>
+        </div>
       </div>
     </div>
   );

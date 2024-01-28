@@ -3,7 +3,6 @@ function AboutusContent() {
     <div>
       <div className="info">
         <div className="step-text-box">
-          {" "}
           <p className="step-description">
             Sera Terra'nın temelleri 2019 yılında Balıkesir'de atılmıştır. Tıbbi
             ve Aromatik bitkiler üzerine yapılan araştırmalar neticesinde
@@ -37,18 +36,18 @@ function AboutusContent() {
             üretiminde global pazarda kendisi alan ve sürekli yer edinmeyi hedef
             olarak belirlemiştir.
           </p>
-          <h3 className="step-head">Vizyonumuz;</h3>
+          <h3 className="margin-top step-head">Vizyonumuz;</h3>
           <ul className="step-list">
             <li>Müşterilerimizin global partneri olmak</li>
             <li>Etken madde üretimini endustriyalize etmek ve genişletmek</li>
             <li>Şirketimizin tüm paydaşlarına katma değer sağlamak</li>
           </ul>
-          <h3 className="step-head">Misyonumuz;</h3>
+          <h3 className="margin-top step-head">Misyonumuz;</h3>
           <p className="step-description">
             Toprağın mucizelerini insanlığa sunmak
           </p>
-          <div className="steps">
-            <div>
+          <div className="margin-top steps">
+            <div className="step-text-box">
               <h3 className="minihead">
                 <span className="green">S</span>amimiyiz
               </h3>

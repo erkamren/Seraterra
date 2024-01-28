@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import logo from "../img/seraterra-logo.jpg";
 
 function Footer() {
@@ -5,20 +7,17 @@ function Footer() {
     <div>
       <div className="footer">
         <Logo />
-        <FooterHead title="Corparate">
-          <FooterLink href="#aboutus">About Us</FooterLink>
-          <FooterLink href="#vision">Vision and Mission</FooterLink>
-          <FooterLink href="#goals">Our Goals</FooterLink>
-          <FooterLink href="#policies">Our Policies</FooterLink>
+        <FooterHead title="Kurumsal">
+          <FooterLink href="/aboutus">Hakkımızda</FooterLink>
+          <FooterLink href="/certificate">Certificates</FooterLink>
         </FooterHead>
-        <FooterHead title="EXPERTISE">
-          <FooterLink href="#plant">PLANT</FooterLink>
-          <FooterLink href="#process">PROCESS</FooterLink>
-          <FooterLink href="#project">PROJECT</FooterLink>
+        <FooterHead title="Faaliyetlerimiz">
+          <FooterLink href="/plant">Tarım</FooterLink>
+          <FooterLink href="#process">Tesis</FooterLink>
         </FooterHead>
-        <FooterHead title="INNOVATION">
+        <FooterHead title="İnovasyon">
           <FooterLink href="#arge">AR-GE</FooterLink>
-          <FooterLink href="#partners">OUR PARTNERS</FooterLink>
+          <FooterLink href="/consultancy">Danışmanlık</FooterLink>
         </FooterHead>
       </div>
     </div>
@@ -49,9 +48,9 @@ function FooterHead({ children, title }) {
 
 function FooterLink({ children, href }) {
   return (
-    <a className="footer-link" href={href}>
+    <Link className="footer-link" to={href}>
       {children}
-    </a>
+    </Link>
   );
 }
 
