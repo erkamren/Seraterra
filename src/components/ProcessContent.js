@@ -9,7 +9,7 @@ import Stream from "../img/stream.jpeg";
 
 function ProcessContent() {
   return (
-    <div>
+    <div className="center">
       <div className="steps">
         <div className="step-text-box">
           <h3 className="step-head">

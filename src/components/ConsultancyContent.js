@@ -2,7 +2,7 @@ import Consult from "../img/consultancy.jpeg";
 
 function ConsultancyContent() {
   return (
-    <div>
+    <div className="center">
       <div className="info">
         <h3 className="step-head">Teşvik ve Hibe Danışmanlığı</h3>
         <p className="step-description">
@@ -21,52 +21,58 @@ function ConsultancyContent() {
           Proje sunarak hibe ve kredi desteği alabileceğiniz programlar aşağıda
           detaylandırılmıştır.
         </p>
-        <ol className="step-list">
-          <ul>IPARD Kırsal Kalkınma Programı (TKDK)</ul>
-          <p className="step-description">
-            Avrupa Birliği (AB) tarafından aday ve potansiyel aday ülkelere
-            destek olmak amacıyla oluşturulan, Katılım Öncesi Yardım Aracı'nın
-            Kırsal Kalkınma bileşenidir. Tarım ve Kırsal Kalkınmayı Destekleme
-            Kurumu (TKDK) aracılığı proje bazlı bir çok yatırım alanında hibe
-            desteği verilmektedir. (tkdk.gov.tr)
-          </p>
-          <ul>Kalkınma Ajansı Projeleri</ul>
-          <p className="step-description">
-            Ülkemizde kamu, özel sektör ve STK arasındaki iş birliğini
-            arttırmak, etkin kaynak kullanımını sağlamak ve yerel potansiyeli
-            teşvik etmek amacıyla, bölgesel kalkınmayı hızlandırmak,
-            sürdürülebilirlik sağlamak, bölgeler gelişmişlik farklarını azaltmak
-            için oluşturulan Kalkınma Ajansları Destek Programları, Sanayi ve
-            Teknoloji Bakanlığı koordinasyonunda yürütülen hibe programıdır.
-            Türkiye’de bütün şehirleri kapsayan 26 bölgesel kalkınma ajansı ile
-            ekonomik, sosyal, kırsal kalkınma, küçük ölçekli altyapı projeleri
-            ve KOBİ mali destek gibi alt başlıkları olan hibe programlarında
-            %75’e varan oranlarda destek sağlanmaktadır.
-          </p>
-          <ul>Avrupa Birliği Projeleri</ul>
-          <p className="step-description">
-            HORİZON 2020 AB’de AR-GE kapsamında yürütülen faaliyetlerin
-            etkisinin artırılması hedefiyle, AB'de yürütülen tüm araştırma ve
-            yenilik programlarının 2014-2020 yılları için bütüncül bir sistem
-            altında toplamayı amaçlamaktadır. Horizon 2020 Programı Bilimsel
-            Mükemmeliyet, Endüstriyel Liderlik ve Rekabetçilik ile Toplumsal
-            Sorunlara Çözümler olmak üzere üç öncelik alanı altında
-            yapılandırılmıştır. Desteklenen proje konuları;
-          </p>
+        <h3 className="step-head">IPARD Kırsal Kalkınma Programı (TKDK)</h3>
+        <p className="step-description">
+          Avrupa Birliği (AB) tarafından aday ve potansiyel aday ülkelere destek
+          olmak amacıyla oluşturulan, Katılım Öncesi Yardım Aracı'nın Kırsal
+          Kalkınma bileşenidir. Tarım ve Kırsal Kalkınmayı Destekleme Kurumu
+          (TKDK) aracılığı proje bazlı bir çok yatırım alanında hibe desteği
+          verilmektedir. (tkdk.gov.tr)
+        </p>
+        <h3 className="step-head">Kalkınma Ajansı Projeleri</h3>
+        <p className="step-description">
+          Ülkemizde kamu, özel sektör ve STK arasındaki iş birliğini arttırmak,
+          etkin kaynak kullanımını sağlamak ve yerel potansiyeli teşvik etmek
+          amacıyla, bölgesel kalkınmayı hızlandırmak, sürdürülebilirlik
+          sağlamak, bölgeler gelişmişlik farklarını azaltmak için oluşturulan
+          Kalkınma Ajansları Destek Programları, Sanayi ve Teknoloji Bakanlığı
+          koordinasyonunda yürütülen hibe programıdır. Türkiye’de bütün
+          şehirleri kapsayan 26 bölgesel kalkınma ajansı ile ekonomik, sosyal,
+          kırsal kalkınma, küçük ölçekli altyapı projeleri ve KOBİ mali destek
+          gibi alt başlıkları olan hibe programlarında %75’e varan oranlarda
+          destek sağlanmaktadır.
+        </p>
+        <h3 className="step-head">Avrupa Birliği Projeleri</h3>
+        <p className="step-description">
+          HORİZON 2020 AB’de AR-GE kapsamında yürütülen faaliyetlerin etkisinin
+          artırılması hedefiyle, AB'de yürütülen tüm araştırma ve yenilik
+          programlarının 2014-2020 yılları için bütüncül bir sistem altında
+          toplamayı amaçlamaktadır. Horizon 2020 Programı Bilimsel Mükemmeliyet,
+          Endüstriyel Liderlik ve Rekabetçilik ile Toplumsal Sorunlara Çözümler
+          olmak üzere üç öncelik alanı altında yapılandırılmıştır. Desteklenen
+          proje konuları;
+        </p>
+        <ul className="step-list">
           <li>Ar-Ge Çalışmaları</li>
           <li> Destek ve Koordinasyon Eylemleri</li>
           <li> Yenilik Hibeleri (Grants for Innovation)</li>
           <li> Ortak Fonlama (Co-Funding) Eylemleri</li>
           <li> KOBİ projeleri</li>
-          <ul>KOSGEB Destekleri</ul>
+        </ul>
+        <h3 className="step-head">KOSGEB Destekleri</h3>
+        <ul className="step-list">
           <li>Girişimcilik Destek Programı</li>
           <li>Ar-Ge, Ür-Ge ve İnovasyon Destek Programı</li>
           <li>Teknoyatırım Destek Programı</li>
-          <ul>TÜBİTAK Destekleri</ul>
+        </ul>
+        <h3 className="step-head">TÜBİTAK Destekleri</h3>
+        <ul className="step-list">
           <li>1507 - KOBİ Ar-Ge Başlangıç Destek Programı</li>
           <li>1501 - Sanayi Ar-Ge Projeleri Destekleme Programı</li>
           <li>1511 - Öncelikli Alanlar Destek Programı (HAMLE)</li>
-          <ul>Ticaret Bakanlığı Destekleri</ul>
+        </ul>
+        <h3 className="step-head">Ticaret Bakanlığı Destekleri</h3>
+        <ul className="step-list">
           <li>Bilgisayar Oyunu / Mobil Uygulama Geliştirme Desteği</li>
           <li>Yurt Dışı Birim, Marka ve Tanıtım Faaliyetleri Desteği</li>
           <li>Pazar Araştırması ve Pazara Giriş Desteği</li>
@@ -74,10 +80,12 @@ function ConsultancyContent() {
           <li>Döviz Kazandırıcı Hizmet Ticareti Desteği</li>
           <li>Küresel Tedarik Zinciri (KTZ) Yetkinlik Projeleri Desteği</li>
           <li>Tasarım ve Ürün Geliştirme Proje Desteği</li>
-          <ul>Sanayi ve Teknoloji Bakanlığı Destekleri</ul>
+        </ul>
+        <h3 className="step-head">Sanayi ve Teknoloji Bakanlığı Destekleri</h3>
+        <ul className="step-list">
           <li> Yatırım ve Teşvik Belgesi </li>
           <li>Teknolojik Ürün Yatırım Destek Programı (TEKNO YATIRIM)</li>
-        </ol>
+        </ul>
         <h3 className="step-head">İhracat Danışmanlığı</h3>
         <p className="step-description">
           Küreselleşen dünyada uluslararası pazarlara adım atarken doğru

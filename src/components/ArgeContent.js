@@ -5,7 +5,7 @@ import linalol from "../img/linalol.jpg";
 
 function ArgeContent() {
   return (
-    <div>
+    <div className="center">
       <div className="info">
         <p className="step-description">
           Araştırma ve geliştirme faaliyetlerimiz proje ekiplerimiz tarafından

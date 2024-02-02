@@ -1,6 +1,6 @@
 function AboutusContent() {
   return (
-    <div>
+    <div className="center">
       <div className="info">
         <div className="step-text-box">
           <p className="step-description">

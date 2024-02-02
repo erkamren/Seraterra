@@ -6,7 +6,7 @@ import whatsapp from "../img/whatsapp.png";
 function Contact() {
   return (
     <div className="cta" id="contact">
-      <div className="cta-text-box">
+      <div className="cta-box">
         <h2 class="heading-secondary">Get your first meal for free!</h2>
         <p class="cta-text">
           Healthy, tasty and hassle-free meals are waiting for you. Start eating

@@ -5,7 +5,7 @@ import plant4 from "../img/plant4.jpeg";
 
 function PlantContent() {
   return (
-    <div>
+    <div className="center">
       <div className="info">
         <p className="step-description">
           Şirketimiz 2019 yılından beri kendine ait arazilerde lavanta, kekik,

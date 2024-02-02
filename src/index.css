@@ -26,10 +26,31 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--color-text);
   background-color: var(--color-background-900);
-  max-width: 200vh;
+  max-width: 100%;
+  margin: 34rem auto auto auto;
+}
+
+.margin-top {
+  margin-top: 4rem;
+}
+
+.center {
+  max-width: 140rem !important;
+  margin: 34rem auto auto auto !important;
 }
 
 /* HEADER */
+
+.header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24rem;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+}
 
 .nav-bar {
   display: flex;
@@ -102,12 +123,10 @@ body {
 }
 
 .is-sticky {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 16rem;
-  z-index: 999;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
   background-color: #ffffff !important;
 }
@@ -136,7 +155,6 @@ body {
 }
 .we {
   width: 100%;
-  height: 100%;
 }
 
 .box:hover {
@@ -147,6 +165,8 @@ body {
 
 .box-text {
   position: absolute;
+  top: 2rem;
+  left: 2rem;
   font-size: 7rem;
   color: #0000007e;
 }
@@ -165,6 +185,8 @@ body {
 .triple-text {
   position: absolute;
   font-size: 4rem;
+  top: 2rem;
+  left: 2rem;
   color: #0000007e;
 }
 
@@ -173,23 +195,24 @@ body {
 .cta {
   margin: 2rem;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 0.9rem;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
   overflow: hidden;
-  background-color: plum;
   height: 35rem;
 }
 
-.cta-text-box {
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+.cta-box {
   font-size: 2rem;
+  height: 35rem;
+  padding: 6rem;
 }
 
 .cta-grid {
-  margin-top: 3rem;
+  margin-top: 7rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -204,8 +227,8 @@ body {
 }
 
 .cta-img {
-  height: 35rem;
-  width: auto;
+  width: 110%;
+  overflow: hidden;
 }
 /*********  FOOTER  ********/
 
@@ -354,21 +377,22 @@ body {
 /********* PLANT **********/
 
 .info {
-  max-width: 120rem;
+  max-width: 140rem !important;
   padding: 0 3.2rem;
   margin: 4rem;
+  align-items: center;
 }
 
 .step-list {
   max-width: 120rem;
   padding: 0 1rem;
-  margin: 0 auto;
+  margin: 2rem auto;
   font-size: 1.8rem;
   line-height: 1.8;
 }
 
 .steps {
-  max-width: 120rem;
+  max-width: 140rem !important;
   padding: 0 3.2rem;
   margin: 4rem;
   display: grid;
@@ -385,11 +409,13 @@ body {
 }
 
 .step-description {
+  margin-top: 2rem;
   font-size: 1.8rem;
   line-height: 1.8;
 }
 
 .step-head {
+  margin-top: 2rem;
   font-size: 2.4rem;
   line-height: 1.8;
 }
@@ -433,24 +459,34 @@ body {
   margin-right: 0.2rem;
 }
 
-.margin-top {
-  margin-top: 4rem;
-}
 /******* CATALOG ********/
 
 .catalog {
-  background-color: #fdf2e9;
+  background-color: var(--color-primary);
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
+  padding: 2rem 6rem 2rem 6rem;
 }
 
 .catalog-list {
-  font-size: 1.8rem;
-  line-height: 10.8rem;
-  margin-bottom: 1.6rem;
-  margin-left: 5rem;
+  font-size: 2.4rem;
+  line-height: 5rem;
+  margin-left: 12rem;
   list-style: none;
+}
+
+.catalog-list li {
+  margin-bottom: 7rem;
+  padding-left: 1rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.catalog-list li:hover {
+  background-color: #fff;
+  color: var(--color-primary);
 }
 
 .gallery {
