@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Gallery1 from "../img/gallery/gallery-1.jpg";
 import Gallery2 from "../img/gallery/gallery-2.jpg";
 import Gallery3 from "../img/gallery/gallery-3.jpg";
@@ -11,17 +12,17 @@ import Gallery10 from "../img/gallery/gallery-10.jpg";
 import Gallery11 from "../img/gallery/gallery-11.jpg";
 import Gallery12 from "../img/gallery/gallery-12.jpg";
 
-function Catalog() {
+function Products() {
   return (
     <div class="catalog">
-      <div>
-        <ul className="catalog-list">
-          <li>UÇUCU YAĞLARUÇUCU YAĞLAR</li>
-          <li>MASERASYONLAR</li>
-          <li>SABİT YAĞLAR</li>
-          <li>HİDROSOLLER</li>
-          <li>BİTKİSEL CO2 EKSTRAKTLAR</li>
-        </ul>
+      <div className="catalog-list">
+        <ProductsLink href="/aboutus">UÇUCU YAĞLAR</ProductsLink>
+        <ProductsLink href="/certificate">MASERASYONLAR</ProductsLink>
+        <ProductsLink href="/certificate">SABİT YAĞLAR</ProductsLink>
+        <ProductsLink href="/certificate">HİDROSOLLER</ProductsLink>
+        <ProductsLink href="/certificate">
+          BİTKİSEL CO2 EKSTRAKTLAR
+        </ProductsLink>
       </div>
       <div class="gallery">
         <figure class="gallery-item">
@@ -65,4 +66,12 @@ function Catalog() {
   );
 }
 
-export default Catalog;
+function ProductsLink({ children, href }) {
+  return (
+    <Link className="catalog-link" to={href}>
+      {children}
+    </Link>
+  );
+}
+
+export default Products;

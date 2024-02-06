@@ -21,6 +21,7 @@ function Header() {
   return (
     <header className="header">
       <NavBar>
+        <Logo href="/ " />
         <Nav title="KURUMSAL">
           <Dropdown href="/aboutus">HAKKIMIZDA</Dropdown>
           <Dropdown href="/certificate">SELTİFİKALAR</Dropdown>
@@ -33,8 +34,7 @@ function Header() {
           <Dropdown href="/arge">AR-GE</Dropdown>
           <Dropdown href="/consultancy">DANIŞMANLIK</Dropdown>
         </Nav>
-        <Logo href="/ " />
-        <Nav title="ÜRÜNLER" href="/product" />
+        <Nav title="ÜRÜNLER" href="/products" />
         <Nav title="ANSİKLOPEDİ" href="/encyclopedia" />
         <Nav title="BLOG" href="/blog" />
       </NavBar>

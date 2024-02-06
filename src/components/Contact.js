@@ -25,7 +25,9 @@ function Contact() {
           </Link>
         </div>
       </div>
-      <img className="cta-img" src={connect} alt="contact" />
+      <div className="cta-img-box">
+        <img className="cta-img" src={connect} alt="contact" />
+      </div>
     </div>
   );
 }

@@ -17,7 +17,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -27,7 +27,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-background-900);
   max-width: 100%;
-  margin: 34rem auto auto auto;
+  margin: 24rem auto auto auto;
 }
 
 .margin-top {
@@ -47,7 +47,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 24rem;
+  height: 22rem;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
   background-color: #ffffff !important;
 }
@@ -63,23 +63,23 @@ body {
 }
 
 .logo {
-  height: 30rem;
+  height: 23rem;
   border-radius: 0.9rem;
   box-shadow: 0 0px 10px 0px rgb(0 0 0 / 15%);
   cursor: pointer;
+  margin: 4rem 2rem 0 2rem;
 }
 
 .nav {
   font-size: 2rem;
   display: block;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   position: relative;
   text-decoration: none;
   color: #000;
   border: none;
   text-align: center;
   transition-duration: 0.2s;
-  width: 40rem;
 }
 
 .nav:hover {
@@ -123,10 +123,10 @@ body {
 }
 
 .is-sticky {
-  top: 0;
+  top: -2rem;
   left: 0;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
   background-color: #ffffff !important;
 }
@@ -146,14 +146,15 @@ body {
 }
 
 .box {
+  position: relative;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   max-height: 35rem;
   border-radius: 0.9rem;
   overflow: hidden;
-  transition: all 0.4s;
+  transition: 0.4s;
   opacity: 0.8;
 }
-.we {
+.box-img {
   width: 100%;
 }
 
@@ -201,7 +202,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--color-primary);
-  overflow: hidden;
   height: 35rem;
 }
 
@@ -221,14 +221,18 @@ body {
 }
 
 .cta-icon {
-  height: 5rem;
+  height: 6rem;
   cursor: pointer;
   border-radius: 0.9rem;
 }
 
-.cta-img {
-  width: 110%;
+.cta-img-box {
   overflow: hidden;
+  height: 35rem;
+}
+
+.cta-img {
+  width: 120%;
 }
 /*********  FOOTER  ********/
 
@@ -473,18 +477,20 @@ body {
   font-size: 2.4rem;
   line-height: 5rem;
   margin-left: 12rem;
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
 }
 
-.catalog-list li {
-  margin-bottom: 7rem;
+.catalog-link {
   padding-left: 1rem;
   border-radius: 1.2rem;
   cursor: pointer;
   color: #fff;
+  text-decoration: none;
 }
 
-.catalog-list li:hover {
+.catalog-link:hover {
   background-color: #fff;
   color: var(--color-primary);
 }
@@ -492,7 +498,7 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
+  gap: 1rem;
   padding: 1.6rem;
 }
 

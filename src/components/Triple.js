@@ -9,18 +9,18 @@ function Triple() {
       <div className="box">
         <p className="triple-text">DANIŞMANLIK</p>
         <Link to="/incentives"></Link>
-        <img className="we" src={consultant} alt="consultant" />
+        <img className="box-img" src={consultant} alt="consultant" />
       </div>
       <div className="box">
         <p className="triple-text">ANSİKLOPEDİ</p>
         <Link to="/encyclopedia">
-          <img className="we" src={encyclopedia} alt="encyclopedia" />
+          <img className="box-img" src={encyclopedia} alt="encyclopedia" />
         </Link>
       </div>
       <div className="box">
         <p className="triple-text">BLOG</p>
         <Link to="/blog">
-          <img className="we" src={blog} alt="blog" />
+          <img className="box-img" src={blog} alt="blog" />
         </Link>
       </div>
     </div>

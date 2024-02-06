@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -8,11 +9,13 @@ import Plant from "./pages/Plant";
 import Process from "./pages/Process";
 import Arge from "./pages/Arge";
 import Consultancy from "./pages/Consultancy";
-import Product from "./pages/Product";
+import Products from "./pages/Products";
 import Encyclopedia from "./pages/Encyclopedia";
 import Blog from "./pages/Blog";
+import Ingredients from "./pages/Ingredients";
 
 function App() {
+  const [selectedId, setSelectedId] = useState(null);
   return (
     <Router>
       <Header />
@@ -24,10 +27,16 @@ function App() {
         <Route path="process" element={<Process />} />
         <Route path="arge" element={<Arge />} />
         <Route path="consultancy" element={<Consultancy />} />
-        <Route path="product" element={<Product />} />
-        <Route path="encyclopedia" element={<Encyclopedia />} />
-        <Route path="encyclopedia" element={<Encyclopedia />} />
+        <Route path="products" element={<Products />} />
+        <Route
+          path="encyclopedia"
+          element={<Encyclopedia setSelectedId={setSelectedId} />}
+        />
         <Route path="blog" element={<Blog />} />
+        <Route
+          path="ingredients"
+          element={<Ingredients selectedId={selectedId} />}
+        />
       </Routes>
       <Footer />
     </Router>
