@@ -63,11 +63,11 @@ body {
 }
 
 .logo {
-  height: 23rem;
+  height: 20rem;
   border-radius: 0.9rem;
   box-shadow: 0 0px 10px 0px rgb(0 0 0 / 15%);
   cursor: pointer;
-  margin: 4rem 2rem 0 2rem;
+  margin: 5rem 2rem 0 6rem;
 }
 
 .nav {
@@ -132,7 +132,7 @@ body {
 }
 
 .is-sticky img {
-  height: 20rem;
+  height: 18rem;
 }
 
 /******** LANDING PAGE ********/
@@ -152,22 +152,20 @@ body {
   border-radius: 0.9rem;
   overflow: hidden;
   transition: 0.4s;
-  opacity: 0.8;
 }
 .box-img {
   width: 100%;
 }
 
 .box:hover {
-  transform: scale(1.03);
+  transform: translateY(-0.6rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
-  opacity: 1;
 }
 
 .box-text {
   position: absolute;
   top: 2rem;
-  left: 2rem;
+  right: 2rem;
   font-size: 7rem;
   color: #0000007e;
 }
@@ -187,7 +185,7 @@ body {
   position: absolute;
   font-size: 4rem;
   top: 2rem;
-  left: 2rem;
+  right: 2rem;
   color: #0000007e;
 }
 

@@ -8,8 +8,9 @@ function Triple() {
     <div className="triple">
       <div className="box">
         <p className="triple-text">DANIŞMANLIK</p>
-        <Link to="/incentives"></Link>
-        <img className="box-img" src={consultant} alt="consultant" />
+        <Link to="/consultancy">
+          <img className="box-img" src={consultant} alt="consultant" />
+        </Link>
       </div>
       <div className="box">
         <p className="triple-text">ANSİKLOPEDİ</p>

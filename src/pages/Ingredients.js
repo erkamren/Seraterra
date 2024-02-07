@@ -20,7 +20,6 @@ function Ingredients() {
   console.log(data);
   return (
     <div>
-      <h1>Veri Listesi</h1>
       <ul>
         {data.map((item) => (
           <li key={item.id}>{item.mensei}</li>
