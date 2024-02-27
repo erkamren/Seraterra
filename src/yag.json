@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "isim": "ADAÇAYI UÇUCU YAĞI",
+    "latin": "Salvia Officinalis",
+    "mensei": "Türkiye",
+    "uretim": "Buhar Distilasyonu",
+    "etken": "Thujone: Thujone, adaçayının uçucu yağlarının ana bileşenlerinden biridir. Ancak yüksek seviyelerde tüketilmesi toksik olabilir. \n b. Cineole (Eucalyptol): Cineole veya eucalyptol, adaçayı uçucu yağında bulunan önemli bir bileşendir. Anti-inflamatuar ve antimikrobiyal özelliklere sahiptir.\nc. Camphor (Kamfor): Camphor, adaçayı uçucu yağının karakteristik bir bileşenidir. Ferahlatıcı bir kokusu vardır ve bazı sağlık uygulamalarında kullanılır.\nd. α-Pinene: Bu bileşen, özellikle adaçayının aromasında etkilidir ve terapötik özelliklere sahip olabilir.\ne. Borneol: Borneol, adaçayı uçucu yağının diğer bir bileşenidir ve geleneksel tıpta kullanılır."
+  },
+  {
+    "id": 2,
+    "isim": "BİBERİYE UÇUCU YAĞI",
+    "latin": "Rosmarinus Officinalis",
+    "mensei": "Türkiye",
+    "etken": "a. Thujone: Thujone, adaçayının uçucu yağlarının ana bileşenlerinden biridir."
+  }
+]

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Gallery1 from "../img/gallery/gallery-1.jpg";
 import Gallery2 from "../img/gallery/gallery-2.jpg";
 import Gallery3 from "../img/gallery/gallery-3.jpg";
@@ -12,15 +12,43 @@ import Gallery10 from "../img/gallery/gallery-10.jpg";
 import Gallery11 from "../img/gallery/gallery-11.jpg";
 import Gallery12 from "../img/gallery/gallery-12.jpg";
 
-function Products() {
+function Products({ setSelectedSort }) {
   return (
-    <div class="catalog">
-      <div className="catalog-list">
-        <ProductsLink href="/aboutus">UÇUCU YAĞLAR</ProductsLink>
-        <ProductsLink href="/certificate">MASERASYONLAR</ProductsLink>
-        <ProductsLink href="/certificate">SABİT YAĞLAR</ProductsLink>
-        <ProductsLink href="/certificate">HİDROSOLLER</ProductsLink>
-        <ProductsLink href="/certificate">
+    <div class="products">
+      <div className="products-list">
+        <ProductsLink
+          sort="Buhar Distilasyonu"
+          setSelectedSort={setSelectedSort}
+          href="/catalog"
+        >
+          UÇUCU YAĞLAR
+        </ProductsLink>
+        <ProductsLink
+          sort="Maserasyon"
+          setSelectedSort={setSelectedSort}
+          href="/catalog"
+        >
+          MASERASYONLAR
+        </ProductsLink>
+        <ProductsLink
+          sort="Soğuk Sıkım"
+          setSelectedSort={setSelectedSort}
+          href="/catalog"
+        >
+          SABİT YAĞLAR
+        </ProductsLink>
+        <ProductsLink
+          sort="Buhar Distilasyonu"
+          setSelectedSort={setSelectedSort}
+          href="/catalog"
+        >
+          HİDROSOLLER
+        </ProductsLink>
+        <ProductsLink
+          sort="Buhar Distilasyonu"
+          setSelectedSort={setSelectedSort}
+          href="/catalog"
+        >
           BİTKİSEL CO2 EKSTRAKTLAR
         </ProductsLink>
       </div>
@@ -66,9 +94,13 @@ function Products() {
   );
 }
 
-function ProductsLink({ children, href }) {
+function ProductsLink({ children, href, sort, setSelectedSort }) {
   return (
-    <Link className="catalog-link" to={href}>
+    <Link
+      onClick={() => setSelectedSort(sort)}
+      className="products-link"
+      to={href}
+    >
       {children}
     </Link>
   );

@@ -11,11 +11,13 @@ import Arge from "./pages/Arge";
 import Consultancy from "./pages/Consultancy";
 import Products from "./pages/Products";
 import Encyclopedia from "./pages/Encyclopedia";
-import Blog from "./pages/Blog";
+import Catalog from "./pages/Catalog";
 import Ingredients from "./pages/Ingredients";
+import Blog from "./pages/Blog";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
+  const [selectedSort, setSelectedSort] = useState(null);
   return (
     <Router>
       <Header />
@@ -27,16 +29,28 @@ function App() {
         <Route path="process" element={<Process />} />
         <Route path="arge" element={<Arge />} />
         <Route path="consultancy" element={<Consultancy />} />
-        <Route path="products" element={<Products />} />
+        <Route
+          path="products"
+          element={<Products setSelectedSort={setSelectedSort} />}
+        />
         <Route
           path="encyclopedia"
           element={<Encyclopedia setSelectedId={setSelectedId} />}
         />
-        <Route path="blog" element={<Blog />} />
+        <Route
+          path="catalog"
+          element={
+            <Catalog
+              setSelectedId={setSelectedId}
+              selectedSort={selectedSort}
+            />
+          }
+        />
         <Route
           path="ingredients"
           element={<Ingredients selectedId={selectedId} />}
         />
+        <Route path="blog" element={<Blog />} />
       </Routes>
       <Footer />
     </Router>

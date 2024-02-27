@@ -461,9 +461,9 @@ body {
   margin-right: 0.2rem;
 }
 
-/******* CATALOG ********/
+/******* PRODUCTS ********/
 
-.catalog {
+.products {
   background-color: var(--color-primary);
   display: grid;
   grid-template-columns: 55fr 45fr;
@@ -471,7 +471,7 @@ body {
   padding: 2rem 6rem 2rem 6rem;
 }
 
-.catalog-list {
+.products-list {
   font-size: 2.4rem;
   line-height: 5rem;
   margin-left: 12rem;
@@ -480,7 +480,7 @@ body {
   gap: 7rem;
 }
 
-.catalog-link {
+.products-link {
   padding-left: 1rem;
   border-radius: 1.2rem;
   cursor: pointer;
@@ -488,7 +488,7 @@ body {
   text-decoration: none;
 }
 
-.catalog-link:hover {
+.products-link:hover {
   background-color: #fff;
   color: var(--color-primary);
 }
@@ -512,4 +512,72 @@ body {
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/******* CATALOG ********/
+
+.catalog {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 10rem;
+}
+
+.catalog-header {
+  text-align: center;
+  padding: 3rem;
+  font-size: 6rem;
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+.catalog-box {
+  position: relative;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  width: 35rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.catalog-box:hover {
+  transform: scale(0.96);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.catalog-text {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.catalog-img {
+  width: 100%;
+}
+
+/********* INGREDIENTS **********/
+
+.ingre {
+  max-width: 160rem !important;
+  padding: 0 3.2rem;
+  margin: 28rem 4rem 4rem 4rem;
+  align-items: center;
+}
+.in-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.in-description h1 {
+  margin-top: 2rem;
+  color: var(--color-primary);
+}
+.in-description h3 {
+  margin-top: 1rem;
+  color: var(--color-primary);
+}
+
+.in-img {
+  width: 90%;
 }
