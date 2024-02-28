@@ -518,10 +518,12 @@ body {
 
 .catalog {
   padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin-bottom: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .catalog-header {
@@ -535,8 +537,8 @@ body {
 .catalog-box {
   position: relative;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  width: 35rem;
-  border-radius: 0.2rem;
+  width: 32rem;
+  border-radius: 0.9rem;
   overflow: hidden;
   transition: all 0.4s;
 }
