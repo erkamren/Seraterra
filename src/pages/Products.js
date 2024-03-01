@@ -17,35 +17,35 @@ function Products({ setSelectedSort }) {
     <div class="products">
       <div className="products-list">
         <ProductsLink
-          sort="Buhar Distilasyonu"
+          sort="UÇUCU YAĞLAR"
           setSelectedSort={setSelectedSort}
           href="/catalog"
         >
           UÇUCU YAĞLAR
         </ProductsLink>
         <ProductsLink
-          sort="Maserasyon"
+          sort="MASERASYONLAR"
           setSelectedSort={setSelectedSort}
           href="/catalog"
         >
           MASERASYONLAR
         </ProductsLink>
         <ProductsLink
-          sort="Soğuk Sıkım"
+          sort="SABİT YAĞLAR"
           setSelectedSort={setSelectedSort}
           href="/catalog"
         >
           SABİT YAĞLAR
         </ProductsLink>
         <ProductsLink
-          sort="Buhar Distilasyonu"
+          sort="HİDROSOLLER"
           setSelectedSort={setSelectedSort}
           href="/catalog"
         >
           HİDROSOLLER
         </ProductsLink>
         <ProductsLink
-          sort="Buhar Distilasyonu"
+          sort="BİTKİSEL CO2 EKSTRAKTLAR"
           setSelectedSort={setSelectedSort}
           href="/catalog"
         >

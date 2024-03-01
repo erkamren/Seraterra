@@ -210,12 +210,16 @@ body {
 }
 
 .cta-grid {
-  margin-top: 7rem;
+  margin-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+
+.cta-text {
+  margin-top: 1rem;
 }
 
 .cta-icon {

@@ -3,7 +3,7 @@ import data from "./data.json";
 
 function Catalog({ setSelectedId, selectedSort }) {
   console.log(selectedSort);
-  const finder = data.filter((item) => item.uretim === selectedSort);
+  const finder = data.filter((item) => item.baslik === selectedSort);
   return (
     <div>
       <h1 className="catalog-header">{selectedSort}</h1>
