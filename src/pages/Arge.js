@@ -35,7 +35,7 @@ function Arge() {
             biberlerin acılığını ve baharatını oluşturan temel faktördür.
             Kapsaisin, biberlerin tohumları, membranları ve etli kısımlarında
             bulunur. Kapsaisinin elde edilmesi için Ar-ge merkezimizde “Carolina
-            Reaper” biber türünün Superkritik Ekstraksiyon yöntemi kullanılarak
+            Reaper” biber türünün superkritik Ekstraksiyon yöntemi kullanılarak
             saflaştırılması çalışmaları laboratuvar partnerimizle ve üniversite
             işbirliğimizle yürütülmektedir.
           </p>

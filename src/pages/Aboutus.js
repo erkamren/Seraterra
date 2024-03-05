@@ -6,13 +6,13 @@ function Aboutus() {
           <p className="step-description">
             Sera Terra'nın temelleri 2019 yılında Balıkesir'de atılmıştır. Tıbbi
             ve Aromatik bitkiler üzerine yapılan araştırmalar neticesinde
-            yaklaşık 15 dakika alanda Ekim faaliyetleri başlatılmıştır. Tarım
+            yaklaşık 15 dekar alanda Ekim faaliyetleri başlatılmıştır. Tarım
             faaliyetlerine biberiye ile başlanmış lavanta kekik Beyaz Zambak ve
             tıbbi papatya ile devam edilmiştir. Mevcut durumda 70 dekarın
-            üzerinde ürün Ekim ve tarım ar-ge çalışmaları devam etmektedir.
+            üzerinde ürün ekim, tarım ve ar-ge çalışmaları devam etmektedir.
           </p>
           <p className="step-description">
-            2022 yılında bu alanda katma değer li ürün üretimi hedefi ile tıbbi
+            2022 yılında bu alanda katma değerli ürün üretimi hedefi ile tıbbi
             ve aromatik bitki işletme tesisi yatırımlarına başlamıştır bu alanda
             buhar distilasyonu ve süper kritik CO2 ekstraksiyonu hattı kurularak
             250 ton ürün işleme kapasiteli tesis Ağustos 2023 döneminde devreye
@@ -31,7 +31,7 @@ function Aboutus() {
             etmektedir.
           </p>
           <p className="step-description">
-            Toprağın mucizelerine insan lığa sunmayı misyon olarak belirleyen
+            Toprağın mucizelerini insanlığa sunmayı misyon olarak belirleyen
             şirketimiz katma değerli ürün üretimi gıda ve kozmetik hammadde
             üretiminde global pazarda kendisi alan ve sürekli yer edinmeyi hedef
             olarak belirlemiştir.
@@ -69,7 +69,7 @@ function Aboutus() {
                 <span className="green">E</span>vreni koruruz
               </h3>
               <h3 className="minihead">
-                <span className="green">R</span>ahat davraniriz
+                <span className="green">R</span>ahat davranırız
               </h3>
               <h3 className="minihead">
                 <span className="green">R</span>ol model oluruz

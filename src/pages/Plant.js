@@ -44,9 +44,9 @@ function Plant() {
           </ul>
           <p className="step-description">
             Tesisimizde yer alan distilasyon hattı ve süperkritik ekstraksiyon
-            hattıyla ilaç sanayin, kozmetik sanayine hammadde ve ara madde
-            üretimi gerçekleştirilmektedir. Tesisimiz ayrıca aromaterapi ve
-            fitoterapi alanında son ürün üretimi gerçekleştirmektedir.
+            hattıyla ilaç ve kozmetik sanayisine hammadde ve ara madde üretimi
+            gerçekleştirilmektedir. Tesisimiz ayrıca aromaterapi ve fitoterapi
+            alanında son ürün üretimi gerçekleştirmektedir.
           </p>
         </div>
         <div className="step-img-box">

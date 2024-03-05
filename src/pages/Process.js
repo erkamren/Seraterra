@@ -142,7 +142,7 @@ function Process() {
           <h3 className="step-head">Seperasyon- Ekstrakt Toplama</h3>
           <p className="step-description">
             Toplanan ekstrakt seperatör kolonundan deşarj edilir ve gaz geri
-            kazanımını yapılır (%85-99 gaz geri kazanımı).
+            kazanımı yapılır (%85-99 gaz geri kazanımı).
           </p>
         </div>
         <div className="step-text-box">

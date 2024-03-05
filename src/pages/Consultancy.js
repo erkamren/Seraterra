@@ -8,7 +8,7 @@ function Consultancy() {
         <p className="step-description">
           Farklı kamu kurum ve kuruluşları, işletme boyutu farketmeksizin
           firmaların innovasyona yönelmesi, Ar-Ge yatırımlarını arttırması, yeni
-          pazarlara açılabilmesi gibi konulara yönelik hibe ve kredi faiz
+          pazarlara açılabilmesi gibi konulara yönelik hibe, kredi ve faiz
           destekleri vermektedir. Bu destekler sayesinde firmalar altyapılarını
           geliştirmekte, Ar-Ge projelerini hayata geçirmekte ya da farklı
           pazarlara açılarak yeni müşteriler elde edebilmektedir. Bu kapsamda
@@ -74,7 +74,7 @@ function Consultancy() {
         <h3 className="step-head">Ticaret Bakanlığı Destekleri</h3>
         <ul className="step-list">
           <li>Bilgisayar Oyunu / Mobil Uygulama Geliştirme Desteği</li>
-          <li>Yurt Dışı Birim, Marka ve Tanıtım Faaliyetleri Desteği</li>
+          <li>Yurt Dışı Bilim, Marka ve Tanıtım Faaliyetleri Desteği</li>
           <li>Pazar Araştırması ve Pazara Giriş Desteği</li>
           <li>Yurt Dışında Gerçekleştirilen Fuar Katılımları Desteği</li>
           <li>Döviz Kazandırıcı Hizmet Ticareti Desteği</li>

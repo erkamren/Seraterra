@@ -31,7 +31,12 @@ function Contact() {
           >
             <img className="cta-icon" src={whatsapp} alt="whatsapp" />
           </Link>
-          <Link href="mailto:info@seraterra.com">
+          <Link
+            onClick={(e) => {
+              window.location.href = "mailto:info@seraterra.com";
+              e.preventDefault();
+            }}
+          >
             <img className="cta-icon" src={email} alt="email" />
           </Link>
           <Link
