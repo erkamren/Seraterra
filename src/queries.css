@@ -2,7 +2,7 @@
 /* BELOW 1600px */
 /**************************/
 
-@media (max-width: 100em) {
+@media screen and (max-width: 100em) {
   html {
     /* 9px / 16px  */
     font-size: 74%;
@@ -12,7 +12,7 @@
 /* BELOW 1470px */
 /**************************/
 
-@media (max-width: 92em) {
+@media screen and (max-width: 92em) {
   html {
     /* 9px / 16px  */
     font-size: 68%;
@@ -22,7 +22,7 @@
 /* BELOW 1360px */
 /**************************/
 
-@media (max-width: 84em) {
+@media screen and (max-width: 84em) {
   html {
     /* 9px / 16px  */
     font-size: 62%;
@@ -32,7 +32,7 @@
 /* BELOW 1250px */
 /**************************/
 
-@media (max-width: 78em) {
+@media screen and (max-width: 78em) {
   html {
     /* 9px / 16px  */
     font-size: 56%;
@@ -43,7 +43,7 @@
 /* BELOW 1120px */
 /**************************/
 
-@media (max-width: 70em) {
+@media screen and (max-width: 70em) {
   html {
     /* 9px / 16px  */
     font-size: 48%;
@@ -53,7 +53,7 @@
 /* BELOW 975px */
 /**************************/
 
-@media (max-width: 61em) {
+@media screen and (max-width: 61em) {
   html {
     /* 9px / 16px  */
     font-size: 42%;
@@ -63,7 +63,7 @@
 /* BELOW 850px */
 /**************************/
 
-@media (max-width: 53em) {
+@media screen and (max-width: 53em) {
   html {
     /* 9px / 16px  */
     font-size: 36%;
@@ -73,7 +73,7 @@
 /* BELOW 720px */
 /**************************/
 
-@media (max-width: 44em) {
+@media screen and (max-width: 44em) {
   html {
     /* 9px / 16px  */
     font-size: 28%;
@@ -83,7 +83,7 @@
 /* BELOW 560px */
 /**************************/
 
-@media (max-width: 35em) {
+@media screen and (max-width: 35em) {
   html {
     /* 9px / 16px  */
     font-size: 22%;
@@ -93,7 +93,7 @@
 /* BELOW 440px */
 /**************************/
 
-@media (max-width: 28em) {
+@media screen and (max-width: 28em) {
   html {
     /* 9px / 16px  */
     font-size: 18%;

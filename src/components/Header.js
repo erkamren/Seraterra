@@ -1,6 +1,6 @@
 import logo from "../img/seraterra-logo.jpg";
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
   useEffect(() => {
@@ -47,7 +47,12 @@ function NavBar({ children }) {
 
 function Logo({ href }) {
   return (
-    <Link to={href}>
+    <Link
+      to={href}
+      onClick={() => {
+        window.scroll(0, 0);
+      }}
+    >
       <img className="logo" src={logo} alt="logo" />
     </Link>
   );
@@ -55,7 +60,13 @@ function Logo({ href }) {
 
 function Nav({ children, title, href }) {
   return (
-    <Link className="nav" to={href}>
+    <Link
+      className="nav"
+      to={href}
+      onClick={() => {
+        window.scroll(0, 0);
+      }}
+    >
       {title} <div className="drop">{children}</div>
     </Link>
   );
@@ -63,7 +74,13 @@ function Nav({ children, title, href }) {
 
 function Dropdown({ children, href }) {
   return (
-    <Link className="dropdown" to={href}>
+    <Link
+      className="dropdown"
+      to={href}
+      onClick={() => {
+        window.scroll(0, 0);
+      }}
+    >
       {children}
     </Link>
   );

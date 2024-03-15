@@ -1,28 +1,76 @@
 import { Link } from "react-router-dom";
 import connect from "../img/connect.jpg";
-import email from "../img/email.jpg";
+import facebook from "../img/facebook.png";
 import instagram from "../img/instagram.png";
 import whatsapp from "../img/whatsapp.png";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 function Contact() {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
     if (newWindow) newWindow.opener = null;
   };
 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_d7sa04n", "template_7fwq8m2", form.current, {
+        publicKey: "2apfuSJVqULPY9vDj",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <div className="cta" id="contact">
       <div className="cta-box">
-        <h2 class="heading-secondary">
-          Sera Terra Tarım Hayvancılık Limited Şirketi
-        </h2>
-        <p class="cta-text">
-          Fabrika Adres: Göktepe Ticaret Odası Sanayi Sitesi C Blok No:12
-          BİGA/ÇANAKKALE
-        </p>
-        <p class="cta-text">
-          Genel Müdürlük: Alemdağ Mahallesi Gelin Çiçeği Sk. No:5-1
-          ÇEKMEKÖY/İSTANBUL
-        </p>
+        <h2 className="cta-head">Bizimle iletişime geçmek ister misiniz</h2>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="cta-form"
+          name="sign-up"
+        >
+          <div>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="İsminiz"
+              name="name"
+              required
+            />
+          </div>
+          <div>
+            <input
+              id="email"
+              type="email"
+              placeholder="Emailiniz"
+              name="email"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              id="submit"
+              placeholder="Mesajınız"
+              name="message"
+              required
+            />
+          </div>
+          <button type="submit" class="btn">
+            Gönder
+          </button>
+        </form>
         <div className="cta-grid">
           <Link
             onClick={() =>
@@ -32,13 +80,13 @@ function Contact() {
             <img className="cta-icon" src={whatsapp} alt="whatsapp" />
           </Link>
           <Link
-            onClick={(e) => {
-              window.location.href = "mailto:info@seraterra.com";
-              e.preventDefault();
-            }}
+            onClick={() =>
+              openInNewTab("https://api.whatsapp.com/send?phone=905510074409")
+            }
           >
-            <img className="cta-icon" src={email} alt="email" />
+            <img className="cta-icon" src={facebook} alt="facebook" />
           </Link>
+
           <Link
             onClick={() =>
               openInNewTab("https://www.instagram.com/sera_natura/?hl=en")
