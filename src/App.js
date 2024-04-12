@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -18,6 +18,7 @@ import Blog from "./pages/Blog";
 function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedSort, setSelectedSort] = useState(null);
+
   return (
     <Router>
       <Header />

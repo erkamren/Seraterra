@@ -1,4 +1,6 @@
 import data from "./data.json";
+import naturalink from "../img/natura-link.png";
+import { Link } from "react-router-dom";
 
 function Ingredients({ selectedId }) {
   console.log(selectedId);
@@ -55,6 +57,9 @@ function Ingredients({ selectedId }) {
             genel kullanımından önce dirsek içi veya bilek bölgesinde 1-2 cm2
             lik bir alanda yama testi yapılmasını önermekteyiz.
           </p>
+          <a target="_blank" rel="noopener noreferrer" href={item.link}>
+            <img className="naturalink" src={naturalink}></img>
+          </a>
         </div>
       ))}
     </div>
