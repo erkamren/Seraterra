@@ -18,16 +18,6 @@ function Ingredients({ selectedId }) {
           <p className="in-text">Latince Adı: {item.latin}</p>
           <p className="in-text">Menşei: {item.mensei}</p>
           <p className="in-text">Üretim Yeri: {item.uretim}</p>
-          <h3>Etken Maddeler</h3>
-          <p className="in-text">{item.etken1}</p>
-          <p className="in-text">{item.etken2}</p>
-          <p className="in-text">{item.etken3}</p>
-          <p className="in-text">{item.etken4}</p>
-          <p className="in-text">{item.etken5}</p>
-          <p className="in-text">{item.etken6}</p>
-          <p className="in-text">{item.etken7}</p>
-          <p className="in-text">{item.etken8}</p>
-          <p className="in-text">{item.etken9}</p>
           <h3>Kullanım Önerileri</h3>
           <p className="in-text">{item.kullanim1}</p>
           <p className="in-text">{item.kullanim2}</p>
