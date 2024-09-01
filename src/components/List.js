@@ -14,105 +14,115 @@ function List() {
             </li>
             <li>
               <Link to="a2" offset={-400}>
-                Ağız Dezenfektanı{" "}
+                Ağız Dezenfektanı
               </Link>
             </li>
             <li>
               <Link to="a3" offset={-400}>
-                Ağız Kokusu Giderici{" "}
+                Ağız Kokusu Giderici
               </Link>
             </li>
             <li>
               <Link to="a4" offset={-400}>
-                Ağız Yaraları ve İltihapları{" "}
+                Ağız Yaraları ve İltihapları
               </Link>
             </li>
             <li>
               <Link to="a5" offset={-400}>
-                Ağrı Kesici{" "}
+                Ağrı Kesici
               </Link>
             </li>
             <li>
               <Link to="a6" offset={-400}>
-                Akne{" "}
+                Akne
               </Link>
             </li>
             <li>
               <Link to="a7" offset={-400}>
-                Antimikrobiyal{" "}
+                Antimikrobiyal
               </Link>
             </li>
             <li>
               <Link to="a8" offset={-400}>
-                Antioksidanlar{" "}
+                Antioksidanlar
               </Link>
             </li>
             <li>
               <Link to="a9" offset={-400}>
-                Antiseptikler{" "}
+                Antiseptikler
               </Link>
             </li>
             <li>
-              <Link to="a10  offset={-400}">Antiviraller </Link>
+              <Link to="a10" offset={-400}>
+                Antiviraller{" "}
+              </Link>
             </li>
             <li>
-              <Link to="a11  offset={-400}">Astım ve Bronşit </Link>
+              <Link to="a11" offset={-400}>
+                Astım ve Bronşit{" "}
+              </Link>
             </li>
             <li>
-              <Link to="a12  offset={-400}">Ateş Düşürücü </Link>
+              <Link to="a12" offset={-400}>
+                Ateş Düşürücü{" "}
+              </Link>
             </li>
             <li>
-              <Link to="a13  offset={-400}">Ayak Bakımı </Link>
+              <Link to="a13" offset={-400}>
+                Ayak Bakımı{" "}
+              </Link>
             </li>
             <li>
-              <Link to="a14  offset={-400}">Ayak Kokusu Önleyici </Link>
+              <Link to="a14" offset={-400}>
+                Ayak Kokusu Önleyici{" "}
+              </Link>
             </li>
           </ul>
           <ul>
             <p>B</p>
             <li>
               <Link to="b1" offset={-400}>
-                Bağırsak Spazmı Giderici{" "}
+                Bağırsak Spazmı Giderici
               </Link>
             </li>
             <li>
               <Link to="b2" offset={-400}>
-                Bağışıklık Destekleyici{" "}
+                Bağışıklık Destekleyici
               </Link>
             </li>
             <li>
               <Link to="b3" offset={-400}>
-                Bakteri ve Mantar Enfeksiyonları{" "}
+                Bakteri ve Mantar Enfeksiyonları
               </Link>
             </li>
             <li>
               <Link to="b4" offset={-400}>
-                Balgam Söktürücüler{" "}
+                Balgam Söktürücüler
               </Link>
             </li>
             <li>
               <Link to="b5" offset={-400}>
-                Bebek Pişikleri{" "}
+                Bebek Pişikleri
               </Link>
             </li>
             <li>
               <Link to="b6" offset={-400}>
-                Boğaz Ağrısı{" "}
+                Boğaz Ağrısı
               </Link>
             </li>
             <li>
               <Link to="b7" offset={-400}>
-                Böcek/Sinek Kovucu{" "}
+                Böcek/Sinek Kovucu
               </Link>
             </li>
             <li>
               <Link to="b8" offset={-400}>
-                Böcek Sokmaları{" "}
+                Böcek Sokmaları
               </Link>
             </li>
             <li>
               <Link to="b9" offset={-400}>
-                Burun Tıkanıklığı{" "}
+                Burun Tıkanıklığı
               </Link>
             </li>
           </ul>
@@ -120,87 +130,93 @@ function List() {
             <p>C</p>
             <li>
               <Link to="c1" offset={-400}>
-                Cilt Alerjileri{" "}
+                Cilt Alerjileri
               </Link>
             </li>
             <li>
               <Link to="c2" offset={-400}>
-                Cilt Besleyici{" "}
+                Cilt Besleyici
               </Link>
             </li>
             <li>
               <Link to="c3" offset={-400}>
-                Cilt Çatlakları{" "}
+                Cilt Çatlakları
               </Link>
             </li>
             <li>
               <Link to="c4" offset={-400}>
-                Cilt Gençleştirici (Anti-Aging){" "}
+                Cilt Gençleştirici (Anti-Aging)
               </Link>
             </li>
             <li>
               <Link to="c5" offset={-400}>
-                Cilt Hafif Yaraları İyileştirici{" "}
+                Cilt Hafif Yaraları İyileştirici
               </Link>
             </li>
             <li>
               <Link to="c6" offset={-400}>
-                Cilt Kaşınmaları{" "}
+                Cilt Kaşınmaları
               </Link>
             </li>
             <li>
               <Link to="c7" offset={-400}>
-                Cilt Kuruluğu{" "}
+                Cilt Kuruluğu
               </Link>
             </li>
             <li>
               <Link to="c8" offset={-400}>
-                Cilt Lekeleri{" "}
+                Cilt Lekeleri
               </Link>
             </li>
             <li>
               <Link to="c9" offset={-400}>
-                Cilt Nemlendirici{" "}
+                Cilt Nemlendirici
               </Link>
             </li>
             <li>
-              <Link to="c10  offset={-400}">Cilt Sıkılaştırma </Link>
+              <Link to="c10" offset={-400}>
+                Cilt Sıkılaştırma{" "}
+              </Link>
             </li>
           </ul>
           <ul>
             <p>Ç</p>
             <li>
-              <Link to="c11  offset={-400}">Çıban İyileştirici </Link>
+              <Link to="c11" offset={-400}>
+                Çıban İyileştirici{" "}
+              </Link>
             </li>
             <li>
-              <Link to="c12  offset={-400}">Çikolata Kisti </Link>
+              <Link to="c12" offset={-400}>
+                Çikolata Kisti{" "}
+              </Link>
             </li>
           </ul>
           <ul>
             <p>D</p>
             <li>
               <Link to="d1" offset={-400}>
-                Demans{" "}
+                Demans
               </Link>
             </li>
             <li>
               <Link to="d2" offset={-400}>
-                Diş Ağrısı{" "}
+                Diş Ağrısı
               </Link>
             </li>
             <li>
               <Link to="d3" offset={-400}>
-                Diş Eti Hastalıkları{" "}
+                Diş Eti Hastalıkları
               </Link>
             </li>
             <li>
               <Link to="d4" offset={-400}>
-                Diş Plağı Önleyici{" "}
+                Diş Plağı Önleyici
               </Link>
             </li>
             <li>
               <Link to="d5" offset={-400}>
-                Diyabet Yaraları{" "}
+                Diyabet Yaraları
               </Link>
             </li>
           </ul>
@@ -208,22 +224,22 @@ function List() {
             <p>E</p>
             <li>
               <Link to="e1" offset={-400}>
-                Egzama{" "}
+                Egzama
               </Link>
             </li>
             <li>
               <Link to="e2" offset={-400}>
-                Eklem Ağrıları{" "}
+                Eklem Ağrıları
               </Link>
             </li>
             <li>
               <Link to="e3" offset={-400}>
-                Eklem İltihapları (Osteoartrit){" "}
+                Eklem İltihapları (Osteoartrit)
               </Link>
             </li>
             <li>
               <Link to="e4" offset={-400}>
-                Enfeksiyon Giderici{" "}
+                Enfeksiyon Giderici
               </Link>
             </li>
           </ul>
@@ -231,22 +247,22 @@ function List() {
             <p>G</p>
             <li>
               <Link to="g1" offset={-400}>
-                Gaz Sancısı{" "}
+                Gaz Sancısı
               </Link>
             </li>
             <li>
               <Link to="g2" offset={-400}>
-                Göz Sağlığı{" "}
+                Göz Sağlığı
               </Link>
             </li>
             <li>
               <Link to="g3" offset={-400}>
-                Gül Hastalığı{" "}
+                Gül Hastalığı
               </Link>
             </li>
             <li>
               <Link to="g4" offset={-400}>
-                Güneş Yanıkları{" "}
+                Güneş Yanıkları
               </Link>
             </li>
           </ul>
@@ -254,17 +270,17 @@ function List() {
             <p>H</p>
             <li>
               <Link to="h1" offset={-400}>
-                Hava Temizleyici{" "}
+                Hava Temizleyici
               </Link>
             </li>
             <li>
               <Link to="h2" offset={-400}>
-                Hemoroit{" "}
+                Hemoroit
               </Link>
             </li>
             <li>
               <Link to="h3" offset={-400}>
-                Huzursuz Bağırsak Sendromu{" "}
+                Huzursuz Bağırsak Sendromu
               </Link>
             </li>
           </ul>
@@ -272,22 +288,22 @@ function List() {
             <p>İ</p>
             <li>
               <Link to="i1" offset={-400}>
-                İdrar Söktürücüler{" "}
+                İdrar Söktürücüler
               </Link>
             </li>
             <li>
               <Link to="i2" offset={-400}>
-                İdrar Yolu Enfeksiyonları/İltihap Giderici{" "}
+                İdrar Yolu Enfeksiyonları/İltihap Giderici
               </Link>
             </li>
             <li>
               <Link to="i3" offset={-400}>
-                İshal{" "}
+                İshal
               </Link>
             </li>
             <li>
               <Link to="i4" offset={-400}>
-                İştah Açıcı{" "}
+                İştah Açıcı
               </Link>
             </li>
           </ul>
@@ -295,73 +311,75 @@ function List() {
             <p>K</p>
             <li>
               <Link to="k1" offset={-400}>
-                Kafa Kaşıntıları{" "}
+                Kafa Kaşıntıları
               </Link>
             </li>
             <li>
               <Link to="k2" offset={-400}>
-                Kan Dolaşımı Düzenleyici{" "}
+                Kan Dolaşımı Düzenleyici
               </Link>
             </li>
             <li>
               <Link to="k3" offset={-400}>
-                Kanama Durdurucu{" "}
+                Kanama Durdurucu
               </Link>
             </li>
             <li>
               <Link to="k4" offset={-400}>
-                Karın Ağrısı{" "}
+                Karın Ağrısı
               </Link>
             </li>
             <li>
               <Link to="k5" offset={-400}>
-                Kas Ağrıları{" "}
+                Kas Ağrıları
               </Link>
             </li>
             <li>
               <Link to="k6" offset={-400}>
-                Kas Spazmı Çözücü{" "}
+                Kas Spazmı Çözücü
               </Link>
             </li>
             <li>
               <Link to="k7" offset={-400}>
-                Kepek{" "}
+                Kepek
               </Link>
             </li>
             <li>
               <Link to="k8" offset={-400}>
-                Kırışıklık Giderici{" "}
+                Kırışıklık Giderici
               </Link>
             </li>
             <li>
               <Link to="k9" offset={-400}>
-                Kolesterol Düşürücü{" "}
+                Kolesterol Düşürücü
               </Link>
             </li>
             <li>
-              <Link to="k10  offset={-400}">Kramp </Link>
+              <Link to="k10" offset={-400}>
+                Kramp{" "}
+              </Link>
             </li>
           </ul>
           <ul>
             <p>M</p>
             <li>
               <Link to="m1" offset={-400}>
-                Menopoz Şikayetleri{" "}
+                Menopoz Şikayetleri
               </Link>
             </li>
             <li>
               <Link to="m2" offset={-400}>
-                Mide Bulantısı ve İstifra{" "}
+                Mide Bulantısı ve İstifra
               </Link>
             </li>
             <li>
               <Link to="m3" offset={-400}>
-                Migren{" "}
+                Migren
               </Link>
             </li>
             <li>
               <Link to="m4" offset={-400}>
-                Mukus Kurutucu{" "}
+                Mukus Kurutucu
               </Link>
             </li>
           </ul>
@@ -369,7 +387,7 @@ function List() {
             <p>Ö</p>
             <li>
               <Link to="o1" offset={-400}>
-                Öksürük{" "}
+                Öksürük
               </Link>
             </li>
           </ul>
@@ -377,7 +395,7 @@ function List() {
             <p>P</p>
             <li>
               <Link to="p1" offset={-400}>
-                Prostat Büyümesi{" "}
+                Prostat Büyümesi
               </Link>
             </li>
           </ul>
@@ -393,68 +411,70 @@ function List() {
             <p>S</p>
             <li>
               <Link to="s1" offset={-400}>
-                Saç Bakımı{" "}
+                Saç Bakımı
               </Link>
             </li>
             <li>
               <Link to="s2" offset={-400}>
-                Saç Biti{" "}
+                Saç Biti
               </Link>
             </li>
             <li>
               <Link to="s3" offset={-400}>
-                Saç Dökülmesi{" "}
+                Saç Dökülmesi
               </Link>
             </li>
             <li>
               <Link to="s4" offset={-400}>
-                Sebum Oranı (Cilt Yağlılığı) Dengeleme{" "}
+                Sebum Oranı (Cilt Yağlılığı) Dengeleme
               </Link>
             </li>
             <li>
               <Link to="s5" offset={-400}>
-                Sedef{" "}
+                Sedef
               </Link>
             </li>
             <li>
               <Link to="s6" offset={-400}>
-                Selülit{" "}
+                Selülit
               </Link>
             </li>
             <li>
               <Link to="s7" offset={-400}>
-                Sigara Kokusu Giderici{" "}
+                Sigara Kokusu Giderici
               </Link>
             </li>
             <li>
               <Link to="s8" offset={-400}>
-                Soğuk Algınlığı{" "}
+                Soğuk Algınlığı
               </Link>
             </li>
             <li>
               <Link to="s9" offset={-400}>
-                Solunum Rahatlatıcı{" "}
+                Solunum Rahatlatıcı
               </Link>
             </li>
             <li>
-              <Link to="s10  offset={-400}">Stres - Bunalım Destek </Link>
+              <Link to="s10" offset={-400}>
+                Stres - Bunalım Destek{" "}
+              </Link>
             </li>
           </ul>
           <ul>
             <p>T</p>
             <li>
               <Link to="t1" offset={-400}>
-                Tansiyon Düşürücü{" "}
+                Tansiyon Düşürücü
               </Link>
             </li>
             <li>
               <Link to="t2" offset={-400}>
-                Tırnak Mantarı{" "}
+                Tırnak Mantarı
               </Link>
             </li>
             <li>
               <Link to="t3" offset={-400}>
-                Tonikler{" "}
+                Tonikler
               </Link>
             </li>
           </ul>
@@ -462,17 +482,17 @@ function List() {
             <p>U</p>
             <li>
               <Link to="u1" offset={-400}>
-                Uçuk{" "}
+                Uçuk
               </Link>
             </li>
             <li>
               <Link to="u2" offset={-400}>
-                Uykusuzluk{" "}
+                Uykusuzluk
               </Link>
             </li>
             <li>
               <Link to="u3" offset={-400}>
-                Uyuz{" "}
+                Uyuz
               </Link>
             </li>
           </ul>
@@ -480,7 +500,7 @@ function List() {
             <p>Ü</p>
             <li>
               <Link to="u4" offset={-400}>
-                Ürtiker{" "}
+                Ürtiker
               </Link>
             </li>
           </ul>
@@ -488,7 +508,7 @@ function List() {
             <p>V</p>
             <li>
               <Link to="v1" offset={-400}>
-                Varis{" "}
+                Varis
               </Link>
             </li>
           </ul>
@@ -496,22 +516,22 @@ function List() {
             <p>Y</p>
             <li>
               <Link to="y1" offset={-400}>
-                Yanık İyileştirmeye Yardımcı{" "}
+                Yanık İyileştirmeye Yardımcı
               </Link>
             </li>
             <li>
               <Link to="y2" offset={-400}>
-                Yara İyileştirmeye Yardımcı{" "}
+                Yara İyileştirmeye Yardımcı
               </Link>
             </li>
             <li>
               <Link to="y3" offset={-400}>
-                Yorgunluk Giderici{" "}
+                Yorgunluk Giderici
               </Link>
             </li>
             <li>
               <Link to="y4" offset={-400}>
-                Yüz Temizleme{" "}
+                Yüz Temizleme
               </Link>
             </li>
           </ul>
@@ -519,12 +539,12 @@ function List() {
             <p>Z</p>
             <li>
               <Link to="z1" offset={-400}>
-                Zihin Açıcı{" "}
+                Zihin Açıcı
               </Link>
             </li>
             <li>
               <Link to="z2" offset={-400}>
-                Zona{" "}
+                Zona
               </Link>
             </li>
           </ul>

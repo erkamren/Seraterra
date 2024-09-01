@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import data from "./data.json";
 
 function Catalog({ setSelectedId, selectedSort }) {
-  console.log(selectedSort);
-  const finder = data.filter((item) => item.baslik === selectedSort);
+  const finder = data.filter(
+    (item) => item.baslik && item.baslik.includes(selectedSort)
+  );
   return (
     <div>
       <h1 className="catalog-header">{selectedSort}</h1>

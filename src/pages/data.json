@@ -2,7 +2,7 @@
   {
     "id": 1,
     "isim": "ADAÇAYI UÇUCU YAĞI",
-    "baslik": "UÇUCU YAĞLAR",
+    "baslik": ["UÇUCU YAĞLAR", "ADET DÖNEMİ AĞRILARI"],
     "image": "adacayi.jpeg",
     "link": "https://www.seranatura.com/adacayi-ucucu-yagi",
     "latin": "Salvia Officinalis",
