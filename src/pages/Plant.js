@@ -2,184 +2,146 @@ import plant1 from "../img/plant1.jpeg";
 import plant2 from "../img/plant2.jpeg";
 import plant3 from "../img/plant3.jpeg";
 import plant4 from "../img/plant4.jpeg";
+import info from "./info.json";
 
 function Plant() {
   return (
-    <div className="center">
-      <div className="info">
-        <p className="step-description">
-          Şirketimiz 2019 yılından beri kendine ait arazilerde lavanta, kekik,
-          biberiye, tıbbi papatya ve beyaz zambak tarımı yapmaktadır. Bu
-          arazilerde elde ettiği ürünleri tesiste işlemekte ve pazarlamasını
-          gerçekleştirmektedir. 2023 yılında Biga ilçesinde TKDK desteğiyle
-          faaliyete geçen “Tıbbi ve Aromatik Bitki İşleme Tesisi”miz kapsamında
-          Biga yöresi ve Güney Marmara bölgesinde tıbbi ve aromatik bitki
-          yetiştiriciliğinin artırılması temel politika olarak hedeflenmektedir.
-          Bu kapsamda Tarım İl ve İlçe Müdürlükleri, Ziraat Odaları, Çanakkale
-          18 Mart Üniversitesi ve TOBB kapsamındaki odalarla iş birliklerimiz
-          devam etmektedir. Bugün dünyada kullanılan tıbbi ve aromatik bitki
-          sayısı Dünya Sağlık Örgütü’ne göre 20.000 civarındadır. Bunlardan
-          4.000 adedi yaygın bir şekilde kullanılırken halen dünyada 2.000 kadar
-          tıbbi bitkinin ticareti yapılmaktadır. Ülkemizde tıbbi olarak
-          kullanılan bitkilerin sayısı 500 civarında olup, neredeyse tamamı
-          doğal olarak yetişmektedir. Bunlardan çok az bir kısmı kültüre
-          alınmıştır. Şirket olarak amacımız katma değerli tıbbi ve aromatik
-          bitkilerin Güney Marmara bölgesinde yetiştirilmesini sağlamaktır.
+    <div className="container mx-auto px-4 py-16 max-w-7xl mt-24">
+      {/* Header Section */}
+      <div className="text-center mb-16">
+        <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+          {info.plant.companyInfo}
         </p>
       </div>
-      <div className="steps">
-        <div className="step-text-box">
-          <p className="step-number">01</p>
-          <h3 className="step-head">
-            TIBBİ VE AROMATİK BİTKİLER NERELERDE KULLANILIR?
-          </h3>
-          <ul className="step-list">
-            <li>Tıp ve eczacılık alanlarında</li>
-            <li>Kozmetik ve parfümeride</li>
-            <li> Baharat üretiminde</li>
-            <li> Gıda katkı maddesi olarak</li>
-            <li> Hayvan sağlığında ve yem katkı maddesi olarak</li>
-            <li> Doğal boya elde edilmesinde</li>
-            <li> Peyzaj uygulamalarında</li>
+
+      {/* Steps Grid */}
+      <div className="grid md:grid-cols-2 gap-12 mb-16">
+        {/* Step 1 */}
+        <div className="flex flex-col justify-center space-y-6">
+          <div className="flex items-center space-x-4">
+            <span className="text-5xl font-bold text-emerald-500">01</span>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+              {info.plant.step1.title}
+            </h2>
+          </div>
+          <ul className="space-y-3">
+            {info.plant.step1.items.map((item, index) => (
+              <li key={index} className="flex items-center text-gray-600">
+                {item}
+              </li>
+            ))}
           </ul>
-          <p className="step-description">
-            Tesisimizde yer alan distilasyon hattı ve süperkritik ekstraksiyon
-            hattıyla ilaç ve kozmetik sanayisine hammadde ve ara madde üretimi
-            gerçekleştirilmektedir. Tesisimiz ayrıca aromaterapi ve fitoterapi
-            alanında son ürün üretimi gerçekleştirmektedir.
+          <p className="text-lg text-gray-600 leading-relaxed">
+            {info.plant.step1.description}
           </p>
         </div>
-        <div className="step-img-box">
-          <img src={plant1} className="step-img" alt="Plant" />
+        <div className="transform hover:scale-105 transition-transform duration-300">
+          <img
+            src={plant1}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg"
+            alt="Plant Step 1"
+          />
         </div>
-        <div className="step-img-box">
-          <img src={plant2} className="step-img" alt="Plant" />
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">02</p>
-          <h3 className="step-head">
-            TIBBİ VE AROMATİK BİTKİLERDE DOĞAL TOPLAMAYI NEDEN TERCİH ETMİYORUZ?
-          </h3>
-          <ul className="step-list">
-            <li>Verim ve kalite düşük olmaktadır.</li>
-            <li>
-              Uçucu yağ içeren bitkiler tohum bağlamadan önce toplandıkları için
-              çoğalmaları engellenmektedir.
-            </li>
-            <li>
-              Yoğun ve dikkatsiz toplanan türlerin azalma ve hatta kaybolma
-              riski bulunmaktadır.
-            </li>
-            <li>
-              Doğada bu bitkiler geniş alanlara yayıldıklarından toplama işlemi
-              çok fazla zaman ve işgücü gerektirmektedir.
-            </li>
-            <li>
-              Bitkiler doğadan rastgele toplandıkları için standardizasyon ve
-              homojenlik sağlanamamaktadır.
-            </li>
-            <li>
-              Doğadan toplanan bitkilerin kurutma ve depolama işlemleri hijyenik
-              ve kalite standartlarına uygun yapılamamaktadır.
-            </li>
+
+        {/* Step 2 */}
+        <div className="flex flex-col justify-center space-y-6 md:order-4">
+          <div className="flex items-center space-x-4">
+            <span className="text-5xl font-bold text-emerald-500">02</span>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+              {info.plant.step2.title}
+            </h2>
+          </div>
+          <ul className="space-y-3">
+            {info.plant.step2.reasons.map((reason, index) => (
+              <li key={index} className="flex items-center text-gray-600">
+                <span className="mr-2 text-emerald-500">•</span>
+                {reason}
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="step-text-box">
-          <p className="step-number">03</p>
-          <h3 className="step-head">
-            TARIM STRATEJİMİZDE VE SÖZLEŞMELİ ÜRETİMLERİMİZDE NELERE DİKKAT
-            EDİYORUZ?
-          </h3>
-          <ul className="step-list">
-            <li>Tıbbi ve aromatik bitkilerin pazar durumu</li>
-            <li> Bölgenin iklim özellikleri</li>
-            <li> Arazi ve toprak özellikleri</li>
-            <li> Arazinin sulanma durumu</li>
-            <li>
-              Yetiştirilecek bitki türünün ve çeşidinin belirlenmesi (özellikle
-              tescilli çeşitleri tercih ediyoruz)
-            </li>
-            <li> Sağlıklı fide temini</li>
-            <li> Ekonomik fizibilite için kaç dekar alanın tesis edileceği</li>
-            <li> Çiftçinin mekanizasyon durumu</li>
-            <li> Hasat ve hasat sonrası işlemlerde destek</li>
+        <div className="transform hover:scale-105 transition-transform duration-300 md:order-3">
+          <img
+            src={plant2}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg"
+            alt="Plant Step 2"
+          />
+        </div>
+
+        {/* Step 3 */}
+        <div className="flex flex-col justify-center space-y-6 md:order-5">
+          <div className="flex items-center space-x-4">
+            <span className="text-5xl font-bold text-emerald-500">03</span>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+              {info.plant.step3.title}
+            </h2>
+          </div>
+          <ul className="space-y-3">
+            {info.plant.step3.factors.map((factor, index) => (
+              <li key={index} className="flex items-center text-gray-600">
+                <span className="mr-2 text-emerald-500">•</span>
+                {factor}
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="step-img-box">
-          <img src={plant3} className="step-img" alt="Plant" />
+        <div className="transform hover:scale-105 transition-transform duration-300 md:order-6">
+          <img
+            src={plant3}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg"
+            alt="Plant Step 3"
+          />
         </div>
-        <div className="step-img-box">
-          <img src={plant4} className="step-img" alt="Plant" />
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">04</p>
-          <h3 className="step-head">
-            POTANSİYELİ OLAN TIBBİ VE AROMATİK BİTKİ ÖRNEKLERİ NELERDİR?
-          </h3>
-          <ul className="step-list">
-            <li>Biberiye (Rosmarinus Officinalis)</li>
-            <li> Kekik (Origanum onites ve O. vulgare var. hirtum)</li>
-            <li> Melisa (Melissa officinalis)</li>
-            <li> Tıbbi Papatya (Matricaria chamomilla)</li>
-            <li> Adaçayı (Salvia fruticosa ve S. officinalis)</li>
-            <li> Nane (Mentha piperita)</li>
-            <li> İngiliz Lavantası (Lavandula angustifolia)</li>
-            <li> Rezene (Foeniculum vulgare)</li>
-            <li> Devedikeni (Silybum marianum)</li>
-            <li> Meyan Kökü (Glycyrrhiza glabra)</li>
-            <li> Altın Otu (Helichrysum italicum)</li>
+
+        {/* Step 4 */}
+        <div className="flex flex-col justify-center space-y-6 md:order-8">
+          <div className="flex items-center space-x-4">
+            <span className="text-5xl font-bold text-emerald-500">04</span>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+              {info.plant.step4.title}
+            </h2>
+          </div>
+          <ul className="space-y-3">
+            {info.plant.step4.examples.map((example, index) => (
+              <li key={index} className="flex items-center text-gray-600">
+                <span className="mr-2 text-emerald-500">•</span>
+                {example}
+              </li>
+            ))}
           </ul>
+        </div>
+        <div className="transform hover:scale-105 transition-transform duration-300 md:order-7">
+          <img
+            src={plant4}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg"
+            alt="Plant Step 4"
+          />
         </div>
       </div>
-      <div className="info">
-        <h3 className="step-head">SERA TERRA TARIM POLİTİKASI</h3>
-        <p className="step-description">
-          Şirketimiz, tıbbi bitkilerin sürdürülebilir bir şekilde
-          yetiştirilmesini teşvik etmek, kalite ve güvenilirlik standartlarını
-          belirlemek, üreticileri desteklemek, çevresel sürdürülebilirliği
-          sağlamak, pazarlara erişimi kolaylaştırmak ve bitki türlerinin
-          korunmasını amaçlamaktadır. Şirketimiz tarım politikasının bileşenleri
-          aşağıdaki şekilde belirlenmiştir.
+
+      {/* Policy Section */}
+      <div className="bg-gray-50 rounded-3xl p-8 md:p-12">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8">
+          {info.plant.policy.title}
+        </h2>
+        <p className="text-lg text-gray-600 mb-8">
+          {info.plant.policy.description}
         </p>
-        <ul className="step-list">
-          <li>
-            A. Tarım Teşvikleri: Tıbbi aromatik bitki üretimini desteklemek için
-            üreticilere mali teşvikler, sübvansiyonlar, vergi muafiyetleri ve
-            diğer ekonomik teşvikler sağlanmaktadır. Şirketimiz sözleşmeli
-            üreticilerimize ilgili kamu kurum ve kuruluşları ile koordineli bir
-            şekilde maksimum düzeyde teşvikten faydalandırmak için
-            çalışmaktadır.
-          </li>
-          <li>
-            B. Kalite ve Güvenilirlik Standartları: Tıbbi bitkilerin kalite ve
-            güvenilirlik standartları, bitkilerin tıbbi amaçlar için
-            kullanılabilirliğini artırmaktadır. Tesisimiz fideden pazara kadar
-            AB standartlarında üretimi teşvik etmektedir.
-          </li>
-          <li>
-            C. Sürdürülebilirlik: Tıbbi aromatik bitkilerin sürdürülebilir bir
-            şekilde yetiştirilmesi ve toplanması önemlidir. Şirketimiz, çevre
-            koruma önlemleri, biyoçeşitliliği koruma, su kullanımı ve toprak
-            yönetimi konularında çiftçilere rehberlik etmektedir.
-          </li>
-          <li>
-            D. Pazar Erişimi ve Ticaret: Tıbbi aromatik bitkilerin iç ve dış
-            pazarlara erişimi konusunda şirketimiz çiftçilere gerekli destekleri
-            sağlamaktadır. Pazar ihtiyaçları doğrultusunda ekim politikasını
-            yönetmektedir.
-          </li>
-          <li>
-            E. Araştırma ve Geliştirme: Şirketimiz tıbbi bitkilerin
-            yetiştirilmesi ve kullanımıyla ilgili araştırma ve geliştirme
-            faaliyetlerini sürdürmektedir. Detaylı bilgi için inovasyon
-            başlığımızı incelemenizi tavsiye ederiz.
-          </li>
-          <li>
-            F. Eğitim ve Bilinçlendirme: Şirketimiz çiftçilere tıbbi bitkilerin
-            tarım politikası hakkında eğitim vermekte ve bilinçlendirme
-            çalışmaları yapmaktadır.
-          </li>
-        </ul>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Object.entries(info.plant.policy)
+            .filter(([key]) => key !== "title" && key !== "description")
+            .map(([key, value]) => (
+              <div
+                key={key}
+                className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow"
+              >
+                <h3 className="font-semibold text-lg text-emerald-600 mb-2">
+                  {value.title}
+                </h3>
+                <p className="text-gray-600">{value.description}</p>
+              </div>
+            ))}
+        </div>
       </div>
     </div>
   );

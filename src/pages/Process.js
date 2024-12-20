@@ -1,3 +1,4 @@
+import info from "./info.json";
 import F500 from "../img/F500.jpg";
 import DSCF7290 from "../img/DSCF7290.jpg";
 import Glass from "../img/glass.png";
@@ -9,239 +10,188 @@ import Stream from "../img/stream.jpeg";
 
 function Process() {
   return (
-    <div className="center">
-      <div className="steps">
-        <div className="step-text-box">
-          <h3 className="step-head">
-            SÜPERKRİTİK KARBONDİOKSİT EKSTRAKSİYONU (SFE)
+    <div className="container mx-auto px-4 mt-48 max-w-7xl">
+      {/* Hero Section 1*/}
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16 mb-24 max-w-6xl mx-auto">
+        <div className="md:w-1/2 space-y-6">
+          <h3 className="text-xl md:text-2xl font-bold text-primary">
+            {info.process.supercriticalCO2}
           </h3>
-          <p className="step-number step-head">Çok yönlü yeşil teknoloji</p>
-          <p className="step-description">
-            Süperkritik CO2 ekstraksiyonu, yüksek basınç ve düşük sıcaklık
-            kullanarak bitkilerden özütler elde etmek için kullanılan
-            endüstriyel bir yöntemdir.
+          <h2 className="text-lg md:text-xl font-bold text-gray-300">
+            {info.process.greenTechnology}
+          </h2>
+          <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+            {info.process.description}
           </p>
-          <ul className="step-list">
-            <li>
-              Saf bir maddenin kritik sıcaklığının ve basıncının üstünde
-              bulunmasına maddenin süperkritik akışkan hali denir. Her saf
-              maddenin kritik sıcaklık ve basıncı vardır.
-            </li>
-            <li>
-              Süperkritik akışkanlar, geleneksel çözücülere ve saf maddenin
-              sıvı-gaz haline göre birçok avantaja sahiptir. Süperkritik
-              akışkanların fizikokimyasal özellikleri (yoğunluk, viskosite,
-              difüzivite, dielektrik sabiti, çözünürlük parametresi, vb.),
-              basınç ve sıcaklığının değiştirilmesiyle gaz benzeri özelliklerden
-              sıvı benzeri özelliklere dönüşmektedir.
-            </li>
-            <li>
-              Bir Süperkritik Akışkan hem gaz fazın hem de sıvının verimli
-              özelliklerini kullanır. Bir gaz gibi difüzlenme, sıvı gibi de
-              yüksek çözme gücü vardır.
-            </li>
+          <ul className="space-y-4 text-gray-600">
+            {info.process.supercriticalPoints.map((point, index) => (
+              <li key={index} className="flex items-start">
+                <span className="mr-2 text-primary">•</span>
+                {point}
+              </li>
+            ))}
           </ul>
         </div>
-        <div className="step-img-box">
-          <img src={DSCF7290} className="step-img" alt="DSCF7290" />
+        <div className="md:w-1/2">
+          <img
+            src={DSCF7290}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            alt="DSCF7290"
+          />
         </div>
-        <div className="step-img-box">
-          <img src={F500} className="step-img" alt="F-500" />
+      </div>
+      {/* Hero Section 2*/}
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16 mb-24 max-w-6xl mx-auto">
+        <div className="md:w-1/2">
+          <img
+            src={F500}
+            className="w-full h-[400px] object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            alt="F500"
+          />
         </div>
-        <div className="step-text-box">
-          <h3 className="step-head">Neden Ekstraksiyonda CO2 Kullanıyoruz?</h3>
-          <p className="step-description">
-            Bir çok özelliği nedeniyle karbondioksit çözücü olarak tercih
-            edilir;
+        <div className="md:w-1/2 space-y-6">
+          <h3 className="text-xl md:text-2xl font-bold text-primary">
+            {info.process.whyCO2}
+          </h3>
+          <h2 className="text-lg md:text-xl font-bold text-gray-300">
+            {info.process.whyCO2start}
+          </h2>
+          <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+            {info.process.whyCO2}
           </p>
-          <ul className="step-list">
-            <li>Kolay bulunması</li>
-            <li>Ucuz olması</li>
-            <li>Zehirleyici olmaması</li>
-            <li>Yanıcı olmaması</li>
-            <li>Kalıntı bırakmaması</li>
-            <li>Atmosferde bulunan doğal bir gaz olması</li>
-            <li>Kolay geri kazanılabilir olması</li>
-            <li>
-              Çevre sıcaklığına yakın bir sıcaklıkta (Tc=31.2°C) ve nispeten
-              düşük bir basınçta (Pc=73.8 bar) kritik hale ulaşması
-            </li>
+          <ul className="space-y-4 text-gray-600">
+            {info.process.whyCO2Points.map((point, index) => (
+              <li key={index} className="flex items-start">
+                <span className="mr-2 text-primary">•</span>
+                {point}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
-      <div className="three-steps">
-        <div className="step-img-box">
-          <img src={Atom} className="step-img" alt="Atom" />
-        </div>
-        <div className="step-img-box">
-          <img src={Green} className="step-img" alt="Green" />
-        </div>
-        <div className="step-img-box">
-          <img src={Glass} className="step-img" alt="Glass" />
-        </div>
-        <div>
-          <h3 className="step-head">Düşük Sıcaklıkta Ekstraksiyon</h3>
-          <p className="step-description">
-            Geleneksel yöntemlere göre daha düşük sıcaklıkta gerçekleşir, bu
-            nedenle daha az enerji tüketir ve böylece daha az CO2 emisyonu
-            yaratır.
-          </p>
-        </div>
-        <div>
-          <h3 className="step-head">Doğal Çözücü</h3>
-          <p className="step-description">
-            CO2 birçok canlı için doğal bir moleküldür ve doğru şekilde
-            kullanıldığında çevre dostudur.
-          </p>
-        </div>
-        <div>
-          <h3 className="step-head">Selektif Çözücü</h3>
-          <p className="step-description">
-            Süperkritik CO2 ekstraksiyonu, hassas kimyasal ayrım sağlar ve doğru
-            sıcaklık ve basınç kontrolü sağlanarak fraksiyonlama ile kaliteli
-            ürünü garanti eder.
-          </p>
+
+      {/* Three Steps Section */}
+      <div className="mb-24 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+          {Object.entries(info.process.threeSteps).map(([key, value]) => (
+            <div
+              key={key}
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              <div className="mb-6">
+                <img
+                  src={
+                    key === "lowTemp"
+                      ? Atom
+                      : key === "naturalSolvent"
+                      ? Green
+                      : Glass
+                  }
+                  className="w-full h-48 object-cover rounded-xl mb-6"
+                  alt={value.title}
+                />
+              </div>
+              <div className="text-center">
+                <h3 className="text-xl font-bold mb-3">{value.title}</h3>
+                <p className="text-gray-600 text-base">{value.content}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-      <div className="steps">
-        <div className="step-text-box">
-          <h3 className="step-head"> CO2 ekstraksiyonunun çalışma prensibi?</h3>
-          <p className="step-description">
-            Ekstraksiyonun temel mantığı; CO2 gazının çözüp kendi üzerine
-            yüklendiği molekülleri faz değişimi ya da basınç düşümü ile
-            seperatörde bırakmasıdır. Gaz ve ekstrakt karışımı ekstraktörden
-            seperatör kolonlarına kontrollü şekilde Geri Basınç Regülatörü (BPR)
-            yardımıyla taşınır. Seperatör kolonlarında basınç düşümü ile
-            ekstrakt seperatör kolonunun dibinde toplanır, ekstraktı bırakıp
-            temizlenen gaz sıvılaştırılarak tekrar sisteme beslenir.
+
+      {/* Working Principle */}
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16 mb-24 max-w-6xl mx-auto">
+        <div className="md:w-1/2 space-y-6">
+          <h2 className="text-2xl md:text-4xl font-bold">
+            {info.process.workingPrinciple.title}
+          </h2>
+          <p className="text-gray-600 leading-relaxed">
+            {info.process.workingPrinciple.content}
           </p>
         </div>
-        <div className="step-img-box">
-          <img src={Extrak} className="step-img" alt="Extrak" />
-        </div>
-        <h1 className="span-head">Ekstraksiyon Prosesi</h1>
-        <div className="step-text-box">
-          <p className="step-number">01</p>
-          <h3 className="step-head">Sistem Hazırlığı</h3>
-          <p className="step-description">
-            Sıcaklık ve Basınç parametreleri ayarlanır ve işlenecek bitki
-            reaktör kolonlarına yüklenir.
-          </p>
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">02</p>
-          <h3 className="step-head">Ekstraksiyon Prosesi</h3>
-          <p className="step-description">
-            Sistemin büyüklüğüne uygun akış hızında ekstraksiyon ilk ekstraktör
-            kolonunda tamamlanır ve diğer gaz diğer kolona aktarılır. (TANDEM
-            Çalışma Mantığı)
-          </p>
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">03</p>
-          <h3 className="step-head">Seperasyon- Ekstrakt Toplama</h3>
-          <p className="step-description">
-            Toplanan ekstrakt seperatör kolonundan deşarj edilir ve gaz geri
-            kazanımı yapılır (%85-99 gaz geri kazanımı).
-          </p>
-        </div>
-        <div className="step-text-box">
-          <p className="step-number">04</p>
-          <h3 className="step-head">Temizleme</h3>
-          <p className="step-description">
-            Aynı ürün çalışılmayacaksa sistem son ürüne uygun temizlik materyali
-            (su, etanol vs.) ile temizlenir.
-          </p>
+        <div className="md:w-1/2">
+          <img
+            src={Extrak}
+            className="w-full rounded-2xl shadow-lg"
+            alt="Extrak"
+          />
         </div>
       </div>
-      <div className="info">
-        <h1 className="step-head">Endüstriyel Uygulamalar</h1>
-        <h3 className="minihead">Gıda Endüstrisi</h3>
-        <p className="step-description">
-          Yağların ekstraksiyonu, kalite kontrolü, aroma ekstraksiyonu, doğal
-          renk maddesi eldesi, doğal gıda koruyucusu eldesi, süt sterilizasyonu,
-          gıda atıklarının değerlendirilmesi yağı azaltılmış kuruyemişler,
-          protein saflaştırılması vb.
-        </p>
-        <h3 className="minihead">Kozmetik Endüstrisi</h3>
-        <p className="step-description">
-          Cilt bakımı için özler, etken maddeler, renklendirici maddeler, doğal
-          koku maddeleri eldesi(oud, sandal), esansiyel yağlar vb.
-        </p>
-        <h3 className="minihead">İlaç Endüstrisi</h3>
-        <p className="step-description">
-          Bitkisel ekstraktlar, uçucu yağlar, etken maddece zengin özütler,
-          vitamin eldesi vb.
-        </p>
-        <h3 className="minihead">Diğer Endüstriler</h3>
-        <p className="step-description">
-          Malzeme mühendisliği, savunma sanayii, tekstil endüstrisi (susuz
-          yağsızlaştırma, boyama), polimer kimyası vb.
-        </p>
+
+      {/* Extraction Steps */}
+      <div className="mb-24 max-w-6xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
+          {info.process.extractionSteps.title}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {info.process.extractionSteps.steps.map((step) => (
+            <div
+              key={step.number}
+              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <span className="text-4xl font-bold text-primary opacity-50 block mb-4">
+                {step.number}
+              </span>
+              <h3 className="text-xl font-bold mb-4">{step.title}</h3>
+              <p className="text-gray-600">{step.content}</p>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="steps">
-        <div className="step-text-box">
-          <h3 className="step-head">BUHAR JENERATÖRLÜ DİSTİLASYON SİSTEMİ</h3>
-          <p className="step-description">
-            Buhar distilasyonu buhar sistemli, bitkisel ürünleri yüksek basınçlı
-            buhar ile işleyerek uçucu yağ elde etmeyi sağlayan bir yöntemdir. Bu
-            yöntemde bitkisel ürünler bir kazana yerleştirilir. Kazanın altında
-            bulunan bir başka kazanda su kaynatılarak buhar üretilir. Bu buhar,
-            bitkisel ürünlerin bulunduğu kazana gönderilir. Buhar, bitkisel
-            ürünlerin hücre duvarlarını kırarak uçucu yağın ayrışmasını sağlar.
-            Ayrışan uçucu yağ ve su karışımı, bir kondenser yardımıyla sıvı hale
-            getirilir. Sıvı haldeki karışım, bir ayırıcı vasıtasıyla uçucu yağ
-            ve su olarak ayrılır. Böylece uçucu yağ elde edilmiş olur. Buhar
-            distilasyonu buhar sistemli, bitkisel ürünlerden uçucu yağ elde
-            etmek için en yaygın ve en etkili yöntemdir. Bu yöntemle elde edilen
-            uçucu yağlar, bitkilerin doğal özelliklerini korur ve yüksek
-            kalitede olur. Buhar distilasyonu buhar sistemli ile; gül, lavanta,
-            kekik, nane, adaçayı, biberiye, altınotu gibi 45 farklı bitkiden
-            uçucu yağ elde ediyoruz. Uçucu yağlar; kozmetik, parfüm, gıda, ilaç
-            gibi birçok sektörde kullanılmaktadır. Buhar sistemli ünitemizde
-            oluşturulan buhar tamamen buhar jeneratöründen sağlanır ve katı
-            yakıtlar gibi doğaya salınım yapan karbon gazlarını barındırmaz.
-            Buharın elektrik enerjisi ile üretimi gerçekleştirilir.  Tesisimizde
-            4.000 litre kapasiteli buhar jeneratörlü distilasyon sistemi
-            bulunmaktadır.
+
+      {/* Industry Applications */}
+      <div className="bg-gray-50 rounded-2xl p-8 mb-24 max-w-6xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold mb-8">
+          {info.process.industrialApplications.title}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {Object.entries(info.process.industrialApplications)
+            .filter(([key]) => key !== "title")
+            .map(([key, value]) => (
+              <div key={key} className="space-y-4">
+                <h3 className="text-xl font-bold">{value.title}</h3>
+                <p className="text-gray-600">{value.content}</p>
+              </div>
+            ))}
+        </div>
+      </div>
+
+      {/* Distillation Systems */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 max-w-6xl mx-auto">
+        <div className="space-y-6">
+          <h3 className="text-xl md:text-2xl font-bold">
+            {info.process.distillationSystems.steam.title}
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            {info.process.distillationSystems.steam.content}
           </p>
+          <img
+            src={Coal}
+            className="w-full rounded-2xl shadow-lg"
+            alt="Coal system"
+          />
         </div>
-        <div className="step-img-box">
-          <img src={Coal} className="step-img" alt="Coal system" />
-        </div>
-        <div className="step-img-box">
-          <img src={Stream} className="step-img" alt="Stream system" />
-        </div>
-        <div className="step-text-box">
-          <h3 className="step-head">KATI YAKITLI DİSTİLASYON SİSTEMİ</h3>
-          <p className="step-description">
-            Tesisimizde 1.300 litre kapasiteli katı yakıtlı distilasyon sistemi
-            bulunmaktadır.
+        <div className="space-y-6">
+          <h3 className="text-xl md:text-2xl font-bold">
+            {info.process.distillationSystems.solid.title}
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            {info.process.distillationSystems.solid.content}
           </p>
-          <ul className="step-list">
-            <li>
-              Buhar distilasyonu yapılacak madde temizlenir ve kazana
-              yerleştirilir.
-            </li>
-            <li>Kazanın altına su doldurulur ve ısıtılır.</li>
-            <li>
-              Kazanın altına katı yakıt (odun, kömür, pelet vb.) konulur ve
-              ateşlenir.
-            </li>
-            <li>
-              Su kaynadıkça buhar üretilir ve borularla buhar distilasyonu
-              yapılacak kazana taşınır.
-            </li>
-            <li>
-              Buhar maddenin içindeki uçucu yağlar veya diğer bileşenleri
-              buharlaştırır ve borularla başka bir kazana taşınır.
-            </li>
-            <li>Bu kazanda buhar soğutulur ve sıvı haline getirilir.</li>
-            <li>
-              Sıvının üstünde kalan uçucu yağlar veya diğer bileşenler toplanır.
-            </li>
-            <li>Sıvının altında kalan su ise geri kazanılır.</li>
+          <ul className="space-y-4 text-gray-600">
+            {info.process.distillationSystems.solid.steps.map((step, index) => (
+              <li key={index} className="flex items-start">
+                <span className="mr-2 text-primary">•</span>
+                {step}
+              </li>
+            ))}
           </ul>
+          <img
+            src={Stream}
+            className="w-full rounded-2xl shadow-lg"
+            alt="Stream system"
+          />
         </div>
       </div>
     </div>

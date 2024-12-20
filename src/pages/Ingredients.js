@@ -1,24 +1,25 @@
+import { useParams } from "react-router-dom";
 import data from "./data.json";
 import naturalink from "../img/natura-link.png";
-import { Link } from "react-router-dom";
+import info from "./info.json";
 
 function Ingredients({ selectedId }) {
-  console.log(selectedId);
-  const finder = data.filter((item) => item.id === selectedId);
+  const { id } = useParams();
+  const finder = data.filter((item) => item.id === Number(id));
   return (
-    <div className="ingre">
+    <div className="max-w-[160rem] p-0 px-8 mt-28 mx-4">
       {finder.map((item) => (
-        <div className="in-description">
+        <div className="font-normal text-[1.8rem] leading-[1.8]" key={item.id}>
           <img
-            className="in-img"
+            className="w-[90%]"
             src={require(`/src/img/products/${item.image}`)}
             alt={item.latin}
           />
-          <h1>{item.isim}</h1>
+          <h1 className="mt-8 text-[#80cc28]">{item.isim}</h1>
           <p className="in-text">Latince Adı: {item.latin}</p>
           <p className="in-text">Menşei: {item.mensei}</p>
           <p className="in-text">Üretim Yeri: {item.uretim}</p>
-          <h3>Kullanım Önerileri</h3>
+          <h3 className="mt-4 text-[#80cc28]">{info.ingredients.title1}</h3>
           <p className="in-text">{item.kullanim1}</p>
           <p className="in-text">{item.kullanim2}</p>
           <p className="in-text">{item.kullanim3}</p>
@@ -28,7 +29,7 @@ function Ingredients({ selectedId }) {
           <p className="in-text">{item.kullanim7}</p>
           <p className="in-text">{item.kullanim8}</p>
           <p className="in-text">{item.kullanim9}</p>
-          <h3>Uyarılar</h3>
+          <h3 className="mt-4 text-[#80cc28]">{info.ingredients.title2}</h3>
           <p className="in-text">{item.uyarilar1}</p>
           <p className="in-text">{item.uyarilar2}</p>
           <p className="in-text">{item.uyarilar3}</p>
@@ -38,17 +39,14 @@ function Ingredients({ selectedId }) {
           <p className="in-text">{item.uyarilar7}</p>
           <p className="in-text">{item.uyarilar8}</p>
           <p className="in-text">{item.uyarilar9}</p>
-          <h3>Alerjen Uyarısı</h3>
-          <p className="in-text">
-            Herhangi bir uçucu yağı kullanmadan önce cilt yama testi (patch
-            test) yapmalı ve olumsuz bir reaksiyon durumunda hemen kullanımı
-            bırakmalısınız. Cilt yama testi (patch test), bir kişinin cilt
-            hassasiyetini belirlemek için kullanılan bir test türüdür. Yağın
-            genel kullanımından önce dirsek içi veya bilek bölgesinde 1-2 cm2
-            lik bir alanda yama testi yapılmasını önermekteyiz.
-          </p>
+          <h3 className="mt-4 text-[#80cc28]">{info.ingredients.title3}</h3>
+          <p className="in-text">{info.ingredients.description}</p>
           <a target="_blank" rel="noopener noreferrer" href={item.link}>
-            <img className="naturalink" src={naturalink}></img>
+            <img
+              className="w-[95%] my-9 mx-3"
+              src={naturalink}
+              alt="Natural Link"
+            />
           </a>
         </div>
       ))}

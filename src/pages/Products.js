@@ -11,84 +11,84 @@ import Gallery9 from "../img/gallery/gallery-9.jpg";
 import Gallery10 from "../img/gallery/gallery-10.jpg";
 import Gallery11 from "../img/gallery/gallery-11.jpg";
 import Gallery12 from "../img/gallery/gallery-12.jpg";
+import info from "../pages/info.json";
 
 function Products({ setSelectedSort }) {
   return (
-    <div class="products">
-      <div className="products-list">
-        <ProductsLink
-          sort="UÇUCU YAĞLAR"
-          setSelectedSort={setSelectedSort}
-          href="/catalog"
-        >
-          UÇUCU YAĞLAR
-        </ProductsLink>
-        <ProductsLink
-          sort="MASERASYONLAR"
-          setSelectedSort={setSelectedSort}
-          href="/catalog"
-        >
-          MASERASYONLAR
-        </ProductsLink>
-        <ProductsLink
-          sort="SABİT YAĞLAR"
-          setSelectedSort={setSelectedSort}
-          href="/catalog"
-        >
-          SABİT YAĞLAR
-        </ProductsLink>
-        <ProductsLink
-          sort="HİDROSOLLER"
-          setSelectedSort={setSelectedSort}
-          href="/catalog"
-        >
-          HİDROSOLLER
-        </ProductsLink>
-        <ProductsLink
-          sort="BİTKİSEL CO2 EKSTRAKTLAR"
-          setSelectedSort={setSelectedSort}
-          href="/catalog"
-        >
-          BİTKİSEL CO2 EKSTRAKTLAR
-        </ProductsLink>
-      </div>
-      <div class="gallery">
-        <figure class="gallery-item">
-          <img src={Gallery1} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery2} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery3} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery4} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery5} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery6} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery7} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery8} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery9} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery10} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery11} alt="Products" />
-        </figure>
-        <figure class="gallery-item">
-          <img src={Gallery12} alt="Products" />
-        </figure>
+    <div className="min-h-7xl bg-primary p-4 md:p-8 lg:p-12 mt-36">
+      <div className="container mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div className="space-y-4 md:space-y-6">
+            <h2 className="text-white text-2xl md:text-3xl font-bold mb-8">
+              Ürün Kategorilerimiz
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
+              <ProductsLink
+                sort="UÇUCU YAĞLAR"
+                setSelectedSort={setSelectedSort}
+                href="/catalog"
+              >
+                {info.products.volatileOils}
+              </ProductsLink>
+              <ProductsLink
+                sort="MASERASYONLAR"
+                setSelectedSort={setSelectedSort}
+                href="/catalog"
+              >
+                {info.products.massage}
+              </ProductsLink>
+              <ProductsLink
+                sort="SABİT YAĞLAR"
+                setSelectedSort={setSelectedSort}
+                href="/catalog"
+              >
+                {info.products.fixedOils}
+              </ProductsLink>
+              <ProductsLink
+                sort="HİDROSOLLER"
+                setSelectedSort={setSelectedSort}
+                href="/catalog"
+              >
+                {info.products.hydrosols}
+              </ProductsLink>
+              <ProductsLink
+                sort="BİTKİSEL CO2 EKSTRAKTLAR"
+                setSelectedSort={setSelectedSort}
+                href="/catalog"
+              >
+                {info.products.plantCO2Extracts}
+              </ProductsLink>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            {[
+              Gallery1,
+              Gallery2,
+              Gallery3,
+              Gallery4,
+              Gallery5,
+              Gallery6,
+              Gallery7,
+              Gallery8,
+              Gallery9,
+              Gallery10,
+              Gallery11,
+              Gallery12,
+            ].map((image, index) => (
+              <figure
+                key={index}
+                className="group overflow-hidden rounded-lg shadow-lg"
+              >
+                <img
+                  src={image}
+                  alt={`Product ${index + 1}`}
+                  className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+                />
+              </figure>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -98,7 +98,9 @@ function ProductsLink({ children, href, sort, setSelectedSort }) {
   return (
     <Link
       onClick={() => setSelectedSort(sort)}
-      className="products-link"
+      className="block w-full text-lg md:text-xl bg-white/10 hover:bg-white 
+                 text-white hover:text-primary rounded-xl p-4 transition-all 
+                 duration-300 transform hover:-translate-y-1 hover:shadow-lg"
       to={href}
     >
       {children}

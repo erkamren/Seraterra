@@ -1,0 +1,365 @@
+{
+  "contact": {
+    "header": "Bizimle iletişime geçmek ister misiniz?",
+    "successMessage": "Mesajınız Başarıyla Gönderilmiştir",
+    "followUs": "Bizi takip edin:",
+    "send": "Gönder",
+    "modalButton": "Tamam"
+  },
+  "footer": {
+    "corporate": "Kurumsal",
+    "aboutUs": "Hakkımızda",
+    "certificates": "Sertifikalar",
+    "activities": "Faaliyetlerimiz",
+    "agriculture": "Tarım",
+    "facility": "Tesis",
+    "innovation": "İnovasyon",
+    "research": "AR-GE",
+    "consultancy": "Danışmanlık"
+  },
+  "header": {
+    "corporate": "KURUMSAL",
+    "aboutUs": "HAKKIMIZDA",
+    "certificates": "SELTİFİKALAR",
+    "activities": "FAALİYETLERİMİZ",
+    "agriculture": "TARIM",
+    "facility": "TESİS",
+    "innovation": "INOVASYON",
+    "research": "AR-GE",
+    "consultancy": "DANIŞMANLIK",
+    "products": "ÜRÜNLER",
+    "encyclopedia": "ANSİKLOPEDİ",
+    "blog": "BLOG"
+  },
+  "aboutUsContent": {
+    "foundation": "Sera Terra'nın temelleri 2019 yılında Balıkesir'de atılmıştır. Tıbbi ve Aromatik bitkiler üzerine yapılan araştırmalar neticesinde yaklaşık 15 dekar alanda Ekim faaliyetleri başlatılmıştır. Tarım faaliyetlerine biberiye ile başlanmış lavanta kekik Beyaz Zambak ve tıbbi papatya ile devam edilmiştir. Mevcut durumda 70 dekarın üzerinde ürün ekim, tarım ve ar-ge çalışmaları devam etmektedir.",
+    "investment": "2022 yılında bu alanda katma değerli ürün üretimi hedefi ile tıbbi ve aromatik bitki işletme tesisi yatırımlarına başlamıştır bu alanda buhar distilasyonu ve süper kritik CO2 ekstraksiyonu hattı kurularak 250 ton ürün işleme kapasiteli tesis Ağustos 2023 döneminde devreye alınmıştır.",
+    "support": "Kurulan tesis, IPARD programı teşvikiyle desteklenmiş olup, AB standart ve kriterlerine uygun bir tesis inşa edilmiştir. Tesisin ürün gamında aroma terapi ve fitoterapi sektörlerine girdi olarak üretilen sabit ve uçucu yağlar ilaç ve kozmetik sektörlerine girdi olarak bitki ekstraktları yer almaktadır.",
+    "researchCollaboration": "Yapılmakta olan üniversite ve özel sektör ve TÜBİTAK işbirliği ile saf etken madde elde edilmesi yönünde ar-ge çalışmaları devam etmektedir.",
+    "mission": "Toprağın mucizelerini insanlığa sunmayı misyon olarak belirleyen şirketimiz katma değerli ürün üretimi gıda ve kozmetik hammadde üretiminde global pazarda kendisi alan ve sürekli yer edinmeyi hedef olarak belirlemiştir.",
+    "vision": {
+      "title": "Vizyonumuz;",
+      "items": [
+        "Müşterilerimizin global partneri olmak",
+        "Etken madde üretimini endustriyalize etmek ve genişletmek",
+        "Şirketimizin tüm paydaşlarına katma değer sağlamak"
+      ]
+    },
+    "missionTitle": "Misyonumuz;",
+    "missionDescription": "Toprağın mucizelerini insanlığa sunmak"
+  },
+  "arge": {
+    "researchContent": "Araştırma ve geliştirme faaliyetlerimiz proje ekiplerimiz tarafından bilimsel ve etik kurallar çerçevesinde yapılmaktadır. Proje ekiplerimiz ziraat, kimya ve farmakoloji konusunda uzman araştırmacılardan oluşmaktadır. Ar-Ge merkezimizde literatür tarama ve değerlendirme çalışmaları, etken madde değerlendirme, çeşitli bitkilerin içeriği ve kullanım alanlarının değerlendirilmesi, formülasyon tasarımı ve formülasyon geliştirme, etken madde saflaştırma çalışmaları titizlikle yürütülmektedir. Ar-Ge merkezimizin temel amacı yenilikçi yaklaşımımız ve başarma tutkumuz ile insan sağlığı, bakımı ve güzelliği için kaliteli ve spesifik çözümler üretme yolunda bitkilerin şifa dolu dünyasında etken madde üretimini başarmaktır. Tesisimizde mevcut durumda 10 farklı Ar-Ge projesi devam etmektedir. Bu kapsamda TÜBİTAK işbirliğiyle, Tarım İlçe Müdürlüğü, üniversiteler ve 3 farklı kimya laboratuvarıyla koordinasyon halinde bitkilerden endüstriyel katma değerli ürün elde etme çalışmalarımız devam etmektedir.",
+    "kapsaisin": {
+      "title": "Kapsaisin Elde Edilmesi",
+      "content": "Kapsaisin, acı biberlerin içinde bulunan kimyasal bir bileşiktir ve biberlerin acılığını ve baharatını oluşturan temel faktördür. Kapsaisin, biberlerin tohumları, membranları ve etli kısımlarında bulunur. Kapsaisinin elde edilmesi için Ar-ge merkezimizde “Carolina Reaper” biber türünün superkritik Ekstraksiyon yöntemi kullanılarak saflaştırılması çalışmaları laboratuvar partnerimizle ve üniversite işbirliğimizle yürütülmektedir."
+    },
+    "oleuropein": {
+      "title": "Oleuropein Elde Edilmesi",
+      "content": "Oleuropein, zeytin ağacının yaprakları, meyveleri ve dallarında bulunan bir bileşiktir. Oleuropein, zeytin ağacının doğal savunma mekanizmalarından biridir ve bitkiyi zararlı organizmalardan korur. Oleuropein'in çoğu zeytin yaprağı ve zeytin meyvesinde bulunur. Oleuropein elde etmek için genellikle şu adımlar izlenir:",
+      "items": [
+        "Zeytin Yaprağı Toplama: Oleuropein elde etmek için öncelikle zeytin yaprakları toplanır. Bu genellikle zeytin hasadından sonra gerçekleştirilir.",
+        "Yıkama: Toplanan yapraklar iyice yıkanır ve temizlenir.",
+        "Öğütme: Yıkanan yapraklar genellikle öğütülür veya doğranır. Bu, oleuropein'in daha iyi çıkmasına yardımcı olur.",
+        "Ekstraksiyon: Öğütülen yapraklar süperkritik ekstraksiyon yöntemi ile CO2 vasıtasıyla düşük sıcaklık ve yüksek basınçta ekstrakte edilir.",
+        "Filtrasyon: Zeytin yaprağı ekstraktı filtrelenir, böylece oleuropein içeren çözelti ayrılır.",
+        "Saflaştırma: Oleuropein içeren çözelti saflaştırılır ve çeşitli işlemlerle arındırılır."
+      ],
+      "content2": "Oleuropein, zeytin yaprağı ekstrasyonları aracılığıyla elde edilir. Bu oleuropein özütleri daha sonra sağlık takviyeleri, kozmetik ürünler veya gıda katkı maddeleri için kullanılır."
+    },
+    "juglone": {
+      "title": "Juglone Elde Edilmesi",
+      "content": "Juglone, ceviz ağaçlarının kökleri ve diğer bitkilerle rekabet etmek amacıyla ürettikleri bir kimyasal bileşiktir. Juglone yeşil ceviz kabuğunda yüksek miktarda bulunur. Juglone'un bazı potansiyel faydaları ve kullanım alanları şunlardır:",
+      "items": [
+        "Tıbbi ve aromatik bitkilerin pazar durumu",
+        "Antimikrobiyal Özellikler: Juglone, mikroplara ve patojenlere karşı potansiyel bir antimikrobiyal etkiye sahip olabilir. Bu nedenle ceviz ağaçları kökleri çevresinde diğer bitkileri engelleyerek rekabet avantajı elde edebilir.",
+        "Antioksidan Etki: Juglone, antioksidan özelliklere sahip olabilir. Bu, serbest radikallerin neden olduğu hücresel hasarı azaltmaya yardımcı olabilir.",
+        "Antiparaziter Özellikler: Juglone, bazı paraziter organizmalara karşı etkili olabilir. Bu nedenle, juglone içeren ceviz yaprakları veya ceviz kabuğu, parazitlere karşı doğal bir koruma sağlayabilir."
+      ]
+    },
+    "linalol": {
+      "title": "Linalool Elde Edilmesi",
+      "content": "Saf linalool, birçok bitkisel kaynakta bulunan bir uçucu bileşiktir ve lavanta bitkisinde de yoğun olarak bulunur. Saf linalool elde etmek için endüstriyel düzeyde prosesler kullanılır, çünkü bu bileşiği saf haliyle izole etmek zordur. Saf linalool elde etme işlemi, genellikle buhar distilasyonu ve kimyasal işlemlerle gerçekleştirilir. Saf linalool elde etme işleminin temel adımları:",
+      "items": [
+        "Buhar Distilasyonu: Linalool'ü elde etmek için en yaygın yöntem buhar distilasyonudur. Bitki malzemesi buharla ısıtılır ve uçucu yağlar buharla birlikte yukarı doğru yükselir. Daha sonra soğutulur ve buharın yoğunlaşması sonucu uçucu yağlar ayrıştırılır.",
+        "Kimyasal İzolasyon: Linalool, elde edilen uçucu yağların içinde bulunur. Daha sonra kimyasal işlemlerle bu bileşiği izole edebilirsiniz. Bu işlem, fraksiyonel damıtma, kristalizasyon veya diğer kimyasal ayrıştırma tekniklerini içerebilir.",
+        "Rafine Etme: Elde edilen linalool genellikle rafine edilir ve saflaştırılır. Bu, istenmeyen bileşiklerin uzaklaştırılmasını ve linalool'ün saflığını artırır."
+      ],
+      "content2": "Saf linalool, birçok endüstriyel ve ticari uygulamada kullanılır. Kozmetik ürünler, parfümler, temizlik ürünleri ve aroma terapide yaygın olarak kullanılan bir bileşiktir."
+    }
+  },
+  "consultancy": {
+    "header": "Teşvik ve Hibe Danışmanlığı",
+    "intro": "Farklı kamu kurum ve kuruluşları, işletme boyutu farketmeksizin firmaların innovasyona yönelmesi, Ar-Ge yatırımlarını arttırması, yeni pazarlara açılabilmesi gibi konulara yönelik hibe, kredi ve faiz destekleri vermektedir. Bu destekler sayesinde firmalar altyapılarını geliştirmekte, Ar-Ge projelerini hayata geçirmekte ya da farklı pazarlara açılarak yeni müşteriler elde edebilmektedir. Bu kapsamda şirketimiz profesyonel kadrosu ile TKDK, TÜBİTAK, KOSGEB, Kalkınma Ajansları gibi bütün kurum ve kuruluşlara yönelik kapsamlı bir proje geliştirme ve yönetimi danışmanlık hizmeti vermektedir.",
+    "programs": {
+      "ipard": {
+        "header": "IPARD Kırsal Kalkınma Programı (TKDK)",
+        "content": "Avrupa Birliği (AB) tarafından aday ve potansiyel aday ülkelere destek olmak amacıyla oluşturulan, Katılım Öncesi Yardım Aracı'nın Kırsal Kalkınma bileşenidir. Tarım ve Kırsal Kalkınmayı Destekleme Kurumu (TKDK) aracılığı proje bazlı bir çok yatırım alanında hibe desteği verilmektedir. (tkdk.gov.tr)"
+      },
+      "developmentAgency": {
+        "header": "Kalkınma Ajansı Projeleri",
+        "content": "Ülkemizde kamu, özel sektör ve STK arasındaki iş birliğini arttırmak, etkin kaynak kullanımını sağlamak ve yerel potansiyeli teşvik etmek amacıyla, bölgesel kalkınmayı hızlandırmak, sürdürülebilirlik sağlamak, bölgeler gelişmişlik farklarını azaltmak için oluşturulan Kalkınma Ajansları Destek Programları, Sanayi ve Teknoloji Bakanlığı koordinasyonunda yürütülen hibe programıdır. Türkiye'de bütün şehirleri kapsayan 26 bölgesel kalkınma ajansı ile ekonomik, sosyal, kırsal kalkınma, küçük ölçekli altyapı projeleri ve KOBİ mali destek gibi alt başlıkları olan hibe programlarında %75'e varan oranlarda destek sağlanmaktadır."
+      },
+      "euProjects": {
+        "header": "Avrupa Birliği Projeleri",
+        "content": "HORİZON 2020 AB'de AR-GE kapsamında yürütülen faaliyetlerin etkisinin artırılması hedefiyle, AB'de yürütülen tüm araştırma ve yenilik programlarının 2014-2020 yılları için bütüncül bir sistem altında toplamayı amaçlamaktadır. Horizon 2020 Programı Bilimsel Mükemmeliyet, Endüstriyel Liderlik ve Rekabetçilik ile Toplumsal Sorunlara Çözümler olmak üzere üç öncelik alanı altında yapılandırılmıştır.Desteklenen proje konuları;",
+        "items": [
+          "Ar-Ge Çalışmaları",
+          "Destek ve Koordinasyon Eylemleri",
+          "Yenilik Hibeleri (Grants for Innovation)",
+          "Ortak Fonlama (Co-Funding) Eylemleri",
+          "KOBİ projeleri"
+        ]
+      },
+      "kosgeb": {
+        "header": "KOSGEB Destekleri",
+        "items": [
+          "Girişimcilik Destek Programı",
+          "Ar-Ge, Ür-Ge ve İnovasyon Destek Programı",
+          "Teknoyatırım Destek Programı"
+        ]
+      },
+      "tubitak": {
+        "header": "TÜBİTAK Destekleri",
+        "items": [
+          "1507 - KOBİ Ar-Ge Başlangıç Destek Programı",
+          "1501 - Sanayi Ar-Ge Projeleri Destekleme Programı",
+          "1511 - Öncelikli Alanlar Destek Programı (HAMLE)"
+        ]
+      },
+      "tradeMinistry": {
+        "header": "Ticaret Bakanlığı Destekleri",
+        "items": [
+          "Bilgisayar Oyunu / Mobil Uygulama Geliştirme Desteği",
+          "Yurt Dışı Bilim, Marka ve Tanıtım Faaliyetleri Desteği",
+          "Pazar Araştırması ve Pazara Giriş Desteği",
+          "Yurt Dışında Gerçekleştirilen Fuar Katılımları Desteği",
+          "Döviz Kazandırıcı Hizmet Ticareti Desteği",
+          "Küresel Tedarik Zinciri (KTZ) Yetkinlik Projeleri Desteği",
+          "Tasarım ve Ürün Geliştirme Proje Desteği"
+        ]
+      },
+      "technologyMinistry": {
+        "header": "Sanayi ve Teknoloji Bakanlığı Destekleri",
+        "items": [
+          "Yatırım ve Teşvik Belgesi",
+          "Teknolojik Ürün Yatırım Destek Programı (TEKNO YATIRIM)"
+        ]
+      },
+      "exportConsultancy": {
+        "header": "İhracat Danışmanlığı",
+        "content": "Küreselleşen dünyada uluslararası pazarlara adım atarken doğru rehberlik ve stratejik bir yol haritası olmadan ilerlemek, iş dünyasının zorluklarına karşı büyük bir risk oluşturur.İhracat Danışmanlığı Hizmetleri olarak, işinizi küresel arenada büyütmenize döviz kazanmanıza yardımcı olmak için buradayız.",
+        "items": [
+          "İhracat Danışmanlığı Hizmetlerimiz",
+          "Pazar Araştırması ve Analizi",
+          "Strateji Geliştirme",
+          "Ticari İstihbarat",
+          "Dokümantasyon ve Gümrük İşlemleri",
+          "Pazarlama ve Kurumsal İletişim"
+        ]
+      }
+    }
+  },
+  "plant": {
+    "companyInfo": "Şirketimiz 2019 yılından beri kendine ait arazilerde lavanta, kekik, biberiye, tıbbi papatya ve beyaz zambak tarımı yapmaktadır. Bu arazilerde elde ettiği ürünleri tesiste işlemekte ve pazarlamasını gerçekleştirmektedir. 2023 yılında Biga ilçesinde TKDK desteğiyle faaliyete geçen “Tıbbi ve Aromatik Bitki İşleme Tesisi”miz kapsamında Biga yöresi ve Güney Marmara bölgesinde tıbbi ve aromatik bitki yetiştiriciliğinin artırılması temel politika olarak hedeflenmektedir. Bu kapsamda Tarım İl ve İlçe Müdürlükleri, Ziraat Odaları, Çanakkale 18 Mart Üniversitesi ve TOBB kapsamındaki odalarla iş birliklerimiz devam etmektedir. Bugün dünyada kullanılan tıbbi ve aromatik bitki sayısı Dünya Sağlık Örgütü'ne göre 20.000 civarındadır. Bunlardan 4.000 adedi yaygın bir şekilde kullanılırken halen dünyada 2.000 kadar tıbbi bitkinin ticareti yapılmaktadır. Ülkemizde tıbbi olarak kullanılan bitkilerin sayısı 500 civarında olup, neredeyse tamamı doğal olarak yetişmektedir. Bunlardan çok az bir kısmı kültüre alınmıştır. Şirket olarak amacımız katma değerli tıbbi ve aromatik bitkilerin Güney Marmara bölgesinde yetiştirilmesini sağlamaktır.",
+    "step1": {
+      "title": "TIBBİ VE AROMATİK BİTKİLER NERELERDE KULLANILIR?",
+      "items": [
+        "Tıp ve eczacılık alanlarında",
+        "Kozmetik ve parfümeride",
+        "Baharat üretiminde",
+        "Gıda katkı maddesi olarak",
+        "Hayvan sağlığında ve yem katkı maddesi olarak",
+        "Doğal boya elde edilmesinde",
+        "Peyzaj uygulamalarında"
+      ],
+      "description": "Tesisimizde yer alan distilasyon hattı ve süperkritik ekstraksiyon hattıyla ilaç ve kozmetik sanayisine hammadde ve ara madde üretimi gerçekleştirilmektedir. Tesisimiz ayrıca aromaterapi ve fitoterapi alanında son ürün üretimi gerçekleştirmektedir."
+    },
+    "step2": {
+      "title": "TIBBİ VE AROMATİK BİTKİLERDE DOĞAL TOPLAMAYI NEDEN TERCİH ETMİYORUZ?",
+      "reasons": [
+        "Verim ve kalite düşük olmaktadır.",
+        "Uçucu yağ içeren bitkiler tohum bağlamadan önce toplandıkları için çoğalmaları engellenmektedir.",
+        "Yoğun ve dikkatsiz toplanan türlerin azalma ve hatta kaybolma riski bulunmaktadır.",
+        "Doğada bu bitkiler geniş alanlara yayıldıklarından toplama işlemi çok fazla zaman ve işgücü gerektirmektedir.",
+        "Bitkiler doğadan rastgele toplandıkları için standardizasyon ve homojenlik sağlanamamaktadır.",
+        "Doğadan toplanan bitkilerin kurutma ve depolama işlemleri hijyenik ve kalite standartlarına uygun yapılamamaktadır."
+      ]
+    },
+    "step3": {
+      "title": "TARIM STRATEJİMİZDE VE SÖZLEŞMELİ ÜRETİMLERİMİZDE NELERE DİKKAT EDİYORUZ?",
+      "factors": [
+        "Tıbbi ve aromatik bitkilerin pazar durumu",
+        "Bölgenin iklim özellikleri",
+        "Arazi ve toprak özellikleri",
+        "Arazinin sulanma durumu",
+        "Yetiştirilecek bitki türünün ve çeşidinin belirlenmesi (özellikle tescilli çeşitleri tercih ediyoruz)",
+        "Sağlıklı fide temini",
+        "Ekonomik fizibilite için kaç dekar alanın tesis edileceği",
+        "Çiftçinin mekanizasyon durumu",
+        "Hasat ve hasat sonrası işlemlerde destek"
+      ]
+    },
+    "step4": {
+      "title": "POTANSİYELİ OLAN TIBBİ VE AROMATİK BİTKİ ÖRNEKLERİ NELERDİR?",
+      "examples": [
+        "Biberiye (Rosmarinus Officinalis)",
+        "Kekik (Origanum onites ve O. vulgare var. hirtum)",
+        "Melisa (Melissa officinalis)",
+        "Tıbbi Papatya (Matricaria chamomilla)",
+        "Adaçayı (Salvia fruticosa ve S. officinalis)",
+        "Nane (Mentha piperita)",
+        "İngiliz Lavantası (Lavandula angustifolia)",
+        "Rezene (Foeniculum vulgare)",
+        "Devedikeni (Silybum marianum)",
+        "Meyan Kökü (Glycyrrhiza glabra)",
+        "Altın Otu (Helichrysum italicum)"
+      ]
+    },
+    "policy": {
+      "title": "SERA TERRA TARIM POLİTİKASI",
+      "description": "Şirketimiz, tıbbi bitkilerin sürdürülebilir bir şekilde yetiştirilmesini teşvik etmek, kalite ve güvenilirlik standartlarını belirlemek, üreticileri desteklemek, çevresel sürdürülebilirliği sağlamak, pazarlara erişimi kolaylaştırmak ve bitki türlerinin korunmasını amaçlamaktadır. Şirketimiz tarım politikasının bileşenleri aşağıdaki şekilde belirlenmiştir.",
+      "a": {
+        "title": "A. Tarım Teşvikleri",
+        "description": "Tıbbi aromatik bitki üretimini desteklemek için üreticilere mali teşvikler, sübvansiyonlar, vergi muafiyetleri ve diğer ekonomik teşvikler sağlanmaktadır. Şirketimiz sözleşmeli üreticilerimize ilgili kamu kurum ve kuruluşları ile koordineli bir şekilde maksimum düzeyde teşvikten faydalandırmak için çalışmaktadır."
+      },
+      "b": {
+        "title": "B. Kalite ve Güvenilirlik Standartları",
+        "description": "Tıbbi bitkilerin kalite ve güvenilirlik standartları, bitkilerin tıbbi amaçlar için kullanılabilirliğini artırmaktadır. Tesisimiz fideden pazara kadar AB standartlarında üretimi teşvik etmektedir."
+      },
+      "c": {
+        "title": "C. Sürdürülebilirlik",
+        "description": "Tıbbi aromatik bitkilerin sürdürülebilir bir şekilde yetiştirilmesi ve toplanması önemlidir. Şirketimiz, çevre koruma önlemleri, biyoçeşitliliği koruma, su kullanımı ve toprak yönetimi konularında çiftçilere rehberlik etmektedir."
+      },
+      "d": {
+        "title": "D. Pazar Erişimi ve Ticaret",
+        "description": "Tıbbi aromatik bitkilerin iç ve dış pazarlara erişimi konusunda şirketimiz çiftçilere gerekli destekleri sağlamaktadır. Pazar ihtiyaçları doğrultusunda ekim politikasını yönetmektedir."
+      },
+      "e": {
+        "title": "E. Araştırma ve Geliştirme",
+        "description": "Şirketimiz tıbbi bitkilerin yetiştirilmesi ve kullanımıyla ilgili araştırma ve geliştirme faaliyetlerini sürdürmektedir. Detaylı bilgi için inovasyon başlığımızı incelemenizi tavsiye ederiz."
+      },
+      "f": {
+        "title": "F. Eğitim ve Bilinçlendirme",
+        "description": "Şirketimiz çiftçilere tıbbi bitkilerin tarım politikası hakkında eğitim vermekte ve bilinçlendirme çalışmaları yapmaktadır."
+      }
+    }
+  },
+  "process": {
+    "supercriticalCO2": "SÜPERKRİTİK KARBONDİOKSİT EKSTRAKSİYONU (SFE)",
+    "greenTechnology": "Çok yönlü yeşil teknoloji",
+    "description": "Süperkritik CO2 ekstraksiyonu, yüksek basınç ve düşük sıcaklık kullanarak bitkilerden özütler elde etmek için kullanılan endüstriyel bir yöntemdir.",
+    "supercriticalPoints": [
+      "Saf bir maddenin kritik sıcaklığının ve basıncının üstünde bulunmasına maddenin süperkritik akışkan hali denir. Her saf maddenin kritik sıcaklık ve basıncı vardır.",
+      "Süperkritik akışkanlar, geleneksel çözücülere ve saf maddenin sıvı-gaz haline göre birçok avantaja sahiptir. Süperkritik akışkanların fizikokimyasal özellikleri (yoğunluk, viskosite, difüzivite, dielektrik sabiti, çözünürlük parametresi, vb.), basınç ve sıcaklığının değiştirilmesiyle gaz benzeri özelliklerden sıvı benzeri özelliklere dönüşmektedir.",
+      "Bir Süperkritik Akışkan hem gaz fazın hem de sıvının verimli özelliklerini kullanır. Bir gaz gibi difüzlenme, sıvı gibi de yüksek çözme gücü vardır."
+    ],
+    "whyCO2": "Neden Ekstraksiyonda CO2 Kullanıyoruz?",
+    "whyCO2start": "Bir çok özelliği nedeniyle karbondioksit çözücü olarak tercih edilir;",
+    "whyCO2Points": [
+      "Kolay bulunması",
+      "Ucuz olması",
+      "Zehirleyici olmaması",
+      "Yanıcı olmaması",
+      "Kalıntı bırakmaması",
+      "Atmosferde bulunan doğal bir gaz olması",
+      "Kolay geri kazanılabilir olması",
+      "Çevre sıcaklığına yakın bir sıcaklıkta (Tc=31.2°C) ve nispeten düşük bir basınçta (Pc=73.8 bar) kritik hale ulaşması"
+    ],
+    "threeSteps": {
+      "lowTemp": {
+        "title": "Düşük Sıcaklıkta Ekstraksiyon",
+        "content": "Geleneksel yöntemlere göre daha düşük sıcaklıkta gerçekleşir, bu nedenle daha az enerji tüketir ve böylece daha az CO2 emisyonu yaratır."
+      },
+      "naturalSolvent": {
+        "title": "Doğal Çözücü",
+        "content": "CO2 birçok canlı için doğal bir moleküldür ve doğru şekilde kullanıldığında çevre dostudur."
+      },
+      "selectiveSolvent": {
+        "title": "Selektif Çözücü",
+        "content": "Süperkritik CO2 ekstraksiyonu, hassas kimyasal ayrım sağlar ve doğru sıcaklık ve basınç kontrolü sağlanarak fraksiyonlama ile kaliteli ürünü garanti eder."
+      }
+    },
+    "workingPrinciple": {
+      "title": "CO2 ekstraksiyonunun çalışma prensibi?",
+      "content": "Ekstraksiyonun temel mantığı; CO2 gazının çözüp kendi üzerine yüklendiği molekülleri faz değişimi ya da basınç düşümü ile seperatörde bırakmasıdır. Gaz ve ekstrakt karışımı ekstraktörden seperatör kolonlarına kontrollü şekilde Geri Basınç Regülatörü (BPR) yardımıyla taşınır. Seperatör kolonlarında basınç düşümü ile ekstrakt seperatör kolonunun dibinde toplanır, ekstraktı bırakıp temizlenen gaz sıvılaştırılarak tekrar sisteme beslenir."
+    },
+    "extractionSteps": {
+      "title": "Ekstraksiyon Prosesi",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Sistem Hazırlığı",
+          "content": "Sıcaklık ve Basınç parametreleri ayarlanır ve işlenecek bitki reaktör kolonlarına yüklenir."
+        },
+        {
+          "number": "02",
+          "title": "Ekstraksiyon Prosesi",
+          "content": "Sistemin büyüklüğüne uygun akış hızında ekstraksiyon ilk ekstraktör kolonunda tamamlanır..."
+        },
+        {
+          "number": "03",
+          "title": "Seperasyon- Ekstrakt Toplama",
+          "content": "Toplanan ekstrakt seperatör kolonundan deşarj edilir ve gaz geri kazanımı yapılır..."
+        },
+        {
+          "number": "04",
+          "title": "Temizleme",
+          "content": "Aynı ürün çalışılmayacaksa sistem son ürüne uygun temizlik materyali ile temizlenir."
+        }
+      ]
+    },
+    "industrialApplications": {
+      "title": "Endüstriyel Uygulamalar",
+      "food": {
+        "title": "Gıda Endüstrisi",
+        "content": "Yağların ekstraksiyonu, kalite kontrolü, aroma ekstraksiyonu, doğal renk maddesi eldesi, doğal gıda koruyucusu eldesi, süt sterilizasyonu, gıda atıklarının değerlendirilmesi yağı azaltılmış kuruyemişler, protein saflaştırılması vb."
+      },
+      "cosmetic": {
+        "title": "Kozmetik Endüstrisi",
+        "content": "Cilt bakımı için özler, etken maddeler, renklendirici maddeler, doğal koku maddeleri eldesi(oud, sandal), esansiyel yağlar vb."
+      },
+      "pharma": {
+        "title": "İlaç Endüstrisi",
+        "content": "Bitkisel ekstraktlar, uçucu yağlar, etken maddece zengin özütler, vitamin eldesi vb."
+      },
+      "other": {
+        "title": "Diğer Endüstriler",
+        "content": "Malzeme mühendisliği, savunma sanayii, tekstil endüstrisi (susuz yağsızlaştırma, boyama), polimer kimyası vb."
+      }
+    },
+    "distillationSystems": {
+      "steam": {
+        "title": "BUHAR JENERATÖRLÜ DİSTİLASYON SİSTEMİ",
+        "content": "Buhar distilasyonu buhar sistemli, bitkisel ürünleri yüksek basınçlı buhar ile işleyerek uçucu yağ elde etmeyi sağlayan bir yöntemdir. Bu yöntemde bitkisel ürünler bir kazana yerleştirilir. Kazanın altında bulunan bir başka kazanda su kaynatılarak buhar üretilir. Bu buhar, bitkisel ürünlerin bulunduğu kazana gönderilir. Buhar, bitkisel ürünlerin hücre duvarlarını kırarak uçucu yağın ayrışmasını sağlar. Ayrışan uçucu yağ ve su karışımı, bir kondenser yardımıyla sıvı hale getirilir. Sıvı haldeki karışım, bir ayırıcı vasıtasıyla uçucu yağ ve su olarak ayrılır. Böylece uçucu yağ elde edilmiş olur. Buhar distilasyonu buhar sistemli, bitkisel ürünlerden uçucu yağ elde etmek için en yaygın ve en etkili yöntemdir. Bu yöntemle elde edilen uçucu yağlar, bitkilerin doğal özelliklerini korur ve yüksek kalitede olur. Buhar distilasyonu buhar sistemli ile; gül, lavanta, kekik, nane, adaçayı, biberiye, altınotu gibi 45 farklı bitkiden uçucu yağ elde ediyoruz. Uçucu yağlar; kozmetik, parfüm, gıda, ilaç gibi birçok sektörde kullanılmaktadır. Buhar sistemli ünitemizde oluşturulan buhar tamamen buhar jeneratöründen sağlanır ve katı yakıtlar gibi doğaya salınım yapan karbon gazlarını barındırmaz. Buharın elektrik enerjisi ile üretimi gerçekleştirilir. Tesisimizde 4.000 litre kapasiteli buhar jeneratörlü distilasyon sistemi bulunmaktadır."
+      },
+      "solid": {
+        "title": "KATI YAKITLI DİSTİLASYON SİSTEMİ",
+        "content": "Tesisimizde 1.300 litre kapasiteli katı yakıtlı distilasyon sistemi bulunmaktadır.",
+        "steps": [
+          "Buhar distilasyonu yapılacak madde temizlenir ve kazana yerleştirilir.",
+          "Kazanın altına su doldurulur ve ısıtılır.",
+          "Kazanın altına katı yakıt (odun, kömür, pelet vb.) konulur ve ateşlenir.",
+          "Su kaynadıkça buhar üretilir ve borularla buhar distilasyonu yapılacak kazana taşınır.",
+          "Buhar maddenin içindeki uçucu yağlar veya diğer bileşenleri buharlaştırır ve borularla başka bir kazana taşınır.",
+          "Bu kazanda buhar soğutulur ve sıvı haline getirilir.",
+          "Sıvının üstünde kalan uçucu yağlar veya diğer bileşenler toplanır.",
+          "Sıvının altında kalan su ise geri kazanılır."
+        ]
+      }
+    }
+  },
+  "products": {
+    "volatileOils": "UÇUCU YAĞLAR",
+    "massage": "MASERASYONLAR",
+    "fixedOils": "SABİT YAĞLAR",
+    "hydrosols": "HİDROSOLLER",
+    "plantCO2Extracts": "BİTKİSEL CO2 EKSTRAKTLAR"
+  },
+  "ingredients": {
+    "title1": "Kullanım Önerileri",
+    "title2": "Uyarılar",
+    "title3": "Alerjen Uyarısı",
+    "description": "Herhangi bir uçucu yağı kullanmadan önce cilt yama testi (patch test) yapmalı ve olumsuz bir reaksiyon durumunda hemen kullanımı bırakmalısınız. Cilt yama testi (patch test), bir kişinin cilt hassasiyetini belirlemek için kullanılan bir test türüdür. Yağın genel kullanımından önce dirsek içi veya bilek bölgesinde 1-2 cm2 lik bir alanda yama testi yapılmasını önermekteyiz."
+  }
+}

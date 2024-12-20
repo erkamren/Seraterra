@@ -1,82 +1,121 @@
+import info from "./info.json";
+import logo from "../img/seraterra-logo.jpg";
+
 function Aboutus() {
   return (
-    <div className="center">
-      <div className="info">
-        <div className="step-text-box">
-          <p className="step-description">
-            Sera Terra'nın temelleri 2019 yılında Balıkesir'de atılmıştır. Tıbbi
-            ve Aromatik bitkiler üzerine yapılan araştırmalar neticesinde
-            yaklaşık 15 dekar alanda Ekim faaliyetleri başlatılmıştır. Tarım
-            faaliyetlerine biberiye ile başlanmış lavanta kekik Beyaz Zambak ve
-            tıbbi papatya ile devam edilmiştir. Mevcut durumda 70 dekarın
-            üzerinde ürün ekim, tarım ve ar-ge çalışmaları devam etmektedir.
-          </p>
-          <p className="step-description">
-            2022 yılında bu alanda katma değerli ürün üretimi hedefi ile tıbbi
-            ve aromatik bitki işletme tesisi yatırımlarına başlamıştır bu alanda
-            buhar distilasyonu ve süper kritik CO2 ekstraksiyonu hattı kurularak
-            250 ton ürün işleme kapasiteli tesis Ağustos 2023 döneminde devreye
-            alınmıştır.
-          </p>
-          <p className="step-description">
-            Kurulan tesis, IPARD programı teşvikiyle desteklenmiş olup, AB
-            standart ve kriterlerine uygun bir tesis inşa edilmiştir. Tesisin
-            ürün gamında aroma terapi ve fitoterapi sektörlerine girdi olarak
-            üretilen sabit ve uçucu yağlar ilaç ve kozmetik sektörlerine girdi
-            olarak bitki ekstraktları yer almaktadır.
-          </p>
-          <p className="step-description">
-            Yapılmakta olan üniversite ve özel sektör ve TÜBİTAK işbirliği ile
-            saf etken madde elde edilmesi yönünde ar-ge çalışmaları devam
-            etmektedir.
-          </p>
-          <p className="step-description">
-            Toprağın mucizelerini insanlığa sunmayı misyon olarak belirleyen
-            şirketimiz katma değerli ürün üretimi gıda ve kozmetik hammadde
-            üretiminde global pazarda kendisi alan ve sürekli yer edinmeyi hedef
-            olarak belirlemiştir.
-          </p>
-          <h3 className="margin-top step-head">Vizyonumuz;</h3>
-          <ul className="step-list">
-            <li>Müşterilerimizin global partneri olmak</li>
-            <li>Etken madde üretimini endustriyalize etmek ve genişletmek</li>
-            <li>Şirketimizin tüm paydaşlarına katma değer sağlamak</li>
-          </ul>
-          <h3 className="margin-top step-head">Misyonumuz;</h3>
-          <p className="step-description">
-            Toprağın mucizelerini insanlığa sunmak
-          </p>
-          <div className="margin-top steps">
-            <div className="step-text-box">
-              <h3 className="minihead">
-                <span className="green">S</span>amimiyiz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">E</span>nerji doluyuz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">R</span>uhun sesine kulak veririz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">A</span>hlaki degerlere önem veririz
-              </h3>
-            </div>
-            <div>
-              <h3 className="minihead">
-                <span className="green">T</span>eknolojiyi severiz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">E</span>vreni koruruz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">R</span>ahat davranırız
-              </h3>
-              <h3 className="minihead">
-                <span className="green">R</span>ol model oluruz
-              </h3>
-              <h3 className="minihead">
-                <span className="green">A</span>şk ile işimizi yaparız
-              </h3>
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        {/* Logo ve Hero Section */}
+        <div className="text-center mb-16">
+          {/* Logo */}
+          <div className="flex justify-center mb-8">
+            <img
+              src={logo}
+              alt="Seraterra Logo"
+              className="h-40 w-auto object-contain"
+            />
+          </div>
+
+          <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
+            Hakkımızda
+          </h1>
+          <div className="w-24 h-1 bg-green-500 mx-auto mt-4"></div>
+        </div>
+
+        {/* Main Content */}
+        <div className="space-y-12">
+          {/* About Text Sections */}
+          <div className="prose prose-lg max-w-none">
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.foundation}
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.investment}
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.support}
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.researchCollaboration}
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.mission}
+            </p>
+          </div>
+
+          {/* Vision Section */}
+          <div className="bg-white rounded-xl shadow-sm p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              {info.aboutUsContent.vision.title}
+            </h2>
+            <ul className="space-y-4">
+              {info.aboutUsContent.vision.items.map((item, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mr-3">
+                    <span className="text-green-500 text-sm">{index + 1}</span>
+                  </span>
+                  <span className="text-gray-600">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Mission Section */}
+          <div className="bg-white rounded-xl shadow-sm p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              {info.aboutUsContent.missionTitle}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {info.aboutUsContent.missionDescription}
+            </p>
+          </div>
+
+          {/* Values Grid */}
+          <div className="bg-white rounded-xl shadow-sm p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Değerlerimiz
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Left Column */}
+              <div className="space-y-6">
+                {["S", "E", "R", "A"].map((letter, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300"
+                  >
+                    <span className="text-3xl font-bold text-green-500">
+                      {letter}
+                    </span>
+                    <span className="text-gray-700 group-hover:text-gray-900">
+                      {letter === "S" && "amimiyiz"}
+                      {letter === "E" && "nerji doluyuz"}
+                      {letter === "R" && "uhun sesine kulak veririz"}
+                      {letter === "A" && "hlaki değerlere önem veririz"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Right Column */}
+              <div className="space-y-6">
+                {["T", "E", "R", "R", "A"].map((letter, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300"
+                  >
+                    <span className="text-3xl font-bold text-green-500">
+                      {letter}
+                    </span>
+                    <span className="text-gray-700 group-hover:text-gray-900">
+                      {letter === "T" && "eknolojiyi severiz"}
+                      {letter === "E" && "vreni koruruz"}
+                      {letter === "R" &&
+                        (index === 2 ? "ahat davranırız" : "ol model oluruz")}
+                      {letter === "A" && "şk ile işimizi yaparız"}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -84,4 +123,5 @@ function Aboutus() {
     </div>
   );
 }
+
 export default Aboutus;
