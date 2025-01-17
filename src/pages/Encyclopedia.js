@@ -27,18 +27,21 @@ function Encyclopedia({ setSelectedDisease }) {
   ];
 
   return (
-    <div className="max-w-screen-lg mt-72">
-      <div className="w-1/5 mx-auto">
-        <ol className="list-decimal">
+    <div className="max-w-screen-lg mx-auto mt-16 px-8 bg-stone-50">
+      <h1 className="text-center text-4xl font-serif mb-12 text-stone-50">_</h1>
+      <div className="w-3/4 mx-auto min-h-screen p-8 bg-white shadow-lg border border-stone-200">
+        <ol className="list-none">
           {letters.map((letter) => (
-            <ul key={letter}>
-              <p className="text-4xl mb-2 mt-16">{letter}</p>
+            <ul key={letter} className="mb-8">
+              <p className="text-5xl font-serif mb-4 text-stone-800 border-b-2 border-stone-300">
+                {letter}
+              </p>
               {info.diseaseList
                 .filter((disease) => disease.startsWith(letter))
                 .map((disease, index) => (
                   <li
                     key={index}
-                    className="cursor-pointer hover:text-green-500"
+                    className="ml-6 mb-2 text-lg text-stone-700 hover:text-green-600 transition-colors"
                   >
                     <Link
                       onClick={() => {
@@ -56,6 +59,7 @@ function Encyclopedia({ setSelectedDisease }) {
           ))}
         </ol>
       </div>
+      <h1 className="text-center text-4xl font-serif mb-12 text-stone-50">_</h1>
     </div>
   );
 }
