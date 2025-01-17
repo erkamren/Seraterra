@@ -1,23 +1,25 @@
 import { Link } from "react-router-dom";
 import data from "./data.json";
 
-function Catalog({ setSelectedId, selectedSort }) {
+function Disease({ setSelectedId, selectedDisease }) {
   const finder = data.filter(
-    (item) => item.baslik && item.baslik.includes(selectedSort)
+    (item) =>
+      item.diseases &&
+      item.diseases.some((disease) => disease.includes(selectedDisease))
   );
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white mt-36">
       <div className="max-w-screen-xl mx-auto p-8">
         <h1 className="text-6xl text-center bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-emerald-600 font-bold mb-16">
-          {selectedSort}
+          {selectedDisease}
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {finder.map((item) => (
+          {finder.map((item, index) => (
             <div key={item.id}>
               <Link
-                to="/ingredients"
+                to={`/ingredients/${item.id}`}
                 className="group block rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
@@ -41,4 +43,4 @@ function Catalog({ setSelectedId, selectedSort }) {
   );
 }
 
-export default Catalog;
+export default Disease;

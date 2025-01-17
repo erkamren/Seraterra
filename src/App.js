@@ -14,10 +14,12 @@ import Encyclopedia from "./pages/Encyclopedia";
 import Catalog from "./pages/Catalog";
 import Ingredients from "./pages/Ingredients";
 import Blog from "./pages/Blog";
+import Disease from "./pages/Disease";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedSort, setSelectedSort] = useState(null);
+  const [selectedDisease, setSelectedDisease] = useState(null);
 
   return (
     <Router>
@@ -36,7 +38,16 @@ function App() {
         />
         <Route
           path="encyclopedia"
-          element={<Encyclopedia setSelectedId={setSelectedId} />}
+          element={<Encyclopedia setSelectedDisease={setSelectedDisease} />}
+        />
+        <Route
+          path="disease"
+          element={
+            <Disease
+              setSelectedId={setSelectedId}
+              selectedDisease={selectedDisease}
+            />
+          }
         />
         <Route
           path="catalog"

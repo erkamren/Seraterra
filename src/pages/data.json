@@ -2,7 +2,7 @@
   {
     "id": 1,
     "to": "adacayi",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Ağız Yaraları ve İltihapları",
       "Akne",
@@ -72,7 +72,7 @@
     "id": 2,
     "to": "biberiye",
     "isim": "BİBERİYE UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Ağız Yaraları ve İltihapları",
       "Ağrı Kesici"
@@ -109,7 +109,7 @@
     "id": 3,
     "to": "kekik",
     "isim": "KEKİK UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Akne",
       "Antimikrobiyal",
@@ -155,7 +155,7 @@
     "id": 4,
     "to": "lavanta",
     "isim": "LAVANTA UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağrı Kesici",
       "Antimikrobiyal",
       "Balgam Söktürücüler",
@@ -205,7 +205,7 @@
     "id": 5,
     "to": "nane",
     "isim": "NANE UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Ağız Kokusu Giderici",
       "Ağrı Kesici",
@@ -262,7 +262,7 @@
     "id": 6,
     "to": "nioli",
     "isim": "NİOLİ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Böcek Sokmaları",
       "Eklem Ağrıları",
@@ -301,7 +301,7 @@
     "id": 7,
     "to": "okaliptus",
     "isim": "OKALİPTUS UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Kokusu Giderici",
       "Ağrı Kesici",
       "Akne",
@@ -367,7 +367,7 @@
     "id": 8,
     "to": "paculi",
     "isim": "PAÇULİ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Yaraları ve İltihapları",
       "Akne",
       "Antiseptikler",
@@ -415,7 +415,7 @@
     "id": 9,
     "to": "ylangylang",
     "isim": "YLANG YLANG UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağrı Kesici",
       "Akne",
       "Antimikrobiyal",
@@ -459,7 +459,7 @@
     "id": 10,
     "to": "citronella",
     "isim": "CİTRONELLA UÇUCU YAĞI",
-    "hastalik": ["Saç Biti", "Uyuz"],
+    "diseases": ["Saç Biti", "Uyuz"],
     "baslik": ["UÇUCU YAĞLAR"],
     "image": "citronella.jpeg",
     "link": "https://www.seranatura.com/citronella-ucucu-yagi",
@@ -486,7 +486,7 @@
     "id": 11,
     "to": "limonkabugu",
     "isim": "LİMON KABUĞU UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Astım ve Bronşit",
@@ -548,7 +548,7 @@
     "id": 12,
     "to": "portakalkabugu",
     "isim": " PORTAKAL KABUĞU UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağrı Kesici",
       "Akne",
       "Antimikrobiyal",
@@ -596,7 +596,7 @@
     "id": 13,
     "to": "camterebentin",
     "isim": "ÇAM TEREBENTİNİ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Yaraları ve İltihapları",
       "Astım ve Bronşit",
       "Cilt Kuruluğu",
@@ -637,7 +637,7 @@
     "id": 14,
     "to": "defneyapragi",
     "isim": "DEFNE YAPRAĞI UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Antimikrobiyal",
       "Böcek/Sinek Kovucu",
       "Cilt Hafif Yaraları İyileştirici",
@@ -679,7 +679,7 @@
     "id": 15,
     "to": "elemi",
     "isim": "ELEMİ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Antimikrobiyal",
       "Cilt Gençleştirici (Anti-Aging)",
       "Enfeksiyon Giderici",
@@ -718,7 +718,7 @@
     "id": 16,
     "to": "karanfil",
     "isim": "KARANFİL UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Kokusu Giderici",
       "Ağız Yaraları ve İltihapları",
       "Ağrı Kesici",
@@ -767,7 +767,7 @@
     "id": 17,
     "to": "havuctohumu",
     "isim": "HAVUÇ TOHUMU YAĞI",
-    "hastalik": ["Cilt Gençleştirici (Anti-Aging)", "Enfeksiyon Giderici"],
+    "diseases": ["Cilt Gençleştirici (Anti-Aging)", "Enfeksiyon Giderici"],
     "baslik": ["UÇUCU YAĞLAR"],
     "image": "havuctohumu.jpeg",
     "link": "https://www.seranatura.com/",
@@ -794,7 +794,7 @@
     "id": 18,
     "to": "palmarosa",
     "isim": "PALMAROSA UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Antiseptikler",
@@ -846,7 +846,7 @@
     "id": 19,
     "to": "itir",
     "isim": "ITIR (SARDUNYA) UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Antimikrobiyal",
       "Cilt Alerjileri",
       "Egzama",
@@ -886,7 +886,7 @@
     "id": 20,
     "to": "servi",
     "isim": "SERVİ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Bakteri ve Mantar Enfeksiyonları",
@@ -931,7 +931,7 @@
   {
     "id": 21,
     "to": "tarcin",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Antimikrobiyal",
       "Antiseptikler",
@@ -974,7 +974,7 @@
     "id": 22,
     "to": "vetiver",
     "isim": "VETİVER UÇUCU YAĞI",
-    "hastalik": ["Yorgunluk Giderici", "Zihin Açıcı"],
+    "diseases": ["Yorgunluk Giderici", "Zihin Açıcı"],
     "baslik": ["UÇUCU YAĞLAR"],
     "image": "vetiver.jpeg",
     "link": "https://www.seranatura.com/vetiver-ucucu-yagi",
@@ -1004,7 +1004,7 @@
     "id": 23,
     "to": "zencefil",
     "isim": "ZENCEFİL UÇUCU YAĞI",
-    "hastalik": ["Ağrı Kesici"],
+    "diseases": ["Ağrı Kesici"],
     "baslik": ["UÇUCU YAĞLAR"],
     "image": "zencefil.jpeg",
     "link": "https://www.seranatura.com/zencefil-ucucu-yagi",
@@ -1034,7 +1034,7 @@
     "id": 24,
     "to": "limonotu",
     "isim": "LİMON OTU UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Böcek/Sinek Kovucu",
       "Böcek Sokmaları",
       "İdrar Yolu Enfeksiyonları/İltihap Giderici",
@@ -1072,7 +1072,7 @@
   {
     "id": 25,
     "to": "bergamot",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Ağız Yaraları ve İltihapları",
       "Ruhsal Sakinleştirme (Yatıştırıcı)"
@@ -1102,7 +1102,7 @@
     "id": 26,
     "to": "ardic",
     "isim": "ARDIÇ UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Antiseptikler",
@@ -1158,7 +1158,7 @@
     "id": 27,
     "to": "sarikantaron",
     "isim": "SARI KANTARON YAĞI",
-    "hastalik": [
+    "diseases": [
       "Egzama",
       "Eklem İltihapları (Osteoartrit)",
       "Kas Spazmı Çözücü",
@@ -1192,7 +1192,7 @@
     "id": 28,
     "to": "papatya",
     "isim": "PAPATYA MASERASYONU",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Ağrı Kesici",
       "Akne",
@@ -1234,7 +1234,7 @@
     "id": 29,
     "to": "aynisafa",
     "isim": "AYNI SAFA MASERASYONU",
-    "hastalik": [
+    "diseases": [
       "Bebek Pişikleri",
       "Güneş Yanıkları",
       "Yara İyileştirmeye Yardımcı",
@@ -1268,7 +1268,7 @@
     "id": 30,
     "to": "udihindi",
     "isim": "UDİ HİNDİ YAĞI",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["MASERASYONLAR"],
     "image": "udihindi.jpeg",
     "link": "https://www.seranatura.com/udi-hindi-yagi-",
@@ -1294,7 +1294,7 @@
     "id": 31,
     "to": "badem",
     "isim": "BADEM YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Çatlakları",
       "Cilt Hafif Yaraları İyileştirici",
       "Cilt Nemlendirici"
@@ -1331,7 +1331,7 @@
     "id": 32,
     "to": "shea",
     "isim": "SHEA YAĞI",
-    "hastalik": [],
+    "diseases": [],
     "baslik": [],
     "image": "shea.jpeg",
     "link": "https://www.seranatura.com/sheabutter-yagi",
@@ -1361,7 +1361,7 @@
     "id": 33,
     "to": "avokado",
     "isim": "AVOKADO YAĞI",
-    "hastalik": [
+    "diseases": [
       "Egzama",
       "Eklem İltihapları (Osteoartrit)",
       "Göz Sağlığı",
@@ -1406,7 +1406,7 @@
     "id": 34,
     "to": "hindistancevizi",
     "isim": "HİNDİSTAN CEVİZİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Besleyici",
       "Cilt Çatlakları",
       "Cilt Kuruluğu",
@@ -1446,7 +1446,7 @@
     "id": 35,
     "to": "jojoba",
     "isim": "JOJOBA YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Cilt Besleyici",
       "Cilt Çatlakları",
@@ -1487,7 +1487,7 @@
     "id": 36,
     "to": "kusburnucekirdegi",
     "isim": "KUŞBURNU ÇEKİRDEĞİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Cilt Çatlakları",
@@ -1534,7 +1534,7 @@
     "id": 37,
     "to": "kabakcekirdegi",
     "isim": "KABAK ÇEKİRDEĞİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Besleyici",
       "Kolesterol Düşürücü",
       "Prostat Büyümesi",
@@ -1571,7 +1571,7 @@
     "id": 38,
     "to": "kakao",
     "isim": "KAKAO YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Besleyici",
       "Cilt Çatlakları",
       "Cilt Hafif Yaraları İyileştirici",
@@ -1605,7 +1605,7 @@
     "id": 39,
     "to": "corekotu",
     "isim": "ÇÖREKOTU YAĞI",
-    "hastalik": ["Antimikrobiyal", "Bağışıklık Destekleyici"],
+    "diseases": ["Antimikrobiyal", "Bağışıklık Destekleyici"],
     "baslik": ["SABİT YAĞLAR"],
     "image": "corekotu.jpeg",
     "link": "https://www.seranatura.com/corekotu-yagi",
@@ -1635,7 +1635,7 @@
     "id": 40,
     "to": "kayisicekirdegi",
     "isim": "KAYISI ÇEKİRDEĞİ YAĞI",
-    "hastalik": ["Cilt Besleyici", "Kırışıklık Giderici", "Selülit"],
+    "diseases": ["Cilt Besleyici", "Kırışıklık Giderici", "Selülit"],
     "baslik": ["SABİT YAĞLAR"],
     "image": "kayisicekirdegi.jpeg",
     "link": "https://www.seranatura.com/kayisicekirdegi-yagi",
@@ -1666,7 +1666,7 @@
     "id": 41,
     "to": "neem",
     "isim": "NEEM YAĞI",
-    "hastalik": [
+    "diseases": [
       "Çıban İyileştirici",
       "Kas Ağrıları",
       "Kırışıklık Giderici",
@@ -1704,7 +1704,7 @@
     "id": 42,
     "to": "narcekirdegi",
     "isim": "NAR ÇEKİRDEĞİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Antioksidanlar",
       "Cilt Gençleştirici (Anti-Aging)",
       "Cilt Lekeleri",
@@ -1743,7 +1743,7 @@
     "id": 43,
     "to": "makademyacevizi",
     "isim": "MAKADEMYA CEVİZİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Besleyici",
       "Cilt Nemlendirici",
       "Cilt Sıkılaştırma",
@@ -1780,7 +1780,7 @@
     "id": 44,
     "to": "mct",
     "isim": "MCT YAĞI",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["SABİT YAĞLAR"],
     "image": "mct.jpeg",
     "link": "https://www.seranatura.com/mct-yagi",
@@ -1807,7 +1807,7 @@
     "id": 45,
     "to": "uzumcekirdegi",
     "isim": "ÜZÜM ÇEKİRDEĞİ YAĞI",
-    "hastalik": ["Cilt Nemlendirici", "Kan Dolaşımı Düzenleyici"],
+    "diseases": ["Cilt Nemlendirici", "Kan Dolaşımı Düzenleyici"],
     "baslik": ["SABİT YAĞLAR"],
     "image": "uzumcekirdegi.jpeg",
     "link": "https://www.seranatura.com/uzumcekirdegi-yagi",
@@ -1840,7 +1840,7 @@
     "id": 46,
     "to": "incircekirdegi",
     "isim": "İNCİR ÇEKİRDEĞİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antioksidanlar",
       "Cilt Çatlakları",
@@ -1881,7 +1881,7 @@
     "id": 47,
     "to": "aspir",
     "isim": "ASPİR YAĞI",
-    "hastalik": ["Cilt Besleyici"],
+    "diseases": ["Cilt Besleyici"],
     "baslik": ["SABİT YAĞLAR"],
     "image": "aspir.jpeg",
     "link": "https://www.seranatura.com/",
@@ -1910,7 +1910,7 @@
     "id": 48,
     "to": "hint",
     "isim": "HİNT YAĞI",
-    "hastalik": ["Çıban İyileştirici"],
+    "diseases": ["Çıban İyileştirici"],
     "baslik": ["SABİT YAĞLAR"],
     "image": "hint.jpeg",
     "link": "https://www.seranatura.com/hint-yagi",
@@ -1939,7 +1939,7 @@
     "id": 49,
     "to": "hodan",
     "isim": "HODAN YAĞI",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["SABİT YAĞLAR"],
     "image": "hodan.jpeg",
     "link": "https://www.seranatura.com/hodan-yagi",
@@ -1969,7 +1969,7 @@
     "id": 50,
     "to": "pirinckepegi",
     "isim": "PİRİNÇ KEPEĞİ YAĞI",
-    "hastalik": [
+    "diseases": [
       "Cilt Çatlakları",
       "Cilt Gençleştirici (Anti-Aging)",
       "Cilt Lekeleri",
@@ -2007,7 +2007,7 @@
     "id": 51,
     "to": "tamanu",
     "isim": "TAMANU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Böcek Sokmaları",
       "Cilt Lekeleri",
       "Diyabet Yaraları",
@@ -2046,7 +2046,7 @@
     "id": 52,
     "to": "itirhidro",
     "isim": "SARDUNYA (ITIR) HİDROSOLÜ",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["HİDROSOLLER"],
     "image": "itirhidro.jpeg",
     "link": "https://www.seranatura.com/sardunya-hidrosolu",
@@ -2073,7 +2073,7 @@
     "id": 53,
     "to": "nanehidro",
     "isim": "NANE HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Antimikrobiyal",
       "Ayak Bakımı",
@@ -2120,7 +2120,7 @@
     "id": 54,
     "to": "lavantahidro",
     "isim": "LAVANTA HİDROSOLÜ",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["HİDROSOLLER"],
     "image": "lavantahidro.jpeg",
     "link": "https://www.seranatura.com/tibbilavanta-hidrosolu",
@@ -2148,7 +2148,7 @@
     "id": 55,
     "to": "kekikhidro",
     "isim": "KEKİK HİDROSOLÜ",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["HİDROSOLLER"],
     "image": "kekikhidro.jpeg",
     "link": "https://www.seranatura.com/kekik-hidrosolu",
@@ -2177,7 +2177,7 @@
     "id": 56,
     "to": "romanpapatyahidro",
     "isim": "ROMAN PAPATYASI HİDROSOLÜ",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["HİDROSOLLER"],
     "image": "romanpapatyahidro.jpeg",
     "link": "https://www.seranatura.com/",
@@ -2204,7 +2204,7 @@
     "id": 57,
     "to": "biberiyehidro",
     "isim": "BİBERİYE HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Antioksidanlar",
@@ -2248,7 +2248,7 @@
     "id": 58,
     "to": "akgunlukhidro",
     "isim": "AKGÜNLÜK HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Ağız Kokusu Giderici",
       "Ağız Yaraları ve İltihapları",
       "Ağrı Kesici",
@@ -2306,7 +2306,7 @@
     "id": 59,
     "to": "gulhidro",
     "isim": "GÜL HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Antimikrobiyal",
       "Antiseptikler",
       "Cilt Besleyici",
@@ -2354,7 +2354,7 @@
     "id": 60,
     "to": "portakalcicekhidro",
     "isim": "PORTAKAL ÇİÇEĞİ HİDROSOLÜ",
-    "hastalik": [],
+    "diseases": [],
     "baslik": ["HİDROSOLLER"],
     "image": "portakalcicekhidro.jpeg",
     "link": "https://www.seranatura.com/portakalcicegi-hidrosolu",
@@ -2383,7 +2383,7 @@
     "id": 61,
     "to": "mersinhidro",
     "isim": "MERSİN HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Akne",
       "Antimikrobiyal",
       "Ayak Kokusu Önleyici",
@@ -2429,7 +2429,7 @@
   {
     "id": 62,
     "to": "olmezcicekhidro",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Ağrı Kesici",
       "Böcek Sokmaları",
@@ -2474,13 +2474,13 @@
     "id": 63,
     "to": "civanpercemi",
     "isim": "CİVANPERÇEMİ UÇUCU YAĞI",
-    "hastalik": ["Adet Dönemi Ağrıları"]
+    "diseases": ["Adet Dönemi Ağrıları"]
   },
   {
     "id": 64,
     "to": "kafur",
     "isim": "KAFUR UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Antiviraller",
       "Bağışıklık Destekleyici",
@@ -2500,13 +2500,13 @@
     "id": 65,
     "to": "maydanoz",
     "isim": "MAYDANOZ UÇUCU YAĞI",
-    "hastalik": ["Adet Dönemi Ağrıları", "Ağız Kokusu Giderici"]
+    "diseases": ["Adet Dönemi Ağrıları", "Ağız Kokusu Giderici"]
   },
   {
     "id": 66,
     "to": "mercankosk",
     "isim": "MERCANKÖŞK UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Akne",
       "Bakteri ve Mantar Enfeksiyonları",
@@ -2531,7 +2531,7 @@
     "id": 67,
     "to": "mur",
     "isim": "MÜR UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Adet Dönemi Ağrıları",
       "Ağız Dezenfektanı",
       "Ağız Yaraları ve İltihapları",
@@ -2555,7 +2555,7 @@
     "id": 68,
     "to": "cayagaci",
     "isim": "ÇAY AĞACI UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Ağız Dezenfektanı",
       "Akne",
       "Antimikrobiyal",
@@ -2581,19 +2581,19 @@
     "id": 69,
     "to": "adacayihidro",
     "isim": "ADAÇAYI HİDROSOLÜ",
-    "hastalik": ["Ağız Dezenfektanı"]
+    "diseases": ["Ağız Dezenfektanı"]
   },
   {
     "id": 70,
     "to": "anasonhidro",
     "isim": "ANASON HİDROSOLÜ",
-    "hastalik": ["Ağız Kokusu Giderici"]
+    "diseases": ["Ağız Kokusu Giderici"]
   },
   {
     "id": 71,
     "to": "papatyahidro",
     "isim": "PAPATYA HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Ağız Yaraları ve İltihapları",
       "Akne",
       "Antimikrobiyal",
@@ -2620,25 +2620,25 @@
     "id": 72,
     "to": "anason",
     "isim": "ANASON UÇUCU YAĞI",
-    "hastalik": ["Ağız Yaraları ve İltihapları"]
+    "diseases": ["Ağız Yaraları ve İltihapları"]
   },
   {
     "id": 73,
     "to": "ceviz",
     "isim": "CEVİZ YAĞI",
-    "hastalik": ["Akne", "Kanama Durdurucu", "Yara İyileştirmeye Yardımcı"]
+    "diseases": ["Akne", "Kanama Durdurucu", "Yara İyileştirmeye Yardımcı"]
   },
   {
     "id": 74,
     "to": "misketlimon",
     "isim": "MİSKET LİMONU UÇUCU YAĞI",
-    "hastalik": ["Diş Ağrısı", "Eklem İltihapları (Osteoartrit)"]
+    "diseases": ["Diş Ağrısı", "Eklem İltihapları (Osteoartrit)"]
   },
   {
     "id": 75,
     "to": "ciya",
     "isim": "ÇİYA TOHUMU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Bağışıklık Destekleyici",
       "Cilt Kuruluğu",
       "Cilt Lekeleri",
@@ -2649,7 +2649,7 @@
     "id": 76,
     "to": "susam",
     "isim": "SUSAM YAĞI",
-    "hastalik": [
+    "diseases": [
       "Bakteri ve Mantar Enfeksiyonları",
       "Cilt Lekeleri",
       "Eklem Ağrıları",
@@ -2660,7 +2660,7 @@
     "id": 77,
     "to": "peygambercicegihidro",
     "isim": "PEYGAMBER ÇİÇEĞİ HİDROSOLÜ",
-    "hastalik": [
+    "diseases": [
       "Cilt Hafif Yaraları İyileştirici",
       "Cilt Sıkılaştırma",
       "Göz Sağlığı",
@@ -2678,7 +2678,7 @@
     "id": 78,
     "to": "sedir",
     "isim": "SEDİR UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Böcek/Sinek Kovucu",
       "Cilt Sıkılaştırma",
       "Egzama",
@@ -2692,7 +2692,7 @@
     "id": 79,
     "to": "miskadacayi",
     "isim": "MİSK ADAÇAYI UÇUCU YAĞI",
-    "hastalik": [
+    "diseases": [
       "Gaz Sancısı",
       "Göz Sağlığı",
       "Kan Dolaşımı Düzenleyici",
@@ -2709,24 +2709,24 @@
     "id": 80,
     "to": "melisa",
     "isim": "MELİSA UÇUCU YAĞI",
-    "hastalik": ["Yorgunluk Giderici"]
+    "diseases": ["Yorgunluk Giderici"]
   },
   {
     "id": 81,
     "to": "ketentohumu",
     "isim": "KETEN TOHUMU YAĞI",
-    "hastalik": ["Tansiyon Düşürücü"]
+    "diseases": ["Tansiyon Düşürücü"]
   },
   {
     "id": 78,
     "to": "miskadacayihidro",
     "isim": "MİSK ADAÇAYI HİDROSOLÜ",
-    "hastalik": ["Kramp"]
+    "diseases": ["Kramp"]
   },
   {
     "id": 78,
     "to": "kenevir",
     "isim": "KENEVİR YAĞI",
-    "hastalik": ["Menopoz Şikayetleri"]
+    "diseases": ["Menopoz Şikayetleri"]
   }
 ]

@@ -13,7 +13,6 @@ function Plant() {
           {info.plant.companyInfo}
         </p>
       </div>
-
       {/* Steps Grid */}
       <div className="grid md:grid-cols-2 gap-12 mb-16">
         {/* Step 1 */}
@@ -42,7 +41,6 @@ function Plant() {
             alt="Plant Step 1"
           />
         </div>
-
         {/* Step 2 */}
         <div className="flex flex-col justify-center space-y-6 md:order-4">
           <div className="flex items-center space-x-4">

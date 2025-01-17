@@ -24,37 +24,33 @@ function Products({ setSelectedSort }) {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
               <ProductsLink
-                sort="UÇUCU YAĞLAR"
+                sort={info.products.volatileOils}
                 setSelectedSort={setSelectedSort}
                 href="/catalog"
               >
                 {info.products.volatileOils}
               </ProductsLink>
               <ProductsLink
-                sort="MASERASYONLAR"
+                sort={info.products.maserations}
                 setSelectedSort={setSelectedSort}
-                href="/catalog"
               >
-                {info.products.massage}
+                {info.products.maserations}
               </ProductsLink>
               <ProductsLink
-                sort="SABİT YAĞLAR"
+                sort={info.products.fixedOils}
                 setSelectedSort={setSelectedSort}
-                href="/catalog"
               >
                 {info.products.fixedOils}
               </ProductsLink>
               <ProductsLink
-                sort="HİDROSOLLER"
+                sort={info.products.hydrosols}
                 setSelectedSort={setSelectedSort}
-                href="/catalog"
               >
                 {info.products.hydrosols}
               </ProductsLink>
               <ProductsLink
-                sort="BİTKİSEL CO2 EKSTRAKTLAR"
+                sort={info.products.plantCO2Extracts}
                 setSelectedSort={setSelectedSort}
-                href="/catalog"
               >
                 {info.products.plantCO2Extracts}
               </ProductsLink>
@@ -76,10 +72,7 @@ function Products({ setSelectedSort }) {
               Gallery11,
               Gallery12,
             ].map((image, index) => (
-              <figure
-                key={index}
-                className="group overflow-hidden rounded-lg shadow-lg"
-              >
+              <figure key={index} className="group overflow-hidden shadow-lg">
                 <img
                   src={image}
                   alt={`Product ${index + 1}`}
@@ -101,7 +94,7 @@ function ProductsLink({ children, href, sort, setSelectedSort }) {
       className="block w-full text-lg md:text-xl bg-white/10 hover:bg-white 
                  text-white hover:text-primary rounded-xl p-4 transition-all 
                  duration-300 transform hover:-translate-y-1 hover:shadow-lg"
-      to={href}
+      to="/catalog"
     >
       {children}
     </Link>
