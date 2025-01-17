@@ -18,11 +18,11 @@ function Catalog({ setSelectedId, selectedSort }) {
             <div key={item.id}>
               <Link
                 to="/ingredients"
+                onClick={() => setSelectedId(item.id)}
                 className="group block rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
-                    onClick={() => setSelectedId(item.id)}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                     src={require(`/src/img/products/${item.image}`)}
                     alt={item.latin}

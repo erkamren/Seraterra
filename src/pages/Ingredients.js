@@ -4,8 +4,7 @@ import naturalink from "../img/natura-link.png";
 import info from "./info.json";
 
 function Ingredients({ selectedId }) {
-  const { id } = useParams();
-  const finder = data.filter((item) => item.id === Number(id));
+  const finder = data.filter((item) => item.id === selectedId);
   console.log(selectedId);
   return (
     <div className="max-w-[160rem] p-0 px-8 mt-28 mx-4">
