@@ -22,7 +22,7 @@ function App() {
   const [selectedDisease, setSelectedDisease] = useState(null);
 
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,5 +1,17 @@
 function Blog() {
-  return <div></div>;
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold text-gray-800 mb-4">Blog Sayfası</h1>
+        <br></br>
+        <div className="flex flex-col items-center space-y-4">
+          <p className="text-2xl text-gray-500">
+            Çok yakında burada harika içerikler olacak!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Blog;
