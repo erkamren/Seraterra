@@ -1,0 +1,462 @@
+{
+  "contact": {
+    "header": "Would you like to contact us?",
+    "successMessage": "Your message has been successfully sent.",
+    "followUs": "Follow us:",
+    "send": "Send",
+    "modalButton": "OK"
+  },
+  "footer": {
+    "corporate": "Corporate",
+    "aboutUs": "About Us",
+    "certificates": "Certificates",
+    "activities": "Our Activities",
+    "agriculture": "Agriculture",
+    "facility": "Facility",
+    "innovation": "Innovation",
+    "research": "R&D",
+    "consultancy": "Consultancy"
+  },
+  "header": {
+    "corporate": "CORPORATE",
+    "aboutUs": "ABOUT US",
+    "certificates": "CERTIFICATES",
+    "activities": "OUR ACTIVITIES",
+    "agriculture": "AGRICULTURE",
+    "facility": "FACILITY",
+    "innovation": "INNOVATION",
+    "research": "R&D",
+    "consultancy": "CONSULTANCY",
+    "products": "PRODUCTS",
+    "encyclopedia": "ENCYCLOPEDIA",
+    "blog": "BLOG"
+  },
+  "aboutUsContent": {
+    "foundation": "Sera Terra was established in 2019 in Balıkesir. Following extensive research on medicinal and aromatic plants, cultivation activities commenced on approximately 15 decares of land. The agricultural activities began with rosemary and continued with lavender, thyme, white lily, and chamomile. Currently, over 70 decares are actively being used for cultivation, agriculture, and R&D activities.",
+    "investment": "In 2022, investments began to produce value-added products from medicinal and aromatic plants. A facility with steam distillation and supercritical CO2 extraction lines was established, boasting a processing capacity of 250 tons. The facility became operational in August 2023.",
+    "support": "The facility was supported through the IPARD program and built to meet EU standards and criteria. The product range includes essential and fixed oils for the aromatherapy and phytotherapy sectors, as well as plant extracts for the pharmaceutical and cosmetics industries.",
+    "researchCollaboration": "R&D studies aimed at obtaining pure active ingredients are ongoing in collaboration with universities, the private sector, and TÜBİTAK.",
+    "mission": "Our company has adopted the mission of delivering the miracles of the soil to humanity, focusing on producing value-added products and securing a consistent presence in the global market for food and cosmetic raw materials.",
+    "vision": {
+      "title": "Our Vision:",
+      "items": [
+        "To become the global partner of our customers",
+        "To industrialize and expand active ingredient production",
+        "To provide added value to all stakeholders of our company"
+      ]
+    },
+    "missionTitle": "Our Mission:",
+    "missionDescription": "Delivering the miracles of the soil to humanity"
+  },
+  "arge": {
+    "researchContent": "Our research and development activities are conducted by project teams adhering to scientific and ethical principles. These teams comprise researchers specialized in agriculture, chemistry, and pharmacology. At our R&D center, we meticulously carry out literature reviews, active ingredient evaluations, analyses of various plants and their applications, formulation design and development, and active ingredient purification. The primary goal of our R&D center is to produce quality and specific solutions for health, care, and beauty through innovative approaches and a passion for success within the healing world of plants. Currently, 10 different R&D projects are underway. In collaboration with TÜBİTAK, local Agricultural Directorates, universities, and three separate chemistry laboratories, we continue our efforts to derive value-added industrial products from plants.",
+    "kapsaisin": {
+      "title": "Obtaining Capsaicin",
+      "content": "Capsaicin is a chemical compound found in chili peppers that provides their heat and spiciness. It is present in the seeds, membranes, and fleshy parts of peppers. At our R&D center, the capsaicin purification process is conducted using the supercritical extraction method with the 'Carolina Reaper' pepper variety in collaboration with our laboratory partners and universities."
+    },
+    "oleuropein": {
+      "title": "Obtaining Oleuropein",
+      "content": "Oleuropein is a compound found in the leaves, fruits, and branches of the olive tree. It is one of the olive tree's natural defense mechanisms, protecting it from harmful organisms. Oleuropein is most commonly found in olive leaves and fruits. The steps to obtain oleuropein are as follows:",
+      "items": [
+        "Collection of Olive Leaves: Olive leaves are collected, usually after the olive harvest.",
+        "Washing: The collected leaves are thoroughly washed and cleaned.",
+        "Grinding: The washed leaves are ground or chopped, facilitating better extraction of oleuropein.",
+        "Extraction: The ground leaves are extracted using the supercritical CO2 extraction method under low temperatures and high pressures.",
+        "Filtration: The olive leaf extract is filtered to separate the oleuropein-containing solution.",
+        "Purification: The solution containing oleuropein is purified and refined through various processes."
+      ],
+      "content2": "Oleuropein is obtained through the extraction of olive leaves. These extracts are then used in health supplements, cosmetic products, or food additives."
+    },
+    "juglone": {
+      "title": "Obtaining Juglone",
+      "content": "Juglone is a chemical compound produced by walnut trees to outcompete other plants. It is found in high amounts in the green husks of walnuts. Some potential benefits and applications of juglone include:",
+      "items": [
+        "Antimicrobial Properties: Juglone may have antimicrobial effects, inhibiting microbes and pathogens. This gives walnut trees a competitive advantage by limiting the growth of other plants around their roots.",
+        "Antioxidant Effects: Juglone possesses antioxidant properties that may help reduce cellular damage caused by free radicals.",
+        "Antiparasitic Properties: Juglone can act against certain parasitic organisms, providing natural protection through walnut leaves or husks."
+      ]
+    },
+    "linalol": {
+      "title": "Obtaining Linalool",
+      "content": "Pure linalool is a volatile compound found in many plant sources, most notably in lavender. Industrial processes are used to isolate pure linalool as it is challenging to obtain in its pure form. The basic steps to obtain pure linalool are as follows:",
+      "items": [
+        "Steam Distillation: The most common method for obtaining linalool involves steam distillation. Plant material is heated with steam, causing volatile oils to rise with the steam. The steam is then condensed, and the volatile oils are separated.",
+        "Chemical Isolation: Linalool is extracted from the volatile oils obtained and further isolated using fractional distillation, crystallization, or other chemical separation techniques.",
+        "Refinement: The extracted linalool is refined to remove impurities, enhancing its purity."
+      ],
+      "content2": "Pure linalool is widely used in cosmetics, perfumes, cleaning products, and aromatherapy applications."
+    }
+  },
+  "consultancy": {
+    "header": "Incentive and Grant Consultancy",
+    "intro": "Various public institutions and organizations provide grants, loans, and interest supports to encourage companies, regardless of their size, to focus on innovation, increase R&D investments, and access new markets. These supports enable companies to develop their infrastructure, implement R&D projects, or enter new markets to acquire new customers. In this context, our company offers comprehensive project development and management consultancy services for all institutions and organizations such as TKDK, TÜBİTAK, KOSGEB, and Development Agencies through its professional team.",
+    "programs": {
+      "ipard": {
+        "header": "IPARD Rural Development Program (TKDK)",
+        "content": "The IPARD program is a component of the Instrument for Pre-Accession Assistance created by the European Union (EU) to support candidate and potential candidate countries. Through the Agriculture and Rural Development Support Institution (TKDK), grant support is provided for many project-based investment areas. (tkdk.gov.tr)"
+      },
+      "developmentAgency": {
+        "header": "Development Agency Projects",
+        "content": "Development Agencies’ Support Programs are grant programs coordinated by the Ministry of Industry and Technology to accelerate regional development, ensure sustainability, reduce regional development disparities, and promote local potential by increasing cooperation between the public sector, private sector, and NGOs. These programs offer up to 75% support for economic, social, rural development, small-scale infrastructure projects, and SME financial support, covering all cities in Turkey through 26 regional development agencies."
+      },
+      "euProjects": {
+        "header": "European Union Projects",
+        "content": "Horizon 2020 aims to enhance the impact of R&D activities conducted within the EU by consolidating all research and innovation programs under a unified system for the 2014-2020 period. The Horizon 2020 Program is structured around three priority areas: Scientific Excellence, Industrial Leadership and Competitiveness, and Solutions to Societal Challenges. Supported project topics include:",
+        "items": [
+          "R&D Activities",
+          "Support and Coordination Actions",
+          "Grants for Innovation",
+          "Co-Funding Actions",
+          "SME Projects"
+        ]
+      },
+      "kosgeb": {
+        "header": "KOSGEB Supports",
+        "items": [
+          "Entrepreneurship Support Program",
+          "R&D, Innovation, and Product Development Support Program",
+          "Tech-Investment Support Program"
+        ]
+      },
+      "tubitak": {
+        "header": "TÜBİTAK Supports",
+        "items": [
+          "1507 - SME R&D Startup Support Program",
+          "1501 - Industrial R&D Projects Support Program",
+          "1511 - Priority Areas Support Program (HAMLE)"
+        ]
+      },
+      "tradeMinistry": {
+        "header": "Ministry of Trade Supports",
+        "items": [
+          "Support for Developing Computer Games / Mobile Applications",
+          "Support for Overseas Scientific, Brand, and Promotional Activities",
+          "Market Research and Market Entry Support",
+          "Support for Participation in International Fairs",
+          "Foreign Exchange Earning Service Trade Support",
+          "Global Supply Chain (GSC) Capability Projects Support",
+          "Design and Product Development Project Support"
+        ]
+      },
+      "technologyMinistry": {
+        "header": "Ministry of Industry and Technology Supports",
+        "items": [
+          "Investment and Incentive Certificate",
+          "Technological Product Investment Support Program (TEKNO INVESTMENT)"
+        ]
+      },
+      "exportConsultancy": {
+        "header": "Export Consultancy",
+        "content": "In a globalized world, stepping into international markets without proper guidance and a strategic roadmap poses significant risks for businesses. As Export Consultancy Services, we are here to help grow your business on the global stage and increase your foreign exchange revenues.",
+        "items": [
+          "Our Export Consultancy Services",
+          "Market Research and Analysis",
+          "Strategy Development",
+          "Commercial Intelligence",
+          "Documentation and Customs Procedures",
+          "Marketing and Corporate Communication"
+        ]
+      }
+    }
+  },
+  "plant": {
+    "companyInfo": "Since 2019, our company has been cultivating lavender, thyme, rosemary, medicinal chamomile, and white lily on its own lands. These products are processed in our facility and marketed. In 2023, with the support of TKDK, our 'Medicinal and Aromatic Plant Processing Facility' became operational in Biga district. The main policy is to increase the cultivation of medicinal and aromatic plants in the Biga region and the Southern Marmara area. To this end, we continue to collaborate with Agricultural Provincial and District Directorates, Chambers of Agriculture, Çanakkale 18 Mart University, and chambers under TOBB. According to the World Health Organization, there are approximately 20,000 medicinal and aromatic plants used globally. Of these, 4,000 are widely used, and around 2,000 are traded worldwide. In our country, there are about 500 plants used medicinally, nearly all of which grow naturally. Only a small fraction has been cultivated. As a company, our goal is to promote the cultivation of value-added medicinal and aromatic plants in the Southern Marmara region.",
+    "step1": {
+      "title": "WHERE ARE MEDICINAL AND AROMATIC PLANTS USED?",
+      "items": [
+        "In medicine and pharmacy",
+        "In cosmetics and perfumery",
+        "In spice production",
+        "As a food additive",
+        "In animal health and as a feed additive",
+        "For obtaining natural dyes",
+        "In landscaping applications"
+      ],
+      "description": "With the distillation line and supercritical extraction line in our facility, we produce raw materials and intermediates for the pharmaceutical and cosmetic industries. Our facility also produces final products in the fields of aromatherapy and phytotherapy."
+    },
+    "step2": {
+      "title": "WHY DO WE AVOID NATURAL COLLECTION FOR MEDICINAL AND AROMATIC PLANTS?",
+      "reasons": [
+        "Low yield and quality.",
+        "Plants containing essential oils are harvested before seeding, preventing reproduction.",
+        "Overharvesting and careless collection pose risks of species decline or even extinction.",
+        "As these plants spread over large areas in nature, collection requires significant time and labor.",
+        "Random collection from nature does not ensure standardization and homogeneity.",
+        "Drying and storage processes for naturally collected plants often do not meet hygienic and quality standards."
+      ]
+    },
+    "step3": {
+      "title": "WHAT DO WE PAY ATTENTION TO IN OUR AGRICULTURAL STRATEGY AND CONTRACTUAL PRODUCTIONS?",
+      "factors": [
+        "Market conditions for medicinal and aromatic plants",
+        "Climatic features of the region",
+        "Land and soil characteristics",
+        "Irrigation conditions of the land",
+        "Determining the plant species and variety to be cultivated (with a preference for registered varieties)",
+        "Healthy seedling supply",
+        "The size of the area to be established for economic feasibility",
+        "The mechanization status of the farmer",
+        "Support for harvesting and post-harvest processes"
+      ]
+    },
+    "step4": {
+      "title": "WHAT ARE EXAMPLES OF POTENTIAL MEDICINAL AND AROMATIC PLANTS?",
+      "examples": [
+        "Rosemary (Rosmarinus Officinalis)",
+        "Thyme (Origanum onites and O. vulgare var. hirtum)",
+        "Lemon Balm (Melissa officinalis)",
+        "Chamomile (Matricaria chamomilla)",
+        "Sage (Salvia fruticosa and S. officinalis)",
+        "Mint (Mentha piperita)",
+        "English Lavender (Lavandula angustifolia)",
+        "Fennel (Foeniculum vulgare)",
+        "Milk Thistle (Silybum marianum)",
+        "Liquorice (Glycyrrhiza glabra)",
+        "Immortelle (Helichrysum italicum)"
+      ]
+    },
+    "policy": {
+      "title": "SERA TERRA AGRICULTURAL POLICY",
+      "description": "Our company aims to encourage the sustainable cultivation of medicinal plants, establish quality and reliability standards, support producers, ensure environmental sustainability, facilitate market access, and preserve plant species. The components of our agricultural policy are outlined below.",
+      "a": {
+        "title": "A. Agricultural Incentives",
+        "description": "To support the production of medicinal and aromatic plants, we provide financial incentives, subsidies, tax exemptions, and other economic benefits to producers. Our company works to ensure that contracted producers benefit maximally from incentives in coordination with relevant public institutions and organizations."
+      },
+      "b": {
+        "title": "B. Quality and Reliability Standards",
+        "description": "Quality and reliability standards for medicinal plants enhance their usability for medicinal purposes. Our facility promotes production in compliance with EU standards, from seedlings to the marketplace."
+      },
+      "c": {
+        "title": "C. Sustainability",
+        "description": "The sustainable cultivation and collection of medicinal and aromatic plants are critical. Our company guides farmers on environmental protection measures, biodiversity conservation, water usage, and soil management."
+      },
+      "d": {
+        "title": "D. Market Access and Trade",
+        "description": "Our company provides necessary support to farmers for accessing domestic and international markets for medicinal and aromatic plants. Planting policies are managed according to market needs."
+      },
+      "e": {
+        "title": "E. Research and Development",
+        "description": "Our company continues research and development activities related to the cultivation and use of medicinal plants. For more detailed information, we recommend reviewing our innovation section."
+      },
+      "f": {
+        "title": "F. Education and Awareness",
+        "description": "Our company provides farmers with training on the agricultural policy of medicinal plants and conducts awareness-raising activities."
+      }
+    }
+  },
+  "process": {
+    "supercriticalCO2": "SUPERCRITICAL CARBON DIOXIDE EXTRACTION (SFE)",
+    "greenTechnology": "A versatile green technology",
+    "description": "Supercritical CO2 extraction is an industrial method used to obtain extracts from plants by employing high pressure and low temperature.",
+    "supercriticalPoints": [
+      "The state of a pure substance above its critical temperature and pressure is known as the supercritical fluid state. Every pure substance has a critical temperature and pressure.",
+      "Supercritical fluids have several advantages over traditional solvents and the liquid-gas state of a pure substance. Their physicochemical properties (density, viscosity, diffusivity, dielectric constant, solubility parameter, etc.) change from gas-like to liquid-like characteristics by altering pressure and temperature.",
+      "A supercritical fluid efficiently uses both gas-phase and liquid properties, such as diffusion like a gas and high solvency like a liquid."
+    ],
+    "whyCO2": "Why Do We Use CO2 in Extraction?",
+    "whyCO2start": "CO2 is preferred as a solvent for several reasons:",
+    "whyCO2Points": [
+      "Easily accessible",
+      "Low cost",
+      "Non-toxic",
+      "Non-flammable",
+      "Leaves no residue",
+      "A natural gas present in the atmosphere",
+      "Easily recoverable",
+      "Reaches the critical state at a relatively low temperature (Tc=31.2°C) and pressure (Pc=73.8 bar)"
+    ],
+    "threeSteps": {
+      "lowTemp": {
+        "title": "Low-Temperature Extraction",
+        "content": "Takes place at lower temperatures compared to conventional methods, consuming less energy and producing fewer CO2 emissions."
+      },
+      "naturalSolvent": {
+        "title": "Natural Solvent",
+        "content": "CO2 is a natural molecule for many organisms and is eco-friendly when used appropriately."
+      },
+      "selectiveSolvent": {
+        "title": "Selective Solvent",
+        "content": "Supercritical CO2 extraction provides precise chemical separation and ensures high-quality products through proper temperature and pressure control during fractionation."
+      }
+    },
+    "workingPrinciple": {
+      "title": "What Is the Working Principle of CO2 Extraction?",
+      "content": "The fundamental principle of extraction is that CO2 dissolves molecules onto itself and leaves them in the separator through phase change or pressure drop. The gas and extract mixture is transported from the extractor to separator columns via a Back Pressure Regulator (BPR). The extract collects at the bottom of the separator column through pressure reduction, while the gas, after leaving the extract, is liquefied and fed back into the system."
+    },
+    "extractionSteps": {
+      "title": "Extraction Process",
+      "steps": [
+        {
+          "number": "01",
+          "title": "System Preparation",
+          "content": "Temperature and pressure parameters are adjusted, and the plant material to be processed is loaded into the reactor columns."
+        },
+        {
+          "number": "02",
+          "title": "Extraction Process",
+          "content": "Extraction is completed in the first extractor column at a flow rate suitable for the system size..."
+        },
+        {
+          "number": "03",
+          "title": "Separation - Extract Collection",
+          "content": "The collected extract is discharged from the separator column, and gas recovery is performed..."
+        },
+        {
+          "number": "04",
+          "title": "Cleaning",
+          "content": "If a different product is to be processed, the system is cleaned with materials suitable for the final product."
+        }
+      ]
+    },
+    "industrialApplications": {
+      "title": "Industrial Applications",
+      "food": {
+        "title": "Food Industry",
+        "content": "Extraction of oils, quality control, aroma extraction, obtaining natural colorants, natural food preservatives, milk sterilization, utilization of food waste, reduced-fat nuts, protein purification, etc."
+      },
+      "cosmetic": {
+        "title": "Cosmetic Industry",
+        "content": "Extraction of skincare ingredients, active compounds, colorants, natural fragrances (oud, sandalwood), essential oils, etc."
+      },
+      "pharma": {
+        "title": "Pharmaceutical Industry",
+        "content": "Herbal extracts, essential oils, extracts rich in active ingredients, vitamin production, etc."
+      },
+      "other": {
+        "title": "Other Industries",
+        "content": "Material engineering, defense industry, textile industry (degreasing without water, dyeing), polymer chemistry, etc."
+      }
+    },
+    "distillationSystems": {
+      "steam": {
+        "title": "STEAM GENERATOR DISTILLATION SYSTEM",
+        "content": "Steam distillation is a method using a steam system to process plant products with high-pressure steam to obtain essential oils. In this method, plant materials are placed in a boiler. Steam is generated by boiling water in another boiler located underneath. This steam is sent to the boiler containing the plant materials. The steam breaks the cell walls of the plant materials, causing the essential oil to separate. The separated mixture of essential oil and water is condensed into liquid form using a condenser. The liquid mixture is separated into essential oil and water via a separator, thereby obtaining essential oil. Steam distillation using a steam system is the most common and effective method for obtaining essential oils from plant materials. The essential oils obtained through this method retain the natural properties of the plants and are of high quality. Through steam distillation, we obtain essential oils from 45 different plants such as rose, lavender, thyme, mint, sage, rosemary, and immortelle. Essential oils are used in many industries such as cosmetics, perfume, food, and pharmaceuticals. The steam generated in our steam distillation unit is entirely provided by a steam generator and does not contain carbon gases that are harmful to nature, as solid fuels do. The steam is produced using electricity. Our facility includes a steam generator distillation system with a capacity of 4,000 liters."
+      },
+      "solid": {
+        "title": "SOLID FUEL DISTILLATION SYSTEM",
+        "content": "Our facility includes a solid fuel distillation system with a capacity of 1,300 liters.",
+        "steps": [
+          "The material to be distilled is cleaned and placed into the boiler.",
+          "Water is filled into the bottom of the boiler and heated.",
+          "Solid fuel (wood, coal, pellets, etc.) is placed under the boiler and ignited.",
+          "As the water boils, steam is produced and transported through pipes to the boiler for steam distillation.",
+          "The steam vaporizes the essential oils or other components within the material and transports them through pipes to another boiler.",
+          "In this boiler, the steam is cooled and condensed into liquid form.",
+          "The essential oils or other components floating on the liquid are collected.",
+          "The water remaining underneath is recovered."
+        ]
+      }
+    }
+  },
+  "products": {
+    "volatileOils": "ESSENTIAL OILS",
+    "maserations": "MACERATIONS",
+    "fixedOils": "FIXED OILS",
+    "hydrosols": "HYDROSOLS",
+    "plantCO2Extracts": "PLANT CO2 EXTRACTS"
+  },
+  "ingredients": {
+    "title1": "Usage Recommendations",
+    "title2": "Warnings",
+    "title3": "Allergen Warning",
+    "description": "Before using any essential oil, you should perform a patch test and immediately discontinue use in case of an adverse reaction. A patch test is a type of test used to determine an individual's skin sensitivity. We recommend performing a patch test on a 1-2 cm² area on the inner elbow or wrist before general use of the oil."
+  },
+  "diseaseList": [
+    "Menstrual Pain",
+    "Mouth Disinfectant",
+    "Bad Breath Remover",
+    "Mouth Ulcers and Inflammations",
+    "Pain Reliever",
+    "Acne",
+    "Antimicrobial",
+    "Antioxidants",
+    "Antiseptics",
+    "Antivirals",
+    "Asthma and Bronchitis",
+    "Fever Reducer",
+    "Foot Care",
+    "Foot Odor Prevention",
+    "Intestinal Spasm Relief",
+    "Immune Support",
+    "Bacterial and Fungal Infections",
+    "Expectorants",
+    "Diaper Rash",
+    "Sore Throat",
+    "Insect/ Mosquito Repellent",
+    "Insect Bites",
+    "Nasal Congestion",
+    "Skin Allergies",
+    "Skin Nourishing",
+    "Skin Cracks",
+    "Skin Rejuvenating (Anti-Aging)",
+    "Skin Mild Wound Healing",
+    "Skin Itching",
+    "Skin Dryness",
+    "Skin Blemishes",
+    "Skin Moisturizer",
+    "Skin Tightening",
+    "Boil Healing",
+    "Chocolate Cyst",
+    "Dementia",
+    "Toothache",
+    "Gum Diseases",
+    "Plaque Prevention",
+    "Diabetes Wounds",
+    "Eczema",
+    "Joint Pain",
+    "Joint Inflammations (Osteoarthritis)",
+    "Infection Relief",
+    "Gas Pain",
+    "Eye Health",
+    "Rosacea",
+    "Sunburn",
+    "Air Freshener",
+    "Hemorrhoids",
+    "Irritable Bowel Syndrome",
+    "Diuretics",
+    "Urinary Tract Infections/ Anti-inflammatory",
+    "Diarrhea",
+    "Appetite Stimulant",
+    "Scalp Itching",
+    "Blood Circulation Regulator",
+    "Hemostatic",
+    "Abdominal Pain",
+    "Muscle Pain",
+    "Muscle Spasm Relief",
+    "Dandruff",
+    "Wrinkle Remover",
+    "Cholesterol Reducer",
+    "Cramps",
+    "Menopause Complaints",
+    "Nausea and Vomiting",
+    "Migraine",
+    "Mucus Drying",
+    "Cough",
+    "Prostate Enlargement",
+    "Mental Calming (Sedative)",
+    "Hair Care",
+    "Head Lice",
+    "Hair Loss",
+    "Sebum Regulation (Skin Oil Balance)",
+    "Psoriasis",
+    "Cellulite",
+    "Smoke Odor Remover",
+    "Cold",
+    "Respiratory Relief",
+    "Stress - Depression Support",
+    "Blood Pressure Reducer",
+    "Nail Fungus",
+    "Toners",
+    "Cold Sore",
+    "Insomnia",
+    "Scabies",
+    "Hives",
+    "Varicose Veins",
+    "Burn Healing Support",
+    "Wound Healing Support",
+    "Fatigue Relief",
+    "Facial Cleansing",
+    "Brain Energizer",
+    "Shingles"
+  ]
+}

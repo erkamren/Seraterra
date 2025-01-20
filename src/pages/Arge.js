@@ -67,7 +67,7 @@ function Arge() {
                     alt={item.data.title}
                     className="w-full h-[250px] sm:h-[300px] object-cover rounded-xl shadow-lg transition-transform duration-300 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 rounded-xl" />
                 </div>
               </div>
             </div>
