@@ -7,19 +7,19 @@ function Ingredients({ selectedId }) {
   const finder = data.filter((item) => item.id === selectedId);
   console.log(selectedId);
   return (
-    <div className="max-w-[160rem] p-0 px-8 mt-28 mx-4">
+    <div className="px-8 mt-48 mx-48">
       {finder.map((item) => (
-        <div className="font-normal text-[1.8rem] leading-[1.8]" key={item.id}>
+        <div className="font-normal text-lg" key={item.id}>
           <img
-            className="w-[90%]"
+            className="w-[50%] m-auto rounded-2xl"
             src={require(`/src/img/products/${item.image}`)}
             alt={item.latin}
           />
-          <h1 className="mt-8 text-[#80cc28]">{item.isim}</h1>
+          <h1 className="mt-8 text-primary">{item.isim}</h1>
           <p className="in-text">Latince Adı: {item.latin}</p>
           <p className="in-text">Menşei: {item.mensei}</p>
           <p className="in-text">Üretim Yeri: {item.uretim}</p>
-          <h3 className="mt-4 text-[#80cc28]">{info.ingredients.title1}</h3>
+          <h3 className="mt-4 text-primary">{info.ingredients.title1}</h3>
           <p className="in-text">{item.kullanim1}</p>
           <p className="in-text">{item.kullanim2}</p>
           <p className="in-text">{item.kullanim3}</p>
@@ -29,7 +29,7 @@ function Ingredients({ selectedId }) {
           <p className="in-text">{item.kullanim7}</p>
           <p className="in-text">{item.kullanim8}</p>
           <p className="in-text">{item.kullanim9}</p>
-          <h3 className="mt-4 text-[#80cc28]">{info.ingredients.title2}</h3>
+          <h3 className="mt-4 text-primary">{info.ingredients.title2}</h3>
           <p className="in-text">{item.uyarilar1}</p>
           <p className="in-text">{item.uyarilar2}</p>
           <p className="in-text">{item.uyarilar3}</p>
@@ -43,7 +43,7 @@ function Ingredients({ selectedId }) {
           <p className="in-text">{info.ingredients.description}</p>
           <a target="_blank" rel="noopener noreferrer" href={item.link}>
             <img
-              className="w-[95%] my-9 mx-3"
+              className="w-[100%] my-9"
               src={naturalink}
               alt="Natural Link"
             />
