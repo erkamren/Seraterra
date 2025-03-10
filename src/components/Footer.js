@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="w-full bg-gradient-to-br from-white via-white to-[#b1e476] py-12">
       <div className="container mx-auto">
-        <div className="grid px-24 grid-cols-1 gap-24 lg:px-10 lg:grid-cols-[220px_160px_70px_70px_70px] xl:px-0  xl:grid-cols-[330px_220px_120px_120px_120px] ">
+        <div className="grid px-24 grid-cols-1 gap-24 lg:px-10 lg:grid-cols-[220px_160px_70px_70px_70px] xl:px-16 2xl:px-44  xl:grid-cols-[330px_220px_120px_120px_120px] ">
           <Logo />
           <Address />
           <FooterHead title={info.footer.corporate}>
