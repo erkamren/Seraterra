@@ -36,7 +36,7 @@ function Logo() {
 
   return (
     <div className="text-left">
-      <img className="h-28 lg:h-32 rounded-lg" src={logo} alt="logo" />
+      <img className="h-28 lg:h-36 rounded-lg" src={logo} alt="logo" />
       <p className="text-sm text-gray-600 mt-4">
         Copyright &copy; <span>{year}</span> by Seraterra Inc. All rights
         reserved.
