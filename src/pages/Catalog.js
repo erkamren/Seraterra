@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import data from "./data.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Catalog({ setSelectedId, selectedSort }) {
+  const { language } = useContext(LanguageContext);
+  const data =
+    language === "tr" ? require("./data.json") : require("./data.en.json");
   const finder = data.filter(
     (item) => item.baslik && item.baslik.includes(selectedSort)
   );

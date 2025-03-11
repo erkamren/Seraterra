@@ -1,12 +1,21 @@
 import logo from "../img/seraterra-logo.jpg";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
-import info from "../pages/info.json";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
+  const { language, setLanguage } = useContext(LanguageContext);
+  const info =
+    language === "tr"
+      ? require("../pages/info.json")
+      : require("../pages/info.en.json");
+
+  const toggleLanguage = () => {
+    setLanguage(language === "tr" ? "en" : "tr");
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,62 +44,89 @@ function Header() {
               }`}
             />
           </Link>
+          <div className="flex">
+            {/* Desktop Menu */}
+            <nav className="hidden lg:flex items-center space-x-8">
+              <NavItem title={info.header.corporate}>
+                <DropdownItem href="/aboutus">
+                  {info.header.aboutUs}
+                </DropdownItem>
+                <DropdownItem href="/certificate">
+                  {info.header.certificates}
+                </DropdownItem>
+              </NavItem>
+              <NavItem title={info.header.activities}>
+                <DropdownItem href="/plant">
+                  {info.header.agriculture}
+                </DropdownItem>
+                <DropdownItem href="/process">
+                  {info.header.facility}
+                </DropdownItem>
+              </NavItem>
+              <NavItem title={info.header.innovation}>
+                <DropdownItem href="/arge">{info.header.research}</DropdownItem>
+                <DropdownItem href="/consultancy">
+                  {info.header.consultancy}
+                </DropdownItem>
+              </NavItem>
+              <NavLink href="/products">{info.header.products}</NavLink>
+              <NavLink href="/encyclopedia">{info.header.encyclopedia}</NavLink>
+              <NavLink href="/blog">{info.header.blog}</NavLink>
+            </nav>
+            {/* Language Toggle */}
+            <div className="relative inline-flex items-center p-1 rounded-2xl mx-4">
+              <div
+                className={`absolute w-1/2 h-full bg-primary rounded-full transition-transform duration-300 ease-in-out ${
+                  language === "en" ? "translate-x-full" : "translate-x-0"
+                }`}
+              />
+              <button
+                onClick={() => setLanguage("tr")}
+                className={`relative z-10 pl-3 pr-2 py-1 rounded-full transition-colors ${
+                  language === "tr" ? "text-white" : "text-primary"
+                }`}
+              >
+                TR
+              </button>
+              <button
+                onClick={() => setLanguage("en")}
+                className={`relative z-10 pl-3 pr-1 py-1 rounded-full transition-colors ${
+                  language === "en" ? "text-white" : "text-primary"
+                }`}
+              >
+                EN
+              </button>
+            </div>
 
-          {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            <NavItem title={info.header.corporate}>
-              <DropdownItem href="/aboutus">{info.header.aboutUs}</DropdownItem>
-              <DropdownItem href="/certificate">
-                {info.header.certificates}
-              </DropdownItem>
-            </NavItem>
-            <NavItem title={info.header.activities}>
-              <DropdownItem href="/plant">
-                {info.header.agriculture}
-              </DropdownItem>
-              <DropdownItem href="/process">
-                {info.header.facility}
-              </DropdownItem>
-            </NavItem>
-            <NavItem title={info.header.innovation}>
-              <DropdownItem href="/arge">{info.header.research}</DropdownItem>
-              <DropdownItem href="/consultancy">
-                {info.header.consultancy}
-              </DropdownItem>
-            </NavItem>
-            <NavLink href="/products">{info.header.products}</NavLink>
-            <NavLink href="/encyclopedia">{info.header.encyclopedia}</NavLink>
-            <NavLink href="/blog">{info.header.blog}</NavLink>
-          </nav>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+            {/* Mobile Menu Button */}
+            <button
+              className="lg:hidden p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              {isMobileMenuOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
+              <svg
+                className="w-10 h-10"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isMobileMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}

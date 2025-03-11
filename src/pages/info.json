@@ -1,6 +1,9 @@
 {
   "contact": {
     "header": "Bizimle iletişime geçmek ister misiniz?",
+    "name": "İsminiz",
+    "email": "Emailiniz",
+    "message": "Mesajınız",
     "successMessage": "Mesajınız Başarıyla Gönderilmiştir",
     "followUs": "Bizi takip edin:",
     "send": "Gönder",

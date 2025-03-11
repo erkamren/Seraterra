@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import data from "./data.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Disease({ setSelectedId, selectedDisease }) {
+  const { language } = useContext(LanguageContext);
+  const data =
+    language === "tr" ? require("./data.json") : require("./data.en.json");
   if (!selectedDisease) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white mt-36">

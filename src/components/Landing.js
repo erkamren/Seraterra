@@ -3,9 +3,15 @@ import plant from "../img/plant.jpg";
 import process from "../img/process.jpg";
 import products from "../img/products.jpg";
 import arge from "../img/arge.jpg";
-import info from "../pages/info.json";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Landing() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr"
+      ? require("../pages/info.json")
+      : require("../pages/info.en.json");
   const cards = [
     { image: plant, title: info.header.agriculture, path: "/plant" },
     { image: process, title: info.header.facility, path: "/process" },

@@ -11,9 +11,14 @@ import Gallery9 from "../img/gallery/gallery-9.jpg";
 import Gallery10 from "../img/gallery/gallery-10.jpg";
 import Gallery11 from "../img/gallery/gallery-11.jpg";
 import Gallery12 from "../img/gallery/gallery-12.jpg";
-import info from "../pages/info.json";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Products({ setSelectedSort }) {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
+
   return (
     <div className="min-h-7xl bg-primary p-4 md:p-8 lg:p-12 mt-36">
       <div className="container mx-auto max-w-7xl">

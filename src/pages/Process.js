@@ -1,4 +1,5 @@
-import info from "./info.json";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 import F500 from "../img/F500.jpg";
 import DSCF7290 from "../img/DSCF7290.jpg";
 import Glass from "../img/glass.png";
@@ -9,6 +10,9 @@ import Coal from "../img/coal.jpeg";
 import Stream from "../img/stream.jpeg";
 
 function Process() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   return (
     <div className="container mx-auto px-4 mt-48 max-w-7xl">
       {/* Hero Section 1*/}

@@ -2,9 +2,12 @@ import kapsaisin from "../img/kapsaisin.jpg";
 import oleuropein from "../img/olueoropein.jpg";
 import juglone from "../img/juglone.jpg";
 import linalol from "../img/linalol.jpg";
-import info from "./info.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Arge() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   const researchItems = [
     { number: "01", image: kapsaisin, data: info.arge.kapsaisin },
     { number: "02", image: oleuropein, data: info.arge.oleuropein },

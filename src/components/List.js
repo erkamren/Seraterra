@@ -1,7 +1,11 @@
 import { Link } from "react-scroll";
-import info from "../pages/info.json"; // info.json dosyasını içe aktar
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function List() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   return (
     <div className="max-w-screen-lg mt-44">
       <div className="w-1/5 mx-auto">

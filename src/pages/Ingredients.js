@@ -1,9 +1,13 @@
 import { useParams } from "react-router-dom";
-import data from "./data.json";
 import naturalink from "../img/natura-link.png";
-import info from "./info.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Ingredients({ selectedId }) {
+  const { language } = useContext(LanguageContext);
+  const data =
+    language === "tr" ? require("./data.json") : require("./data.en.json");
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   const finder = data.filter((item) => item.id === selectedId);
   console.log(selectedId);
   return (

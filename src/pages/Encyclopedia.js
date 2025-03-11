@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import info from "../pages/info.json"; // info.json dosyasını içe aktar
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Encyclopedia({ setSelectedDisease }) {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   const letters = [
     "A",
     "B",

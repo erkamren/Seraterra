@@ -2,9 +2,12 @@ import plant1 from "../img/plant1.jpeg";
 import plant2 from "../img/plant2.jpeg";
 import plant3 from "../img/plant3.jpeg";
 import plant4 from "../img/plant4.jpeg";
-import info from "./info.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Plant() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   return (
     <div className="container mx-auto px-4 py-16 max-w-7xl mt-24">
       {/* Header Section */}

@@ -1,7 +1,10 @@
 import Consult from "../img/consultancy.jpeg";
-import info from "../pages/info.json";
-
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 function Consultancy() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr" ? require("./info.json") : require("./info.en.json");
   const programs = [
     { key: "ipard" },
     { key: "developmentAgency" },

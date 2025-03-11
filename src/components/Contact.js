@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import connect from "../img/connect.jpg";
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import {
@@ -10,7 +10,7 @@ import {
   PaperAirplaneIcon,
   CheckIcon,
 } from "@heroicons/react/24/solid";
-import info from "../pages/info.json";
+import { LanguageContext } from "../context/LanguageContext";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
@@ -29,6 +29,12 @@ function Contact() {
   }
 
   const form = useRef();
+
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr"
+      ? require("../pages/info.json")
+      : require("../pages/info.en.json");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -69,7 +75,7 @@ function Contact() {
                 <input
                   id="full-name"
                   type="text"
-                  placeholder="İsminiz"
+                  placeholder={info.contact.name}
                   name="name"
                   required
                   className="w-full rounded-lg bg-white py-3 pl-10 pr-4 text-gray-800 placeholder-gray-400 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-[#80cc28]"
@@ -83,7 +89,7 @@ function Contact() {
                 <input
                   id="email"
                   type="email"
-                  placeholder="Emailiniz"
+                  placeholder={info.contact.email}
                   name="email"
                   required
                   className="w-full rounded-lg bg-white py-3 pl-10 pr-4 text-gray-800 placeholder-gray-400 shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-[#80cc28]"
@@ -96,7 +102,7 @@ function Contact() {
                 </div>
                 <textarea
                   id="submit"
-                  placeholder="Mesajınız"
+                  placeholder={info.contact.message}
                   name="message"
                   required
                   rows="4"

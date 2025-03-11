@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
 import logo from "../img/seraterra-logo.jpg";
-import info from "../pages/info.json";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Footer() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr"
+      ? require("../pages/info.json")
+      : require("../pages/info.en.json");
   return (
     <div className="w-full bg-gradient-to-br from-white via-white to-[#b1e476] py-12">
       <div className="container mx-auto">

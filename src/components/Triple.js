@@ -2,9 +2,15 @@ import { Link } from "react-router-dom";
 import consultant from "../img/consultant.jpg";
 import encyclopedia from "../img/encyclopedia.jpg";
 import blog from "../img/blog.jpg";
-import info from "../pages/info.json";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Triple() {
+  const { language } = useContext(LanguageContext);
+  const info =
+    language === "tr"
+      ? require("../pages/info.json")
+      : require("../pages/info.en.json");
   const cards = [
     {
       title: info.header.consultancy,
