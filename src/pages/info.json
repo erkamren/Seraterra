@@ -35,6 +35,7 @@
     "blog": "BLOG"
   },
   "aboutUsContent": {
+    "aboutUs": "Hakkımızda",
     "foundation": "Sera Terra'nın temelleri 2019 yılında Balıkesir'de atılmıştır. Tıbbi ve Aromatik bitkiler üzerine yapılan araştırmalar neticesinde yaklaşık 15 dekar alanda Ekim faaliyetleri başlatılmıştır. Tarım faaliyetlerine biberiye ile başlanmış lavanta kekik Beyaz Zambak ve tıbbi papatya ile devam edilmiştir. Mevcut durumda 70 dekarın üzerinde ürün ekim, tarım ve ar-ge çalışmaları devam etmektedir.",
     "investment": "2022 yılında bu alanda katma değerli ürün üretimi hedefi ile tıbbi ve aromatik bitki işletme tesisi yatırımlarına başlamıştır bu alanda buhar distilasyonu ve süper kritik CO2 ekstraksiyonu hattı kurularak 250 ton ürün işleme kapasiteli tesis Ağustos 2023 döneminde devreye alınmıştır.",
     "support": "Kurulan tesis, IPARD programı teşvikiyle desteklenmiş olup, AB standart ve kriterlerine uygun bir tesis inşa edilmiştir. Tesisin ürün gamında aroma terapi ve fitoterapi sektörlerine girdi olarak üretilen sabit ve uçucu yağlar ilaç ve kozmetik sektörlerine girdi olarak bitki ekstraktları yer almaktadır.",
@@ -49,9 +50,11 @@
       ]
     },
     "missionTitle": "Misyonumuz;",
-    "missionDescription": "Toprağın mucizelerini insanlığa sunmak"
+    "missionDescription": "Toprağın mucizelerini insanlığa sunmak",
+    "ourValue": "Our Value"
   },
   "arge": {
+    "title": "Ar-Ge Çalışmalarımız",
     "researchContent": "Araştırma ve geliştirme faaliyetlerimiz proje ekiplerimiz tarafından bilimsel ve etik kurallar çerçevesinde yapılmaktadır. Proje ekiplerimiz ziraat, kimya ve farmakoloji konusunda uzman araştırmacılardan oluşmaktadır. Ar-Ge merkezimizde literatür tarama ve değerlendirme çalışmaları, etken madde değerlendirme, çeşitli bitkilerin içeriği ve kullanım alanlarının değerlendirilmesi, formülasyon tasarımı ve formülasyon geliştirme, etken madde saflaştırma çalışmaları titizlikle yürütülmektedir. Ar-Ge merkezimizin temel amacı yenilikçi yaklaşımımız ve başarma tutkumuz ile insan sağlığı, bakımı ve güzelliği için kaliteli ve spesifik çözümler üretme yolunda bitkilerin şifa dolu dünyasında etken madde üretimini başarmaktır. Tesisimizde mevcut durumda 10 farklı Ar-Ge projesi devam etmektedir. Bu kapsamda TÜBİTAK işbirliğiyle, Tarım İlçe Müdürlüğü, üniversiteler ve 3 farklı kimya laboratuvarıyla koordinasyon halinde bitkilerden endüstriyel katma değerli ürün elde etme çalışmalarımız devam etmektedir.",
     "kapsaisin": {
       "title": "Kapsaisin Elde Edilmesi",
@@ -353,6 +356,7 @@
     }
   },
   "products": {
+    "title": "Ürün Kategorilerimiz",
     "volatileOils": "UÇUCU YAĞLAR",
     "maserations": "MASERASYONLAR",
     "fixedOils": "SABİT YAĞLAR",

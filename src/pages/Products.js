@@ -25,7 +25,7 @@ function Products({ setSelectedSort }) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="space-y-4 md:space-y-6">
             <h2 className="text-white text-2xl md:text-3xl font-bold mb-8">
-              Ürün Kategorilerimiz
+              {info.products.title}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
               <ProductsLink

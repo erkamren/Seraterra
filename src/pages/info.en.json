@@ -14,7 +14,7 @@
     "aboutUs": "About Us",
     "certificates": "Certificates",
     "activities": "Our Activities",
-    "agriculture": "Agriculture",
+    "agriculture": "Farming",
     "facility": "Facility",
     "innovation": "Innovation",
     "research": "R&D",
@@ -25,7 +25,7 @@
     "aboutUs": "ABOUT US",
     "certificates": "CERTIFICATES",
     "activities": "OUR ACTIVITIES",
-    "agriculture": "AGRICULTURE",
+    "agriculture": "FARMING",
     "facility": "FACILITY",
     "innovation": "INNOVATION",
     "research": "R&D",
@@ -35,6 +35,7 @@
     "blog": "BLOG"
   },
   "aboutUsContent": {
+    "aboutUs": "About Us",
     "foundation": "Sera Terra was established in 2019 in Balıkesir. Following extensive research on medicinal and aromatic plants, cultivation activities commenced on approximately 15 decares of land. The agricultural activities began with rosemary and continued with lavender, thyme, white lily, and chamomile. Currently, over 70 decares are actively being used for cultivation, agriculture, and R&D activities.",
     "investment": "In 2022, investments began to produce value-added products from medicinal and aromatic plants. A facility with steam distillation and supercritical CO2 extraction lines was established, boasting a processing capacity of 250 tons. The facility became operational in August 2023.",
     "support": "The facility was supported through the IPARD program and built to meet EU standards and criteria. The product range includes essential and fixed oils for the aromatherapy and phytotherapy sectors, as well as plant extracts for the pharmaceutical and cosmetics industries.",
@@ -49,9 +50,11 @@
       ]
     },
     "missionTitle": "Our Mission:",
-    "missionDescription": "Delivering the miracles of the soil to humanity"
+    "missionDescription": "Delivering the miracles of the soil to humanity",
+    "ourValue": "Değerlerimiz"
   },
   "arge": {
+    "title": "R&D Activities",
     "researchContent": "Our research and development activities are conducted by project teams adhering to scientific and ethical principles. These teams comprise researchers specialized in agriculture, chemistry, and pharmacology. At our R&D center, we meticulously carry out literature reviews, active ingredient evaluations, analyses of various plants and their applications, formulation design and development, and active ingredient purification. The primary goal of our R&D center is to produce quality and specific solutions for health, care, and beauty through innovative approaches and a passion for success within the healing world of plants. Currently, 10 different R&D projects are underway. In collaboration with TÜBİTAK, local Agricultural Directorates, universities, and three separate chemistry laboratories, we continue our efforts to derive value-added industrial products from plants.",
     "kapsaisin": {
       "title": "Obtaining Capsaicin",
@@ -352,6 +355,7 @@
     }
   },
   "products": {
+    "title": "Our Product Categories",
     "volatileOils": "ESSENTIAL OILS",
     "maserations": "MACERATIONS",
     "fixedOils": "FIXED OILS",

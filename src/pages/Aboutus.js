@@ -21,7 +21,7 @@ function Aboutus() {
           </div>
 
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-            Hakkımızda
+            {info.aboutUsContent.aboutUs}
           </h1>
           <div className="w-24 h-1 bg-green-500 mx-auto mt-4"></div>
         </div>
@@ -77,7 +77,7 @@ function Aboutus() {
           {/* Values Grid */}
           <div className="bg-white rounded-xl shadow-sm p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Değerlerimiz
+              {info.aboutUsContent.ourValue}
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {/* Left Column */}
