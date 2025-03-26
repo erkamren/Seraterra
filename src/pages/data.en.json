@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "to": "adacayi",
     "diseases": [
       "Menstrual Pain",
       "Mouth Sores and Infections",
@@ -70,7 +69,6 @@
   },
   {
     "id": 2,
-    "to": "biberiye",
     "name": "ROSEMARY ESSENTIAL OIL",
     "diseases": ["Menstrual Pain", "Mouth Sores and Infections", "Pain Relief"],
     "title": ["ESSENTIAL OILS"],
@@ -103,7 +101,6 @@
   },
   {
     "id": 3,
-    "to": "kekik",
     "name": "THYME ESSENTIAL OIL",
     "diseases": [
       "Mouth Disinfectant",
@@ -149,7 +146,6 @@
   },
   {
     "id": 4,
-    "to": "lavanta",
     "name": "LAVENDER ESSENTIAL OIL",
     "diseases": [
       "Pain Relief",
@@ -198,7 +194,6 @@
   },
   {
     "id": 5,
-    "to": "nane",
     "name": "PEPPERMINT ESSENTIAL OIL",
     "diseases": [
       "Mouth Disinfectant",
@@ -255,7 +250,6 @@
   },
   {
     "id": 6,
-    "to": "nioli",
     "name": "NIAOULI ESSENTIAL OIL",
     "diseases": [
       "Acne",
@@ -294,7 +288,6 @@
   },
   {
     "id": 7,
-    "to": "eucalyptus",
     "name": "EUCALYPTUS ESSENTIAL OIL",
     "diseases": [
       "Bad Breath",
@@ -359,7 +352,6 @@
   },
   {
     "id": 8,
-    "to": "patchouli",
     "name": "PATCHOULI ESSENTIAL OIL",
     "diseases": [
       "Mouth Sores and Infections",
@@ -407,7 +399,6 @@
   },
   {
     "id": 9,
-    "to": "ylangylang",
     "name": "YLANG YLANG ESSENTIAL OIL",
     "diseases": [
       "Pain Relief",
@@ -451,7 +442,6 @@
   },
   {
     "id": 10,
-    "to": "citronella",
     "name": "CITRONELLA ESSENTIAL OIL",
     "diseases": ["Head Lice", "Scabies"],
     "title": ["ESSENTIAL OILS"],
@@ -478,7 +468,6 @@
   },
   {
     "id": 11,
-    "to": "limonkabugu",
     "name": "LEMON PEEL ESSENTIAL OIL",
     "diseases": [
       "Acne",
@@ -539,7 +528,6 @@
   },
   {
     "id": 12,
-    "to": "portakalkabugu",
     "name": "ORANGE PEEL ESSENTIAL OIL",
     "diseases": [
       "Pain Relief",
@@ -585,7 +573,6 @@
   },
   {
     "id": 13,
-    "to": "camterebentin",
     "name": "PINE TURPENTINE ESSENTIAL OIL",
     "diseases": [
       "Mouth Sores and Infections",
@@ -626,7 +613,6 @@
   },
   {
     "id": 14,
-    "to": "laurel",
     "name": "LAUREL ESSENTIAL OIL",
     "diseases": [
       "Antimicrobial",
@@ -668,7 +654,6 @@
   },
   {
     "id": 15,
-    "to": "elemi",
     "name": "ELEMI ESSENTIAL OIL",
     "diseases": [
       "Antimicrobial",
@@ -707,7 +692,6 @@
   },
   {
     "id": 16,
-    "to": "clove",
     "name": "CLOVE ESSENTIAL OIL",
     "diseases": [
       "Bad Breath Relief",
@@ -756,7 +740,6 @@
   },
   {
     "id": 17,
-    "to": "havuctohumu",
     "name": "CARROT SEED OIL",
     "diseases": ["Skin Rejuvenation (Anti-Aging)", "Infection Relief"],
     "title": ["ESSENTIAL OILS"],
@@ -783,7 +766,6 @@
   },
   {
     "id": 18,
-    "to": "palmarosa",
     "name": "PALMAROSA ESSENTIAL OIL",
     "diseases": [
       "Acne",
@@ -835,7 +817,6 @@
   },
   {
     "id": 19,
-    "to": "itir",
     "name": "GERANIUM ESSENTIAL OIL",
     "diseases": [
       "Antimicrobial",
@@ -875,7 +856,6 @@
   },
   {
     "id": 20,
-    "to": "servi",
     "name": "CUPRESSUS ESSENTIAL OIL",
     "diseases": [
       "Acne",
@@ -921,7 +901,6 @@
   },
   {
     "id": 21,
-    "to": "tarcin",
     "name": "CINNAMON ESSENTIAL OIL",
     "diseases": [
       "Menstrual Pain",
@@ -963,7 +942,6 @@
   },
   {
     "id": 22,
-    "to": "vetiver",
     "name": "VETIVER ESSENTIAL OIL",
     "diseases": ["Fatigue Relief", "Mental Clarity"],
     "title": ["ESSENTIAL OILS"],
@@ -993,7 +971,6 @@
   },
   {
     "id": 23,
-    "to": "ginger",
     "name": "GINGER ESSENTIAL OIL",
     "diseases": ["Pain Relief"],
     "title": ["ESSENTIAL OILS"],
@@ -1023,7 +1000,6 @@
   },
   {
     "id": 24,
-    "to": "lemongrass",
     "name": "LEMONGRASS ESSENTIAL OIL",
     "diseases": [
       "Insect Repellent",
@@ -1062,7 +1038,6 @@
 
   {
     "id": 25,
-    "to": "bergamot",
     "diseases": [
       "Mouth Disinfectant",
       "Mouth Sores and Infections",
@@ -1091,7 +1066,6 @@
   },
   {
     "id": 26,
-    "to": "juniper",
     "name": "JUNIPER ESSENTIAL OIL",
     "diseases": [
       "Acne",
@@ -1146,7 +1120,6 @@
   },
   {
     "id": 27,
-    "to": "sarikantaron",
     "name": "HYPERICUM OIL",
     "diseases": [
       "Eczema",
@@ -1180,7 +1153,6 @@
   },
   {
     "id": 28,
-    "to": "papatya",
     "name": "CHAMOMILE MACERATION",
     "diseases": [
       "Mouth Disinfectant",
@@ -1222,7 +1194,6 @@
   },
   {
     "id": 29,
-    "to": "aynisafa",
     "name": "CALENDULA MACERATION",
     "diseases": [
       "Diaper Rash",
@@ -1256,7 +1227,6 @@
   },
   {
     "id": 30,
-    "to": "udihindi",
     "name": "UDİ HINDI OIL",
     "diseases": [],
     "title": ["MACERATIONS"],
@@ -1282,14 +1252,13 @@
   },
   {
     "id": 31,
-    "to": "badem",
     "name": "ALMOND OIL",
     "diseases": [
       "Skin Stretch Marks",
       "Skin Minor Wound Healer",
       "Skin Moisturizer"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "badem.jpeg",
     "link": "https://www.seranatura.com/badem-yagi",
     "latin": "Prunus Amygdalus",
@@ -1318,7 +1287,6 @@
   },
   {
     "id": 32,
-    "to": "shea",
     "name": "SHEA BUTTER",
     "diseases": [],
     "title": [],
@@ -1348,7 +1316,6 @@
   },
   {
     "id": 33,
-    "to": "avocado",
     "name": "AVOCADO OIL",
     "diseases": [
       "Eczema",
@@ -1358,7 +1325,7 @@
       "Cholesterol Lowering",
       "Psoriasis"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "avokado.jpeg",
     "link": "https://www.seranatura.com/avokado-yagi",
     "latin": "Persea Americana",
@@ -1393,7 +1360,6 @@
   },
   {
     "id": 34,
-    "to": "coconut",
     "name": "COCONUT OIL",
     "diseases": [
       "Skin Nourishing",
@@ -1406,7 +1372,7 @@
       "Cough",
       "Psoriasis"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "hindistancevizi.jpeg",
     "link": "https://www.seranatura.com/hindistancevizi-yagi",
     "latin": "Cocos Nucifera",
@@ -1433,7 +1399,6 @@
   },
   {
     "id": 35,
-    "to": "jojoba",
     "name": "JOJOBA OIL",
     "diseases": [
       "Acne",
@@ -1446,7 +1411,7 @@
       "Wrinkle Reducer",
       "Psoriasis"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "jojoba.jpeg",
     "link": "https://www.seranatura.com/jojoba-yagi",
     "latin": "Simmondsia Chinensis",
@@ -1474,7 +1439,6 @@
   },
   {
     "id": 36,
-    "to": "rosehipseed",
     "name": "ROSEHIP SEED OIL",
     "diseases": [
       "Acne",
@@ -1492,7 +1456,7 @@
       "Wound Healing Support",
       "Facial Cleansing"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "kusburnucekirdegi.jpeg",
     "link": "https://www.seranatura.com/kusburnu-yagi",
     "latin": "Rosa Canina",
@@ -1521,7 +1485,6 @@
   },
   {
     "id": 37,
-    "to": "pumpkinseed",
     "name": "PUMPKIN SEED OIL",
     "diseases": [
       "Skin Nourishing",
@@ -1530,7 +1493,7 @@
       "Hair Care",
       "Blood Pressure Lowering"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "kabakcekirdegi.jpeg",
     "link": "https://www.seranatura.com/kabakcekirdegi-yagi",
     "latin": "Cucurbita Pepo",
@@ -1558,7 +1521,6 @@
   },
   {
     "id": 38,
-    "to": "cocoa",
     "name": "COCOA BUTTER",
     "diseases": [
       "Skin Nourishing",
@@ -1566,7 +1528,7 @@
       "Minor Skin Wound Healing",
       "Skin Moisturizing"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "kakao.jpeg",
     "link": "https://www.seranatura.com/kakao-yagi",
     "latin": "Theobroma Cacao",
@@ -1592,10 +1554,9 @@
   },
   {
     "id": 39,
-    "to": "blackseed",
     "name": "BLACK SEED OIL",
     "diseases": ["Antimicrobial", "Immune Support"],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "corekotu.jpeg",
     "link": "https://www.seranatura.com/corekotu-yagi",
     "latin": "Nigella Sativa",
@@ -1622,10 +1583,9 @@
   },
   {
     "id": 40,
-    "to": "apricotkernel",
     "name": "APRICOT KERNEL OIL",
     "diseases": ["Skin Nourishing", "Wrinkle Reducer", "Cellulite"],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "kayisicekirdegi.jpeg",
     "link": "https://www.seranatura.com/kayisicekirdegi-yagi",
     "latin": "Prunus Armeniaca",
@@ -1653,7 +1613,6 @@
   },
   {
     "id": 41,
-    "to": "neem",
     "name": "NEEM OIL",
     "diseases": [
       "Boil Healer",
@@ -1663,7 +1622,7 @@
       "Psoriasis",
       "Scabies"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "neem.jpeg",
     "link": "https://www.seranatura.com/neem-yagi",
     "latin": "Azadirachta Indica",
@@ -1691,7 +1650,6 @@
   },
   {
     "id": 42,
-    "to": "pomegranate-seed",
     "name": "POMEGRANATE SEED OIL",
     "diseases": [
       "Antioxidants",
@@ -1701,7 +1659,7 @@
       "Sunburns",
       "Psoriasis"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "narcekirdegi.jpeg",
     "link": "https://www.seranatura.com/narcekirdegi-yagi",
     "latin": "Punica Granatum",
@@ -1730,7 +1688,6 @@
   },
   {
     "id": 43,
-    "to": "macadamia-nut",
     "name": "MACADAMIA NUT OIL",
     "diseases": [
       "Skin Nourishing",
@@ -1738,7 +1695,7 @@
       "Skin Firming",
       "Hair Care"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "makedemyacevizi.jpeg",
     "link": "https://www.seranatura.com/",
     "latin": "Macadamia Integrifolia",
@@ -1767,10 +1724,9 @@
   },
   {
     "id": 44,
-    "to": "mct",
     "name": "MCT OIL",
     "diseases": [],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "mct.jpeg",
     "link": "https://www.seranatura.com/mct-yagi",
     "latin": "Cocoa Nucifera",
@@ -1794,10 +1750,9 @@
   },
   {
     "id": 45,
-    "to": "grapeseed",
     "name": "GRAPESEED OIL",
     "diseases": ["Skin Moisturizer", "Blood Circulation Regulator"],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "uzumcekirdegi.jpeg",
     "link": "https://www.seranatura.com/uzumcekirdegi-yagi",
     "latin": "Vitis Vinifera",
@@ -1827,7 +1782,6 @@
   },
   {
     "id": 46,
-    "to": "figseed",
     "name": "FIG SEED OIL",
     "diseases": [
       "Acne",
@@ -1839,7 +1793,7 @@
       "Wrinkle Reducer",
       "Hair Care"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "incircekirdegi.jpeg",
     "link": "https://www.seranatura.com/incircekirdegi-yagi",
     "latin": "Ficus Carica",
@@ -1868,10 +1822,9 @@
   },
   {
     "id": 47,
-    "to": "safflower",
     "name": "SAFFLOWER OIL",
     "diseases": ["Skin Nourisher"],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "aspir.jpeg",
     "link": "https://www.seranatura.com/",
     "latin": "Carthamus Tinctorious",
@@ -1897,10 +1850,9 @@
   },
   {
     "id": 48,
-    "to": "hint",
     "name": "CASTOR OIL",
     "diseases": ["Boil Healer"],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "hint.jpeg",
     "link": "https://www.seranatura.com/hint-yagi",
     "latin": "Ricinus Communis",
@@ -1926,10 +1878,9 @@
   },
   {
     "id": 49,
-    "to": "hodan",
     "name": "BORAGE OIL",
     "diseases": [],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "hodan.jpeg",
     "link": "https://www.seranatura.com/hodan-yagi",
     "latin": "Borago officinalis",
@@ -1956,7 +1907,6 @@
   },
   {
     "id": 50,
-    "to": "pirinckepegi",
     "name": "RICE BRAN OIL",
     "diseases": [
       "Skin Cracks",
@@ -1965,7 +1915,7 @@
       "Cholesterol Lowering",
       "Menopausal Symptoms"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "pirinckepegi.jpeg",
     "link": "https://www.seranatura.com/pirinckepegi-yagi",
     "latin": "Oryza Sativa",
@@ -1994,7 +1944,6 @@
   },
   {
     "id": 51,
-    "to": "tamanu",
     "name": "TAMANO OIL",
     "diseases": [
       "Insect Bites",
@@ -2006,7 +1955,7 @@
       "Cold Sores",
       "Shingles"
     ],
-    "title": ["CARRIER OILS"],
+    "title": ["FIXED OILS"],
     "image": "tamanu.jpeg",
     "link": "https://www.seranatura.com/tamanu-yagi",
     "latin": "Calophyllum Inophyllum",
@@ -2033,7 +1982,6 @@
   },
   {
     "id": 52,
-    "to": "itirhidro",
     "name": "GERANIUM (ITIR) HYDROSOL",
     "diseases": [],
     "title": ["HYDROSOLS"],
@@ -2060,7 +2008,6 @@
   },
   {
     "id": 53,
-    "to": "nanehidro",
     "name": "PEPPERMINT HYDROSOL",
     "diseases": [
       "Mouth Disinfectant",
@@ -2107,7 +2054,6 @@
   },
   {
     "id": 54,
-    "to": "lavantahidro",
     "name": "LAVENDER HYDROSOL",
     "diseases": [],
     "title": ["HYDROSOLS"],
@@ -2135,7 +2081,6 @@
   },
   {
     "id": 55,
-    "to": "thymehydrosol",
     "name": "THYME HYDROSOL",
     "diseases": [],
     "title": ["HYDROSOLS"],
@@ -2164,7 +2109,6 @@
   },
   {
     "id": 56,
-    "to": "romanchamomilehydrosol",
     "name": "ROMAN CHAMOMILE HYDROSOL",
     "diseases": [],
     "title": ["HYDROSOLS"],
@@ -2191,7 +2135,6 @@
   },
   {
     "id": 57,
-    "to": "rosemaryhydrosol",
     "name": "ROSEMARY HYDROSOL",
     "diseases": [
       "Acne",
@@ -2235,7 +2178,6 @@
   },
   {
     "id": 58,
-    "to": "frankincensehydrosol",
     "name": "FRANKINCENSE HYDROSOL",
     "diseases": [
       "Mouth Odor Eliminator",
@@ -2293,7 +2235,6 @@
   },
   {
     "id": 59,
-    "to": "gulhidro",
     "name": "ROSE HYDROSOL",
     "diseases": [
       "Antimicrobial",
@@ -2341,7 +2282,6 @@
   },
   {
     "id": 60,
-    "to": "portakalcicekhidro",
     "name": "ORANGE BLOSSOM HYDROSOL",
     "diseases": [],
     "title": ["HYDROSOLS"],
@@ -2370,7 +2310,6 @@
   },
   {
     "id": 61,
-    "to": "mersinhidro",
     "name": "MYRTLE HYDROSOL",
     "diseases": [
       "Acne",
@@ -2417,7 +2356,6 @@
   },
   {
     "id": 62,
-    "to": "olmezcicekhidro",
     "name": "IMMORTELLE HYDROSOL",
     "title": ["HYDROSOLS"],
     "image": "olmezcicekhidro.jpeg",
@@ -2444,13 +2382,11 @@
   },
   {
     "id": 63,
-    "to": "civanpercemi",
     "name": "YARROW ESSENTIAL OIL",
     "diseases": ["Menstrual Pain"]
   },
   {
     "id": 64,
-    "to": "kafur",
     "name": "CAMPHOR ESSENTIAL OIL",
     "diseases": [
       "Menstrual Pain",
@@ -2470,13 +2406,11 @@
   },
   {
     "id": 65,
-    "to": "maydanoz",
     "name": "PARSLEY ESSENTIAL OIL",
     "diseases": ["Menstrual Pain", "Mouth Odor Eliminator"]
   },
   {
     "id": 66,
-    "to": "mercankosk",
     "name": "MARJORAM ESSENTIAL OIL",
     "diseases": [
       "Menstrual Pain",
@@ -2501,7 +2435,6 @@
   },
   {
     "id": 67,
-    "to": "mur",
     "name": "MYRRH ESSENTIAL OIL",
     "diseases": [
       "Menstrual Pain",
@@ -2525,7 +2458,6 @@
   },
   {
     "id": 68,
-    "to": "cayagaci",
     "name": "TEA TREE ESSENTIAL OIL",
     "diseases": [
       "Mouth Disinfectant",
@@ -2551,19 +2483,16 @@
   },
   {
     "id": 69,
-    "to": "adacayihidro",
     "name": "SAGE HYDROSOL",
     "diseases": ["Mouth Disinfectant"]
   },
   {
     "id": 70,
-    "to": "anisehydrosol",
     "name": "ANISE HYDROSOL",
     "diseases": ["Mouth Odor Eliminator"]
   },
   {
     "id": 71,
-    "to": "chamomilehydrosol",
     "name": "CHAMOMILE HYDROSOL",
     "diseases": [
       "Mouth Sores and Infections",
@@ -2590,31 +2519,26 @@
   },
   {
     "id": 72,
-    "to": "anise",
     "name": "ANISE ESSENTIAL OIL",
     "diseases": ["Mouth Sores and Infections"]
   },
   {
     "id": 73,
-    "to": "walnut",
     "name": "WALNUT OIL",
     "diseases": ["Acne", "Bleeding Stopper", "Wound Healing Support"]
   },
   {
     "id": 74,
-    "to": "lime",
     "name": "LIME ESSENTIAL OIL",
     "diseases": ["Toothache", "Joint Inflammations (Osteoarthritis)"]
   },
   {
     "id": 75,
-    "to": "chia",
     "name": "CHIA SEED OIL",
     "diseases": ["Immune Support", "Skin Dryness", "Skin Spots", "Dementia"]
   },
   {
     "id": 76,
-    "to": "sesame",
     "name": "SESAME OIL",
     "diseases": [
       "Bacterial and Fungal Infections",
@@ -2625,7 +2549,6 @@
   },
   {
     "id": 77,
-    "to": "boragehydrosol",
     "name": "BORAGE HYDROSOL",
     "diseases": [
       "Mild Wound Healing",
@@ -2643,7 +2566,6 @@
   },
   {
     "id": 78,
-    "to": "cedar",
     "name": "CEDAR ESSENTIAL OIL",
     "diseases": [
       "Insect Repellent",
@@ -2657,7 +2579,6 @@
   },
   {
     "id": 79,
-    "to": "sage",
     "name": "SAGE ESSENTIAL OIL",
     "diseases": [
       "Gas Pain",
@@ -2674,25 +2595,21 @@
   },
   {
     "id": 80,
-    "to": "lemonbalm",
     "name": "LEMON BALM ESSENTIAL OIL",
     "diseases": ["Fatigue Relief"]
   },
   {
     "id": 81,
-    "to": "flaxseed",
     "name": "FLAXSEED OIL",
     "diseases": ["Blood Pressure Lowering"]
   },
   {
     "id": 82,
-    "to": "sagesol",
     "name": "SAGE HYDROSOL",
     "diseases": ["Cramps"]
   },
   {
     "id": 83,
-    "to": "hemp",
     "name": "HEMP OIL",
     "diseases": ["Menopause Symptoms"]
   }

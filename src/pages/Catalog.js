@@ -5,8 +5,10 @@ function Catalog({ setSelectedId, selectedSort }) {
   const { language } = useContext(LanguageContext);
   const data =
     language === "tr" ? require("./data.json") : require("./data.en.json");
+
   const finder = data.filter(
-    (item) => item.baslik && item.baslik.includes(selectedSort)
+    (item) =>
+      item.title && item.title.some((sort) => sort.includes(selectedSort))
   );
 
   // Güvenli resim yükleme fonksiyonu
@@ -46,7 +48,7 @@ function Catalog({ setSelectedId, selectedSort }) {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <h1 className="absolute bottom-6 left-6 text-2xl font-semibold text-white transform group-hover:translate-x-2 transition-transform duration-300">
-                      {item.isim}
+                      {item.name}
                     </h1>
                   </div>
                 </Link>
