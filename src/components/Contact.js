@@ -11,7 +11,7 @@ import {
   CheckIcon,
 } from "@heroicons/react/24/solid";
 import { LanguageContext } from "../context/LanguageContext";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
   const openInNewTab = (url) => {
@@ -152,6 +152,14 @@ function Contact() {
                   className="rounded-full bg-white p-3 text-[#80cc28] transition-all hover:bg-opacity-90 hover:text-[#9ad655]"
                 >
                   <FaInstagram className="h-6 w-6" />
+                </Link>
+                <Link
+                  onClick={() =>
+                    openInNewTab("https://www.linkedin.com/company/seraterra")
+                  }
+                  className="rounded-full bg-white p-3 text-[#80cc28] transition-all hover:bg-opacity-90 hover:text-[#9ad655]"
+                >
+                  <FaLinkedin className="h-6 w-6" />
                 </Link>
               </div>
             </div>

@@ -9,6 +9,50 @@
     "send": "Gönder",
     "modalButton": "Tamam"
   },
+  "distributor": {
+    "header": "Distribütör Başvuru Formu",
+    "mandatoryFields": "Formdaki * işareti ile belirtilen alanların doldurulması zorunludur.",
+    "authorizedPerson": {
+      "title": "Yetkili Kişi",
+      "name": "Ad Soyad *",
+      "jobTitle": "Görev Tanımı *",
+      "phone": "Telefon *",
+      "email": "E-Posta *"
+    },
+    "companyInfo": {
+      "title": "Firma Bilgileri",
+      "companyName": "Firma Adı *",
+      "establishmentYear": "Kuruluş Yılı *",
+      "country": "Ülke *",
+      "selectCountry": "Seçiniz",
+      "website": "Website *",
+      "companyEmail": "Firma E-Posta Adresi",
+      "companyPhone": "Firma Telefon Numarası *"
+    },
+    "activityArea": {
+      "title": "Faaliyet Alanı ve Deneyim",
+      "mainActivity": "Ana Faaliyet Alanınız *",
+      "security": "Güvenlik",
+      "defense": "Savunma",
+      "food": "Gıda",
+      "experience": "Benzer ürünlerde distribütörlük deneyiminiz var mı? *",
+      "yes": "Evet",
+      "no": "Hayır",
+      "brands": "Temsil ettiğiniz markalar (varsa)",
+      "countries": "Distribütör olmak istediğiniz ülke / ülkeler *"
+    },
+    "otherInfo": {
+      "title": "Eklemek İstediğiniz Diğer Bilgiler"
+    },
+    "consents": {
+      "kvkk": "KVKK kapsamında kişisel verilerimin işlenmesini ve paylaşılmasını onaylıyorum.",
+      "accurate": "Paylaştığım bilgilerin doğru olduğunu beyan ederim.",
+      "contact": "Tarafımla iletişime geçilmesini kabul ediyorum."
+    },
+    "send": "Gönder",
+    "successMessage": "Başvurunuz Başarıyla Gönderilmiştir",
+    "modalButton": "Tamam"
+  },
   "footer": {
     "corporate": "Kurumsal",
     "aboutUs": "Hakkımızda",
@@ -32,7 +76,8 @@
     "consultancy": "DANIŞMANLIK",
     "products": "ÜRÜNLER",
     "encyclopedia": "ANSİKLOPEDİ",
-    "blog": "BLOG"
+    "blog": "BLOG",
+    "distributor": "DİSTRİBÜTÖR"
   },
   "aboutUsContent": {
     "aboutUs": "Hakkımızda",
@@ -361,7 +406,8 @@
     "maserations": "MASERASYONLAR",
     "fixedOils": "SABİT YAĞLAR",
     "hydrosols": "HİDROSOLLER",
-    "plantCO2Extracts": "BİTKİSEL CO2 EKSTRAKTLAR"
+    "plantCO2Extracts": "BİTKİSEL CO2 EKSTRAKTLAR",
+    "b2bCatalog": "B2B KATALOG (PDF)"
   },
   "ingredients": {
     "title1": "Kullanım Önerileri",

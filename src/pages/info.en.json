@@ -9,6 +9,50 @@
     "send": "Send",
     "modalButton": "OK"
   },
+  "distributor": {
+    "header": "Whosale Application Form",
+    "mandatoryFields": "Fields marked with * are mandatory.",
+    "authorizedPerson": {
+      "title": "Authorized Person",
+      "name": "Name Surname *",
+      "jobTitle": "Job Title *",
+      "phone": "Phone *",
+      "email": "E-Mail *"
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "companyName": "Company Name *",
+      "establishmentYear": "Year of Establishment *",
+      "country": "Country *",
+      "selectCountry": "Select",
+      "website": "Website *",
+      "companyEmail": "Company E-Mail Address",
+      "companyPhone": "Company Phone Number *"
+    },
+    "activityArea": {
+      "title": "Activity Area and Experience",
+      "mainActivity": "Your Main Activity Area *",
+      "security": "Security",
+      "defense": "Defense",
+      "food": "Food",
+      "experience": "Do you have distributorship experience in similar products? *",
+      "yes": "Yes",
+      "no": "No",
+      "brands": "Brands you represent (if any)",
+      "countries": "Country / countries you want to be a distributor in *"
+    },
+    "otherInfo": {
+      "title": "Other Information You Want to Add"
+    },
+    "consents": {
+      "kvkk": "I approve the processing and sharing of my personal data within the scope of KVKK.",
+      "accurate": "I declare that the information I shared is correct.",
+      "contact": "I accept to be contacted."
+    },
+    "send": "Send",
+    "successMessage": "Your application has been successfully sent.",
+    "modalButton": "OK"
+  },
   "footer": {
     "corporate": "Corporate",
     "aboutUs": "About Us",
@@ -32,7 +76,8 @@
     "consultancy": "CONSULTANCY",
     "products": "PRODUCTS",
     "encyclopedia": "ENCYCLOPEDIA",
-    "blog": "BLOG"
+    "blog": "BLOG",
+    "distributor": "WHOSALE"
   },
   "aboutUsContent": {
     "aboutUs": "About Us",
@@ -360,7 +405,8 @@
     "maserations": "MACERATIONS",
     "fixedOils": "FIXED OILS",
     "hydrosols": "HYDROSOLS",
-    "plantCO2Extracts": "PLANT CO2 EXTRACTS"
+    "plantCO2Extracts": "PLANT CO2 EXTRACTS",
+    "b2bCatalog": "B2B CATALOG (PDF)"
   },
   "ingredients": {
     "title1": "Usage Recommendations",

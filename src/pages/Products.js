@@ -13,6 +13,7 @@ import Gallery11 from "../img/gallery/gallery-11.jpg";
 import Gallery12 from "../img/gallery/gallery-12.jpg";
 import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { FaDownload } from "react-icons/fa";
 
 function Products({ setSelectedSort }) {
   const { language } = useContext(LanguageContext);
@@ -59,6 +60,26 @@ function Products({ setSelectedSort }) {
               >
                 {info.products.plantCO2Extracts}
               </ProductsLink>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="/B2B%20Catalog.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 block w-full text-lg md:text-xl bg-white/10 hover:bg-white 
+                             text-white hover:text-primary rounded-xl p-4 transition-all 
+                             duration-300 transform hover:-translate-y-1 hover:shadow-lg"
+                >
+                  {info.products.b2bCatalog}
+                </a>
+                <a
+                  href="/B2B%20Catalog.pdf"
+                  download
+                  className="sm:w-auto w-full text-lg md:text-xl bg-white/10 hover:bg-white text-white hover:text-primary rounded-xl px-4 py-3 transition-all duration-300 
+                             transform hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <FaDownload className="h-6 w-6" />
+                </a>
+              </div>
             </div>
           </div>
 

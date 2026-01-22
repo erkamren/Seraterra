@@ -28,9 +28,8 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-600 bg-white ${
-        isSticky ? "shadow-md py-2" : "py-4"
-      }`}
+      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-600 bg-white ${isSticky ? "shadow-md py-2" : "py-4"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
@@ -39,9 +38,8 @@ function Header() {
             <img
               src={logo}
               alt="Seraterra Logo"
-              className={`transition-all duration-300 ${
-                isSticky ? "h-24" : "h-32"
-              }`}
+              className={`transition-all duration-300 ${isSticky ? "h-24" : "h-32"
+                }`}
             />
           </Link>
           <div className="flex">
@@ -72,27 +70,25 @@ function Header() {
               <NavLink href="/products">{info.header.products}</NavLink>
               <NavLink href="/encyclopedia">{info.header.encyclopedia}</NavLink>
               <NavLink href="/blog">{info.header.blog}</NavLink>
+              <NavLink href="/distributor">{info.header.distributor}</NavLink>
             </nav>
             {/* Language Toggle */}
             <div className="relative inline-flex items-center p-1 rounded-2xl mx-4">
               <div
-                className={`absolute w-1/2 h-full bg-primary rounded-full transition-transform duration-300 ease-in-out ${
-                  language === "en" ? "translate-x-full" : "translate-x-0"
-                }`}
+                className={`absolute w-1/2 h-full bg-primary rounded-full transition-transform duration-300 ease-in-out ${language === "en" ? "translate-x-full" : "translate-x-0"
+                  }`}
               />
               <button
                 onClick={() => setLanguage("tr")}
-                className={`relative z-10 pl-3 pr-2 py-1 rounded-full transition-colors ${
-                  language === "tr" ? "text-white" : "text-primary"
-                }`}
+                className={`relative z-10 pl-3 pr-2 py-1 rounded-full transition-colors ${language === "tr" ? "text-white" : "text-primary"
+                  }`}
               >
                 TR
               </button>
               <button
                 onClick={() => setLanguage("en")}
-                className={`relative z-10 pl-3 pr-1 py-1 rounded-full transition-colors ${
-                  language === "en" ? "text-white" : "text-primary"
-                }`}
+                className={`relative z-10 pl-3 pr-1 py-1 rounded-full transition-colors ${language === "en" ? "text-white" : "text-primary"
+                  }`}
               >
                 EN
               </button>
@@ -216,6 +212,13 @@ function Header() {
             >
               {info.header.encyclopedia}
             </Link>
+            <Link
+              to="/distributor"
+              onClick={() => window.scroll(0, 0)}
+              className="block py-2 text-gray-700 hover:text-primary transition-colors"
+            >
+              {info.header.distributor}
+            </Link>
 
             <Link
               to="/"
@@ -293,9 +296,8 @@ function MobileNavItem({ title, children, isOpen, onToggle }) {
       >
         <span>{title}</span>
         <svg
-          className={`w-4 h-4 transition-transform ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""
+            }`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

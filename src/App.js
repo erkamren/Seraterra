@@ -16,7 +16,7 @@ import Catalog from "./pages/Catalog";
 import Ingredients from "./pages/Ingredients";
 import Blog from "./pages/Blog";
 import Disease from "./pages/Disease";
-
+import Distributor from "./pages/Distributor";
 function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedSort, setSelectedSort] = useState(null);
@@ -42,7 +42,7 @@ function App() {
             path="encyclopedia"
             element={<Encyclopedia setSelectedDisease={setSelectedDisease} />}
           />
-          <Route
+          <Route path="distributor" element={<Distributor />} />          <Route
             path="disease"
             element={
               <Disease
