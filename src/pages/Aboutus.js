@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
-import logo from "../img/seraterra-logo.jpg";
+import logo from "../img/seraterra-logo.png";
 
 function Aboutus() {
   const { language } = useContext(LanguageContext);
   const info =
     language === "tr" ? require("./info.json") : require("./info.en.json");
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 mt-32">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Logo ve Hero Section */}
         <div className="text-center mb-16">

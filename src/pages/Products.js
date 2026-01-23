@@ -21,7 +21,7 @@ function Products({ setSelectedSort }) {
     language === "tr" ? require("./info.json") : require("./info.en.json");
 
   return (
-    <div className="min-h-7xl bg-primary p-4 md:p-8 lg:p-12 mt-36">
+    <div className="min-h-7xl bg-primary px-4 py-12 md:px-8 md:py-12 lg:px-12 lg:py-16 mt-36">
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="space-y-4 md:space-y-6">

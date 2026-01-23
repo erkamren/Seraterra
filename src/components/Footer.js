@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../img/seraterra-logo.jpg";
+import logo from "../img/seraterra-logo.png";
 import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
 

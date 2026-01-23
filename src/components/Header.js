@@ -1,5 +1,5 @@
-import logo from "../img/seraterra-logo.jpg";
-import React, { useEffect, useState, useContext } from "react";
+import logo from "../img/seraterra-logo.png";
+import React, { useEffect, useState, useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 
@@ -8,6 +8,8 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const { language, setLanguage } = useContext(LanguageContext);
+  const mobileMenuRef = useRef(null);
+  const mobileMenuButtonRef = useRef(null);
   const info =
     language === "tr"
       ? require("../pages/info.json")
@@ -26,9 +28,33 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (!isMobileMenuOpen) return;
+
+    const handlePointerDown = (event) => {
+      const menuEl = mobileMenuRef.current;
+      const buttonEl = mobileMenuButtonRef.current;
+      const target = event.target;
+
+      if (!menuEl || !buttonEl) return;
+      if (menuEl.contains(target)) return;
+      if (buttonEl.contains(target)) return;
+
+      setIsMobileMenuOpen(false);
+      setOpenDropdown(null);
+    };
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("touchstart", handlePointerDown, { passive: true });
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("touchstart", handlePointerDown);
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <header
-      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-600 bg-white ${isSticky ? "shadow-md py-2" : "py-4"
+      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-600 bg-gray-50 ${isSticky ? " py-2" : "py-4"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4">
@@ -69,26 +95,29 @@ function Header() {
               </NavItem>
               <NavLink href="/products">{info.header.products}</NavLink>
               <NavLink href="/encyclopedia">{info.header.encyclopedia}</NavLink>
-              <NavLink href="/blog">{info.header.blog}</NavLink>
               <NavLink href="/distributor">{info.header.distributor}</NavLink>
+              <NavLink href="/blog">{info.header.blog}</NavLink>
             </nav>
             {/* Language Toggle */}
-            <div className="relative inline-flex items-center p-1 rounded-2xl mx-4">
+            <div className="relative inline-flex items-center p-1 rounded-full mx-4">
               <div
-                className={`absolute w-1/2 h-full bg-primary rounded-full transition-transform duration-300 ease-in-out ${language === "en" ? "translate-x-full" : "translate-x-0"
+                className={`absolute left-1 top-1 w-10 h-10 bg-primary mt-1  lg:mt-0 rounded-full transition-transform duration-300 ease-in-out ${
+                  language === "en" ? "translate-x-full" : "translate-x-0"
                   }`}
               />
               <button
                 onClick={() => setLanguage("tr")}
-                className={`relative z-10 pl-3 pr-2 py-1 rounded-full transition-colors ${language === "tr" ? "text-white" : "text-primary"
-                  }`}
+                className={`relative z-10 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
+                  language === "tr" ? "text-white" : "text-primary"
+                }`}
               >
                 TR
               </button>
               <button
                 onClick={() => setLanguage("en")}
-                className={`relative z-10 pl-3 pr-1 py-1 rounded-full transition-colors ${language === "en" ? "text-white" : "text-primary"
-                  }`}
+                className={`relative z-10 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
+                  language === "en" ? "text-white" : "text-primary"
+                }`}
               >
                 EN
               </button>
@@ -96,6 +125,7 @@ function Header() {
 
             {/* Mobile Menu Button */}
             <button
+              ref={mobileMenuButtonRef}
               className="lg:hidden p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
@@ -127,7 +157,10 @@ function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden mt-4 pb-4 bg-white border-t pt-4">
+          <div
+            ref={mobileMenuRef}
+            className="lg:hidden mt-4 pb-4 bg-gray-50 border-t pt-4"
+          >
             <MobileNavItem
               title={info.header.corporate}
               isOpen={openDropdown === "corporate"}

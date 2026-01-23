@@ -9,7 +9,7 @@ function Plant() {
   const info =
     language === "tr" ? require("./info.json") : require("./info.en.json");
   return (
-    <div className="container mx-auto px-4 py-16 max-w-7xl mt-24">
+    <div className="container mx-auto px-4 py-16 max-w-7xl mt-32">
       {/* Header Section */}
       <div className="text-center mb-16">
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
